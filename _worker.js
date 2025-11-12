@@ -1,9 +1,1708 @@
-import{connect}from"\u0063\u006C\u006F\u0075\u0064\u0066\u006C\u0061\u0072\u0065\u003A\u0073\u006F\u0063\u006B\u0065\u0074\u0073";let config_JSON,反代IP='',启用SOCKS5反代=null,启用SOCKS5全局反代=false,我的SOCKS5账号='',parsedSocks5Address={};var _0x6bd;let SOCKS5白名单=["\u002A\u0074\u0061\u0070\u0065\u0063\u006F\u006E\u0074\u0065\u006E\u0074\u002E\u006E\u0065\u0074","\u002A\u0063\u006C\u006F\u0075\u0064\u0061\u0074\u0061\u0063\u0064\u006E\u002E\u0063\u006F\u006D","\u002A\u006C\u006F\u0061\u0064\u0073\u0068\u0061\u0072\u0065\u002E\u006F\u0072\u0067","moc.suruatnec-ndc*".split("").reverse().join(""),"moc.elgoog.ralohcs".split("").reverse().join("")];_0x6bd=(608919^608914)+(663158^663159);const Pages静态页面="\u0068\u0074\u0074\u0070\u0073\u003A\u002F\u002F\u0065\u0064\u0074\u002D\u0070\u0061\u0067\u0065\u0073\u002E\u0067\u0069\u0074\u0068\u0075\u0062\u002E\u0069\u006F";const MAX_PENDING=(131431^131439)*(913731^914755)*(796141^795117),KEEPALIVE=718504^707632,STALL_TIMEOUT=865774^862894,MAX_STALL=166788^166792,MAX_RECONNECT=433458^433450;export default{async fetch(request,env){var _0xbafg6f;const url=new URL(request['\u0075\u0072\u006C']);_0xbafg6f='\u006D\u0069\u006E\u0071\u0064\u0063';const UA=request['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0067\u0065\u0074']("tnegA-resU".split("").reverse().join(""))||"llun".split("").reverse().join("");const upgradeHeader=request['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0067\u0065\u0074']("\u0055\u0070\u0067\u0072\u0061\u0064\u0065");var _0x66782b;const 管理员密码=env['\u0041\u0044\u004D\u0049\u004E']||env['\u0061\u0064\u006D\u0069\u006E']||env['\u0055\u0055\u0049\u0044']||env['\u0075\u0075\u0069\u0064']||env['\u0050\u0041\u0053\u0053\u0057\u004F\u0052\u0044']||env['\u0070\u0061\u0073\u0073\u0077\u006F\u0072\u0064']||env['\u0070\u0073\u0077\u0064']||env['\u0054\u004F\u004B\u0045\u004E']||env['\u004B\u0045\u0059'];_0x66782b="iakoei".split("").reverse().join("");var _0x49a0cc=(637444^637444)+(353787^353787);const 加密秘钥=env['\u004B\u0045\u0059']||"\u6539\u4FEE\u884C\u8FDBYEK\u91CF\u53D8\u52A0\u6DFB\u8FC7\u901A\u884C\u81EA\u8BF7\u6C42\u9700\u6709\uFF0C\u94A5\u5BC6\u8BA4\u9ED8\u6B64\u52A8\u52FF".split("").reverse().join("");_0x49a0cc=(863477^863479)+(594659^594660);const userIDMD5=await MD5MD5(管理员密码+加密秘钥);const userID=[userIDMD5['\u0073\u006C\u0069\u0063\u0065'](667396^667396,424647^424655),userIDMD5['\u0073\u006C\u0069\u0063\u0065'](688010^688002,946259^946271),"\u0034"+userIDMD5['\u0073\u006C\u0069\u0063\u0065'](624487^624490,704598^704582),userIDMD5['\u0073\u006C\u0069\u0063\u0065'](529356^529372,233130^233150),userIDMD5['\u0073\u006C\u0069\u0063\u0065'](489563^489551)]['\u006A\u006F\u0069\u006E']("\u002D");反代IP=反代IP?反代IP:request['\u0063\u0066']['\u0063\u006F\u006C\u006F']+"tEn.SsSsUiLmC.pIYxOrP.".split("").reverse().join("");var _0x7c08a;const 访问IP=request['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0067\u0065\u0074']("\u0058\u002D\u0052\u0065\u0061\u006C\u002D\u0049\u0050")||request['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0067\u0065\u0074']("PI-gnitcennoC-FC".split("").reverse().join(""))||request['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0067\u0065\u0074']("\u0058\u002D\u0046\u006F\u0072\u0077\u0061\u0072\u0064\u0065\u0064\u002D\u0046\u006F\u0072")||request['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0067\u0065\u0074']("\u0054\u0072\u0075\u0065\u002D\u0043\u006C\u0069\u0065\u006E\u0074\u002D\u0049\u0050")||request['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0067\u0065\u0074']("PI-tneilC-ylF".split("").reverse().join(""))||request['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0067\u0065\u0074']("rddA-etomeR-enigneppA-X".split("").reverse().join(""))||request['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0067\u0065\u0074']("\u0058\u002D\u0046\u006F\u0072\u0077\u0061\u0072\u0064\u0065\u0064\u002D\u0046\u006F\u0072")||request['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0067\u0065\u0074']("PI-laeR-X".split("").reverse().join(""))||request['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0067\u0065\u0074']("PI-tneilC-retsulC-X".split("").reverse().join(""))||request['\u0063\u0066']?.clientTcpRtt||"PI\u77E5\u672A".split("").reverse().join("");_0x7c08a=(643404^643403)+(218423^218423);if(env['\u0047\u004F\u0032\u0053\u004F\u0043\u004B\u0053\u0035'])SOCKS5白名单=await 整理成数组(env['\u0047\u004F\u0032\u0053\u004F\u0043\u004B\u0053\u0035']);if(!upgradeHeader||upgradeHeader!=="\u0077\u0065\u0062\u0073\u006F\u0063\u006B\u0065\u0074"){if(url['\u0070\u0072\u006F\u0074\u006F\u0063\u006F\u006C']===":ptth".split("").reverse().join(""))return Response['\u0072\u0065\u0064\u0069\u0072\u0065\u0063\u0074'](url['\u0068\u0072\u0065\u0066']['\u0072\u0065\u0070\u006C\u0061\u0063\u0065'](`http://${url['\u0068\u006F\u0073\u0074\u006E\u0061\u006D\u0065']}`,`https://${url['\u0068\u006F\u0073\u0074\u006E\u0061\u006D\u0065']}`),520530^520319);if(!管理员密码)return fetch(Pages静态页面+"NIMDAon/".split("").reverse().join(""))['\u0074\u0068\u0065\u006E'](r=>{var _0x9b_0xeb3;const headers=new Headers(r['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']);_0x9b_0xeb3=403841^403846;headers['\u0073\u0065\u0074']("\u0043\u0061\u0063\u0068\u0065\u002D\u0043\u006F\u006E\u0074\u0072\u006F\u006C","\u006E\u006F\u002D\u0073\u0074\u006F\u0072\u0065\u002C\u0020\u006E\u006F\u002D\u0063\u0061\u0063\u0068\u0065\u002C\u0020\u006D\u0075\u0073\u0074\u002D\u0072\u0065\u0076\u0061\u006C\u0069\u0064\u0061\u0074\u0065\u002C\u0020\u0070\u0072\u006F\u0078\u0079\u002D\u0072\u0065\u0076\u0061\u006C\u0069\u0064\u0061\u0074\u0065");headers['\u0073\u0065\u0074']("\u0050\u0072\u0061\u0067\u006D\u0061","\u006E\u006F\u002D\u0063\u0061\u0063\u0068\u0065");headers['\u0073\u0065\u0074']("\u0045\u0078\u0070\u0069\u0072\u0065\u0073","\u0030");return new Response(r['\u0062\u006F\u0064\u0079'],{'\u0073\u0074\u0061\u0074\u0075\u0073':404,'\u0073\u0074\u0061\u0074\u0075\u0073\u0054\u0065\u0078\u0074':r['\u0073\u0074\u0061\u0074\u0075\u0073\u0054\u0065\u0078\u0074'],"headers":headers});});if(!env['\u004B\u0056'])return fetch(Pages静态页面+"VKon/".split("").reverse().join(""))['\u0074\u0068\u0065\u006E'](r=>{var _0x_0x6cb=(626630^626627)+(521288^521281);const headers=new Headers(r['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']);_0x_0x6cb='\u0070\u0071\u006F\u0068\u0065\u006E';headers['\u0073\u0065\u0074']("\u0043\u0061\u0063\u0068\u0065\u002D\u0043\u006F\u006E\u0074\u0072\u006F\u006C","etadilaver-yxorp ,etadilaver-tsum ,ehcac-on ,erots-on".split("").reverse().join(""));headers['\u0073\u0065\u0074']("\u0050\u0072\u0061\u0067\u006D\u0061","\u006E\u006F\u002D\u0063\u0061\u0063\u0068\u0065");headers['\u0073\u0065\u0074']("seripxE".split("").reverse().join(""),"\u0030");return new Response(r['\u0062\u006F\u0064\u0079'],{"status":404,'\u0073\u0074\u0061\u0074\u0075\u0073\u0054\u0065\u0078\u0074':r['\u0073\u0074\u0061\u0074\u0075\u0073\u0054\u0065\u0078\u0074'],"headers":headers});});const 访问路径=url['\u0070\u0061\u0074\u0068\u006E\u0061\u006D\u0065']['\u0073\u006C\u0069\u0063\u0065'](946116^946117)['\u0074\u006F\u004C\u006F\u0077\u0065\u0072\u0043\u0061\u0073\u0065']();const 区分大小写访问路径=url['\u0070\u0061\u0074\u0068\u006E\u0061\u006D\u0065']['\u0073\u006C\u0069\u0063\u0065'](297664^297665);if(访问路径===加密秘钥&&加密秘钥!=="\u6539\u4FEE\u884C\u8FDBYEK\u91CF\u53D8\u52A0\u6DFB\u8FC7\u901A\u884C\u81EA\u8BF7\u6C42\u9700\u6709\uFF0C\u94A5\u5BC6\u8BA4\u9ED8\u6B64\u52A8\u52FF".split("").reverse().join("")){return new Response("...\u4E2D\u5411\u5B9A\u91CD".split("").reverse().join(""),{'\u0073\u0074\u0061\u0074\u0075\u0073':302,'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{"\u004C\u006F\u0063\u0061\u0074\u0069\u006F\u006E":`/sub?token=${await MD5MD5(url['\u0068\u006F\u0073\u0074']+userID)}`}});}else if(访问路径==="nigol".split("").reverse().join("")){var _0x865ed=(178813^178805)+(128235^128239);const cookies=request['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0067\u0065\u0074']("eikooC".split("").reverse().join(""))||'';_0x865ed=(270998^270999)+(424050^424051);const authCookie=cookies['\u0073\u0070\u006C\u0069\u0074']("\u003B")['\u0066\u0069\u006E\u0064'](c=>c['\u0074\u0072\u0069\u006D']()['\u0073\u0074\u0061\u0072\u0074\u0073\u0057\u0069\u0074\u0068']("\u0061\u0075\u0074\u0068\u003D"))?.split("\u003D")[135010^135011];if(authCookie==(await MD5MD5(UA+加密秘钥+管理员密码)))return new Response("...\u4E2D\u5411\u5B9A\u91CD".split("").reverse().join(""),{'\u0073\u0074\u0061\u0074\u0075\u0073':302,'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{"\u004C\u006F\u0063\u0061\u0074\u0069\u006F\u006E":'/admin'}});if(request['\u006D\u0065\u0074\u0068\u006F\u0064']==="\u0050\u004F\u0053\u0054"){var _0x65c4ae;const formData=await request['\u0074\u0065\u0078\u0074']();_0x65c4ae='\u006B\u006B\u006C\u0069\u0069\u006B';var _0x128ed;const params=new URLSearchParams(formData);_0x128ed=573877^573877;const 输入密码=params['\u0067\u0065\u0074']("drowssap".split("").reverse().join(""));if(输入密码===管理员密码){var _0xdcb=(362535^362531)+(394036^394033);const 响应=new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079']({'\u0073\u0075\u0063\u0063\u0065\u0073\u0073':!![]}),{"status":200,'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{'Content-Type':'application/json;charset=utf-8'}});_0xdcb=642952^642958;响应['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0073\u0065\u0074']("eikooC-teS".split("").reverse().join(""),`auth=${await MD5MD5(UA+加密秘钥+管理员密码)}; Path=/; Max-Age=86400; HttpOnly`);return 响应;}}return fetch(Pages静态页面+"nigol/".split("").reverse().join(""));}else if(访问路径['\u0073\u0074\u0061\u0072\u0074\u0073\u0057\u0069\u0074\u0068']("\u0061\u0064\u006D\u0069\u006E")){const cookies=request['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0067\u0065\u0074']("\u0043\u006F\u006F\u006B\u0069\u0065")||'';const authCookie=cookies['\u0073\u0070\u006C\u0069\u0074']("\u003B")['\u0066\u0069\u006E\u0064'](c=>c['\u0074\u0072\u0069\u006D']()['\u0073\u0074\u0061\u0072\u0074\u0073\u0057\u0069\u0074\u0068']("\u0061\u0075\u0074\u0068\u003D"))?.split("\u003D")[712979^712978];if(!authCookie||authCookie!==(await MD5MD5(UA+加密秘钥+管理员密码)))return new Response("\u91CD\u5B9A\u5411\u4E2D\u002E\u002E\u002E",{'\u0073\u0074\u0061\u0074\u0075\u0073':302,'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{"\u004C\u006F\u0063\u0061\u0074\u0069\u006F\u006E":"\u002F\u006C\u006F\u0067\u0069\u006E"}});if(访问路径==="\u0061\u0064\u006D\u0069\u006E\u002F\u006C\u006F\u0067\u002E\u006A\u0073\u006F\u006E"){var _0xfe86ea;const 读取日志内容=(await env['\u004B\u0056']['\u0067\u0065\u0074']("nosj.gol".split("").reverse().join("")))||"\u005B\u005D";_0xfe86ea=(596606^596601)+(760403^760406);return new Response(读取日志内容,{"status":200,'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{"\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0054\u0079\u0070\u0065":'application/json;charset=utf-8'}});}else if(区分大小写访问路径==="\u0061\u0064\u006D\u0069\u006E\u002F\u0067\u0065\u0074\u0043\u006C\u006F\u0075\u0064\u0066\u006C\u0061\u0072\u0065\u0055\u0073\u0061\u0067\u0065"){try{var _0xa453eg=(502359^502353)+(315251^315249);const Usage_JSON=await getCloudflareUsage(url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0067\u0065\u0074']("\u0045\u006D\u0061\u0069\u006C"),url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0067\u0065\u0074']("\u0047\u006C\u006F\u0062\u0061\u006C\u0041\u0050\u0049\u004B\u0065\u0079"),url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0067\u0065\u0074']("\u0041\u0063\u0063\u006F\u0075\u006E\u0074\u0049\u0044"),url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0067\u0065\u0074']("nekoTIPA".split("").reverse().join("")));_0xa453eg=(948978^948978)+(439296^439305);return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079'](Usage_JSON,null,385711^385709),{'\u0073\u0074\u0061\u0074\u0075\u0073':200,"headers":{"\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0054\u0079\u0070\u0065":'application/json'}});}catch(err){const errorResponse={'\u006D\u0073\u0067':"\u67E5\u8BE2\u8BF7\u6C42\u91CF\u5931\u8D25\uFF0C\u5931\u8D25\u539F\u56E0\uFF1A"+err['\u006D\u0065\u0073\u0073\u0061\u0067\u0065'],"error":err['\u006D\u0065\u0073\u0073\u0061\u0067\u0065']};return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079'](errorResponse,null,977380^977382),{"status":500,"headers":{"\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0054\u0079\u0070\u0065":'application/json;charset=utf-8'}});}}else if(区分大小写访问路径==="IPADDAteg/nimda".split("").reverse().join("")){if(url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0067\u0065\u0074']("\u0075\u0072\u006C")){var _0xf5efef=(996127^996120)+(797528^797534);const 待验证优选URL=url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0067\u0065\u0074']("lru".split("").reverse().join(""));_0xf5efef=(139389^139386)+(740570^740572);try{new URL(待验证优选URL);const 优选API的IP=await 请求优选API([待验证优选URL],url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0067\u0065\u0074']("trop".split("").reverse().join(""))||"\u0034\u0034\u0033");return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079']({"success":!![],'\u0064\u0061\u0074\u0061':优选API的IP},null,176306^176304),{"status":200,'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{"\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0054\u0079\u0070\u0065":"\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0074\u0069\u006F\u006E\u002F\u006A\u0073\u006F\u006E\u003B\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003D\u0075\u0074\u0066\u002D\u0038"}});}catch(err){var _0x37f6d;const errorResponse={"msg":"\uFF1A\u56E0\u539F\u8D25\u5931\uFF0C\u8D25\u5931IPA\u9009\u4F18\u8BC1\u9A8C".split("").reverse().join("")+err['\u006D\u0065\u0073\u0073\u0061\u0067\u0065'],'\u0065\u0072\u0072\u006F\u0072':err['\u006D\u0065\u0073\u0073\u0061\u0067\u0065']};_0x37f6d='\u0063\u0070\u006D\u0071\u0069\u0068';return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079'](errorResponse,null,198860^198862),{'\u0073\u0074\u0061\u0074\u0075\u0073':500,'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{"\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0054\u0079\u0070\u0065":"\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0074\u0069\u006F\u006E\u002F\u006A\u0073\u006F\u006E\u003B\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003D\u0075\u0074\u0066\u002D\u0038"}});}}return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079']({'\u0073\u0075\u0063\u0063\u0065\u0073\u0073':false,'\u0064\u0061\u0074\u0061':[]},null,190517^190519),{'\u0073\u0074\u0061\u0074\u0075\u0073':403,"headers":{"\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0054\u0079\u0070\u0065":'application/json;charset=utf-8'}});}else if(访问路径==="\u0061\u0064\u006D\u0069\u006E\u002F\u0063\u0068\u0065\u0063\u006B"){var _0xa23c=(174990^174986)+(820480^820481);let 检测代理响应;_0xa23c=(708225^708226)+(880554^880546);if(url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0068\u0061\u0073']("\u0073\u006F\u0063\u006B\u0073\u0035")){检测代理响应=await SOCKS5可用性验证("\u0073\u006F\u0063\u006B\u0073\u0035",url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0067\u0065\u0074']("5skcos".split("").reverse().join("")));}else if(url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0068\u0061\u0073']("\u0068\u0074\u0074\u0070")){检测代理响应=await SOCKS5可用性验证("\u0068\u0074\u0074\u0070",url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0067\u0065\u0074']("\u0068\u0074\u0074\u0070"));}else{return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079']({'\u0065\u0072\u0072\u006F\u0072':"\u7F3A\u5C11\u4EE3\u7406\u53C2\u6570"}),{'\u0073\u0074\u0061\u0074\u0075\u0073':400,"headers":{"\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0054\u0079\u0070\u0065":'application/json;charset=utf-8'}});}return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079'](检测代理响应,null,673182^673180),{'\u0073\u0074\u0061\u0074\u0075\u0073':200,"headers":{'Content-Type':'application/json;charset=utf-8'}});}config_JSON=await 读取config_JSON(env,url['\u0068\u006F\u0073\u0074'],userID);if(访问路径==="tini/nimda".split("").reverse().join("")){try{config_JSON=await 读取config_JSON(env,url['\u0068\u006F\u0073\u0074'],userID,!![]);await 请求日志记录(env,request,访问IP,"\u0049\u006E\u0069\u0074\u005F\u0043\u006F\u006E\u0066\u0069\u0067",config_JSON);config_JSON['\u0069\u006E\u0069\u0074']="\u914D\u7F6E\u5DF2\u91CD\u7F6E\u4E3A\u9ED8\u8BA4\u503C";return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079'](config_JSON,null,207312^207314),{"status":200,"headers":{"\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0054\u0079\u0070\u0065":'application/json;charset=utf-8'}});}catch(err){var _0xeedc2f=(851993^851996)+(392956^392958);const errorResponse={'\u006D\u0073\u0067':"\uFF1A\u56E0\u539F\u8D25\u5931\uFF0C\u8D25\u5931\u7F6E\u91CD\u7F6E\u914D".split("").reverse().join("")+err['\u006D\u0065\u0073\u0073\u0061\u0067\u0065'],'\u0065\u0072\u0072\u006F\u0072':err['\u006D\u0065\u0073\u0073\u0061\u0067\u0065']};_0xeedc2f='\u0065\u006A\u0064\u0067\u006E\u0065';return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079'](errorResponse,null,219646^219644),{'\u0073\u0074\u0061\u0074\u0075\u0073':500,"headers":{"\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0054\u0079\u0070\u0065":"\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0074\u0069\u006F\u006E\u002F\u006A\u0073\u006F\u006E\u003B\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003D\u0075\u0074\u0066\u002D\u0038"}});}}else if(request['\u006D\u0065\u0074\u0068\u006F\u0064']==="TSOP".split("").reverse().join("")){if(访问路径==="nosj.gifnoc/nimda".split("").reverse().join("")){try{const newConfig=await request['\u006A\u0073\u006F\u006E']();if(!newConfig['\u0055\u0055\u0049\u0044']||!newConfig['\u0048\u004F\u0053\u0054'])return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079']({'\u0065\u0072\u0072\u006F\u0072':'配置不完整'}),{'\u0073\u0074\u0061\u0074\u0075\u0073':400,'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{"\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0054\u0079\u0070\u0065":"\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0074\u0069\u006F\u006E\u002F\u006A\u0073\u006F\u006E\u003B\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003D\u0075\u0074\u0066\u002D\u0038"}});await env['\u004B\u0056']['\u0070\u0075\u0074']("\u0063\u006F\u006E\u0066\u0069\u0067\u002E\u006A\u0073\u006F\u006E",JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079'](newConfig,null,510049^510051));await 请求日志记录(env,request,访问IP,"\u0053\u0061\u0076\u0065\u005F\u0043\u006F\u006E\u0066\u0069\u0067",config_JSON);return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079']({'\u0073\u0075\u0063\u0063\u0065\u0073\u0073':!![],'\u006D\u0065\u0073\u0073\u0061\u0067\u0065':'配置已保存'}),{"status":200,'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{'Content-Type':"\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0074\u0069\u006F\u006E\u002F\u006A\u0073\u006F\u006E\u003B\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003D\u0075\u0074\u0066\u002D\u0038"}});}catch(error){console['\u0065\u0072\u0072\u006F\u0072'](":\u8D25\u5931\u7F6E\u914D\u5B58\u4FDD".split("").reverse().join(""),error);return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079']({'\u0065\u0072\u0072\u006F\u0072':"\u4FDD\u5B58\u914D\u7F6E\u5931\u8D25\u003A\u0020"+error['\u006D\u0065\u0073\u0073\u0061\u0067\u0065']}),{'\u0073\u0074\u0061\u0074\u0075\u0073':500,'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{"\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0054\u0079\u0070\u0065":"\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0074\u0069\u006F\u006E\u002F\u006A\u0073\u006F\u006E\u003B\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003D\u0075\u0074\u0066\u002D\u0038"}});}}else if(访问路径==="nosj.fc/nimda".split("").reverse().join("")){try{var _0x4186dd;const newConfig=await request['\u006A\u0073\u006F\u006E']();_0x4186dd=917535^917526;var _0xa6e3g=(187678^187675)+(913332^913331);const CF_JSON={'\u0045\u006D\u0061\u0069\u006C':null,'\u0047\u006C\u006F\u0062\u0061\u006C\u0041\u0050\u0049\u004B\u0065\u0079':null,"AccountID":null,'\u0041\u0050\u0049\u0054\u006F\u006B\u0065\u006E':null};_0xa6e3g='\u0063\u0064\u006A\u0064\u006D\u006F';if(!newConfig['\u0069\u006E\u0069\u0074']||newConfig['\u0069\u006E\u0069\u0074']!==!![]){if(newConfig['\u0045\u006D\u0061\u0069\u006C']&&newConfig['\u0047\u006C\u006F\u0062\u0061\u006C\u0041\u0050\u0049\u004B\u0065\u0079']){CF_JSON['\u0045\u006D\u0061\u0069\u006C']=newConfig['\u0045\u006D\u0061\u0069\u006C'];CF_JSON['\u0047\u006C\u006F\u0062\u0061\u006C\u0041\u0050\u0049\u004B\u0065\u0079']=newConfig['\u0047\u006C\u006F\u0062\u0061\u006C\u0041\u0050\u0049\u004B\u0065\u0079'];CF_JSON['\u0041\u0063\u0063\u006F\u0075\u006E\u0074\u0049\u0044']=null;CF_JSON['\u0041\u0050\u0049\u0054\u006F\u006B\u0065\u006E']=null;}else if(newConfig['\u0041\u0063\u0063\u006F\u0075\u006E\u0074\u0049\u0044']&&newConfig['\u0041\u0050\u0049\u0054\u006F\u006B\u0065\u006E']){CF_JSON['\u0045\u006D\u0061\u0069\u006C']=null;CF_JSON['\u0047\u006C\u006F\u0062\u0061\u006C\u0041\u0050\u0049\u004B\u0065\u0079']=null;CF_JSON['\u0041\u0063\u0063\u006F\u0075\u006E\u0074\u0049\u0044']=newConfig['\u0041\u0063\u0063\u006F\u0075\u006E\u0074\u0049\u0044'];CF_JSON['\u0041\u0050\u0049\u0054\u006F\u006B\u0065\u006E']=newConfig['\u0041\u0050\u0049\u0054\u006F\u006B\u0065\u006E'];}else{return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079']({"error":"\u914D\u7F6E\u4E0D\u5B8C\u6574"}),{'\u0073\u0074\u0061\u0074\u0075\u0073':400,'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{'Content-Type':"\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0074\u0069\u006F\u006E\u002F\u006A\u0073\u006F\u006E\u003B\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003D\u0075\u0074\u0066\u002D\u0038"}});}}await env['\u004B\u0056']['\u0070\u0075\u0074']("nosj.fc".split("").reverse().join(""),JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079'](CF_JSON,null,516443^516441));await 请求日志记录(env,request,访问IP,"gifnoC_evaS".split("").reverse().join(""),config_JSON);return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079']({"success":!![],'\u006D\u0065\u0073\u0073\u0061\u0067\u0065':"\u914D\u7F6E\u5DF2\u4FDD\u5B58"}),{"status":200,'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{'Content-Type':"\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0074\u0069\u006F\u006E\u002F\u006A\u0073\u006F\u006E\u003B\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003D\u0075\u0074\u0066\u002D\u0038"}});}catch(error){console['\u0065\u0072\u0072\u006F\u0072']("\u4FDD\u5B58\u914D\u7F6E\u5931\u8D25\u003A",error);return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079']({"error":" :\u8D25\u5931\u7F6E\u914D\u5B58\u4FDD".split("").reverse().join("")+error['\u006D\u0065\u0073\u0073\u0061\u0067\u0065']}),{'\u0073\u0074\u0061\u0074\u0075\u0073':500,"headers":{"\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0054\u0079\u0070\u0065":'application/json;charset=utf-8'}});}}else if(访问路径==="\u0061\u0064\u006D\u0069\u006E\u002F\u0074\u0067\u002E\u006A\u0073\u006F\u006E"){try{const newConfig=await request['\u006A\u0073\u006F\u006E']();if(newConfig['\u0069\u006E\u0069\u0074']&&newConfig['\u0069\u006E\u0069\u0074']===!![]){const TG_JSON={'\u0042\u006F\u0074\u0054\u006F\u006B\u0065\u006E':null,"ChatID":null};await env['\u004B\u0056']['\u0070\u0075\u0074']("nosj.gt".split("").reverse().join(""),JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079'](TG_JSON,null,978975^978973));}else{if(!newConfig['\u0042\u006F\u0074\u0054\u006F\u006B\u0065\u006E']||!newConfig['\u0043\u0068\u0061\u0074\u0049\u0044'])return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079']({'\u0065\u0072\u0072\u006F\u0072':'配置不完整'}),{'\u0073\u0074\u0061\u0074\u0075\u0073':400,'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{"\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0054\u0079\u0070\u0065":'application/json;charset=utf-8'}});await env['\u004B\u0056']['\u0070\u0075\u0074']("nosj.gt".split("").reverse().join(""),JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079'](newConfig,null,769711^769709));}await 请求日志记录(env,request,访问IP,"\u0053\u0061\u0076\u0065\u005F\u0043\u006F\u006E\u0066\u0069\u0067",config_JSON);return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079']({'\u0073\u0075\u0063\u0063\u0065\u0073\u0073':!![],'\u006D\u0065\u0073\u0073\u0061\u0067\u0065':'配置已保存'}),{"status":200,'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{"\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0054\u0079\u0070\u0065":"\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0074\u0069\u006F\u006E\u002F\u006A\u0073\u006F\u006E\u003B\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003D\u0075\u0074\u0066\u002D\u0038"}});}catch(error){console['\u0065\u0072\u0072\u006F\u0072'](":\u8D25\u5931\u7F6E\u914D\u5B58\u4FDD".split("").reverse().join(""),error);return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079']({'\u0065\u0072\u0072\u006F\u0072':"\u4FDD\u5B58\u914D\u7F6E\u5931\u8D25\u003A\u0020"+error['\u006D\u0065\u0073\u0073\u0061\u0067\u0065']}),{"status":500,"headers":{'Content-Type':"\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0074\u0069\u006F\u006E\u002F\u006A\u0073\u006F\u006E\u003B\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003D\u0075\u0074\u0066\u002D\u0038"}});}}else if(区分大小写访问路径==="\u0061\u0064\u006D\u0069\u006E\u002F\u0041\u0044\u0044\u002E\u0074\u0078\u0074"){try{var _0xbddabe=(473592^473596)+(275165^275163);const customIPs=await request['\u0074\u0065\u0078\u0074']();_0xbddabe=(680828^680826)+(514877^514875);await env['\u004B\u0056']['\u0070\u0075\u0074']("\u0041\u0044\u0044\u002E\u0074\u0078\u0074",customIPs);await 请求日志记录(env,request,访问IP,"sPI_motsuC_evaS".split("").reverse().join(""),config_JSON);return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079']({'\u0073\u0075\u0063\u0063\u0065\u0073\u0073':!![],"message":'自定义IP已保存'}),{"status":200,'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{"\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0054\u0079\u0070\u0065":"\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0074\u0069\u006F\u006E\u002F\u006A\u0073\u006F\u006E\u003B\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003D\u0075\u0074\u0066\u002D\u0038"}});}catch(error){console['\u0065\u0072\u0072\u006F\u0072']("\u4FDD\u5B58\u81EA\u5B9A\u4E49\u0049\u0050\u5931\u8D25\u003A",error);return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079']({'\u0065\u0072\u0072\u006F\u0072':"\u4FDD\u5B58\u81EA\u5B9A\u4E49\u0049\u0050\u5931\u8D25\u003A\u0020"+error['\u006D\u0065\u0073\u0073\u0061\u0067\u0065']}),{"status":500,"headers":{'Content-Type':'application/json;charset=utf-8'}});}}else return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079']({'\u0065\u0072\u0072\u006F\u0072':'不支持的POST请求路径'}),{"status":404,"headers":{"\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0054\u0079\u0070\u0065":'application/json;charset=utf-8'}});}else if(访问路径==="\u0061\u0064\u006D\u0069\u006E\u002F\u0063\u006F\u006E\u0066\u0069\u0067\u002E\u006A\u0073\u006F\u006E"){return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079'](config_JSON,null,860581^860583),{'\u0073\u0074\u0061\u0074\u0075\u0073':200,'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{"\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0054\u0079\u0070\u0065":"\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0074\u0069\u006F\u006E\u002F\u006A\u0073\u006F\u006E"}});}else if(区分大小写访问路径==="txt.DDA/nimda".split("").reverse().join("")){var _0xc1a=(587101^587099)+(583610^583609);let 本地优选IP=(await env['\u004B\u0056']['\u0067\u0065\u0074']("\u0041\u0044\u0044\u002E\u0074\u0078\u0074"))||"\u006E\u0075\u006C\u006C";_0xc1a=(688606^688602)+(661358^661351);if(本地优选IP=="\u006E\u0075\u006C\u006C")本地优选IP=(await 生成随机IP(request,config_JSON.优选订阅生成.本地IP库.随机数量))[937094^937095];return new Response(本地优选IP,{"status":200,"headers":{'Content-Type':"\u0074\u0065\u0078\u0074\u002F\u0070\u006C\u0061\u0069\u006E\u003B\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003D\u0075\u0074\u0066\u002D\u0038",'asn':request['\u0063\u0066']['\u0061\u0073\u006E']}});}else if(访问路径==="nosj.fc/nimda".split("").reverse().join("")){return new Response(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079'](request['\u0063\u0066'],null,630229^630231),{"status":200,'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{"\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0054\u0079\u0070\u0065":"\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0074\u0069\u006F\u006E\u002F\u006A\u0073\u006F\u006E\u003B\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003D\u0075\u0074\u0066\u002D\u0038"}});}await 请求日志记录(env,request,访问IP,"nigoL_nimdA".split("").reverse().join(""),config_JSON);return fetch(Pages静态页面+"\u002F\u0061\u0064\u006D\u0069\u006E");}else if(访问路径==="tuogol".split("").reverse().join("")){var _0x5864de;const 响应=new Response("\u91CD\u5B9A\u5411\u4E2D\u002E\u002E\u002E",{"status":302,'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{"\u004C\u006F\u0063\u0061\u0074\u0069\u006F\u006E":"\u002F\u006C\u006F\u0067\u0069\u006E"}});_0x5864de=108843^108834;响应['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0073\u0065\u0074']("eikooC-teS".split("").reverse().join(""),"ylnOpttH ;0=egA-xaM ;/=htaP ;=htua".split("").reverse().join(""));return 响应;}else if(访问路径==="\u0073\u0075\u0062"){const 订阅TOKEN=await MD5MD5(url['\u0068\u006F\u0073\u0074']+userID);if(url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0067\u0065\u0074']("nekot".split("").reverse().join(""))===订阅TOKEN){config_JSON=await 读取config_JSON(env,url['\u0068\u006F\u0073\u0074'],userID);await 请求日志记录(env,request,访问IP,"BUS_teG".split("").reverse().join(""),config_JSON);const ua=UA['\u0074\u006F\u004C\u006F\u0077\u0065\u0072\u0043\u0061\u0073\u0065']();var _0xg62ab=(559249^559256)+(695873^695881);const expire=4102329600;_0xg62ab=696447^696445;const now=Date['\u006E\u006F\u0077']();const today=new Date(now);today['\u0073\u0065\u0074\u0048\u006F\u0075\u0072\u0073'](239377^239377,940664^940664,512036^512036,905722^905722);var _0x13e2e=(297381^297379)+(434782^434775);const UD=Math['\u0066\u006C\u006F\u006F\u0072']((now-today['\u0067\u0065\u0074\u0054\u0069\u006D\u0065']())/86400000*(960681^960689)*1099511627776/(573894^573892));_0x13e2e=(853686^853683)+(981598^981599);let pagesSum=UD,workersSum=UD,total=(660883^660875)*1099511627776;if(config_JSON['\u0043\u0046']['\u0055\u0073\u0061\u0067\u0065']['\u0073\u0075\u0063\u0063\u0065\u0073\u0073']){pagesSum=config_JSON['\u0043\u0046']['\u0055\u0073\u0061\u0067\u0065']['\u0070\u0061\u0067\u0065\u0073'];workersSum=config_JSON['\u0043\u0046']['\u0055\u0073\u0061\u0067\u0065']['\u0077\u006F\u0072\u006B\u0065\u0072\u0073'];total=(510911^511935)*(186206^186170);}var _0xag44e=(201425^201433)+(562124^562126);const responseHeaders={"\u0063\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0074\u0079\u0070\u0065":"\u0074\u0065\u0078\u0074\u002F\u0070\u006C\u0061\u0069\u006E\u003B\u0020\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003D\u0075\u0074\u0066\u002D\u0038","\u0050\u0072\u006F\u0066\u0069\u006C\u0065\u002D\u0055\u0070\u0064\u0061\u0074\u0065\u002D\u0049\u006E\u0074\u0065\u0072\u0076\u0061\u006C":config_JSON.优选订阅生成['\u0053\u0055\u0042\u0055\u0070\u0064\u0061\u0074\u0065\u0054\u0069\u006D\u0065'],"Profile-web-page-url":url['\u0070\u0072\u006F\u0074\u006F\u0063\u006F\u006C']+"\u002F\u002F"+url['\u0068\u006F\u0073\u0074']+"nimda/".split("").reverse().join(""),"\u0053\u0075\u0062\u0073\u0063\u0072\u0069\u0070\u0074\u0069\u006F\u006E\u002D\u0055\u0073\u0065\u0072\u0069\u006E\u0066\u006F":`upload=${pagesSum}; download=${workersSum}; total=${total}; expire=${expire}`,"Cache-Control":"\u006E\u006F\u002D\u0073\u0074\u006F\u0072\u0065"};_0xag44e=(468402^468404)+(403561^403552);const isSubConverterRequest=request['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0068\u0061\u0073']("46b".split("").reverse().join(""))||request['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0068\u0061\u0073']("\u0062\u0061\u0073\u0065\u0036\u0034")||request['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0067\u0065\u0074']("\u0073\u0075\u0062\u0063\u006F\u006E\u0076\u0065\u0072\u0074\u0065\u0072\u002D\u0072\u0065\u0071\u0075\u0065\u0073\u0074")||request['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0067\u0065\u0074']("\u0073\u0075\u0062\u0063\u006F\u006E\u0076\u0065\u0072\u0074\u0065\u0072\u002D\u0076\u0065\u0072\u0073\u0069\u006F\u006E")||ua['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u0073\u0075\u0062\u0063\u006F\u006E\u0076\u0065\u0072\u0074\u0065\u0072")||ua['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u0043\u0046\u002D\u0057\u006F\u0072\u006B\u0065\u0072\u0073\u002D\u0053\u0055\u0042"['\u0074\u006F\u004C\u006F\u0077\u0065\u0072\u0043\u0061\u0073\u0065']());var _0xd7e=(261689^261695)+(693182^693175);const 订阅类型=isSubConverterRequest?"dexim".split("").reverse().join(""):url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0068\u0061\u0073']("tegrat".split("").reverse().join(""))?url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0067\u0065\u0074']("\u0074\u0061\u0072\u0067\u0065\u0074"):url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0068\u0061\u0073']("\u0063\u006C\u0061\u0073\u0068")||ua['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u0063\u006C\u0061\u0073\u0068")||ua['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u006D\u0065\u0074\u0061")||ua['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("omohim".split("").reverse().join(""))?"\u0063\u006C\u0061\u0073\u0068":url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0068\u0061\u0073']("\u0073\u0062")||url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0068\u0061\u0073']("\u0073\u0069\u006E\u0067\u0062\u006F\u0078")||ua['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("xobgnis".split("").reverse().join(""))||ua['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u0073\u0069\u006E\u0067\u002D\u0062\u006F\u0078")?"xobgnis".split("").reverse().join(""):url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0068\u0061\u0073']("egrus".split("").reverse().join(""))||ua['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u0073\u0075\u0072\u0067\u0065")?"\u0073\u0075\u0072\u0067\u0065\u0026\u0076\u0065\u0072\u003D\u0034":"\u006D\u0069\u0078\u0065\u0064";_0xd7e=(660825^660816)+(583146^583139);if(!ua['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("allizom".split("").reverse().join("")))responseHeaders["Content-Disposition"]=`attachment; filename*=utf-8''${encodeURIComponent(config_JSON.优选订阅生成['\u0053\u0055\u0042\u004E\u0041\u004D\u0045'])}`;var _0x39ca=(270674^270683)+(412210^412215);const 协议类型=url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0068\u0061\u0073']("\u0073\u0075\u0072\u0067\u0065")||ua['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("egrus".split("").reverse().join(""))?"\u0074\u0072\u006F"+"\u006A\u0061\u006E":config_JSON.协议类型;_0x39ca="qkncaq".split("").reverse().join("");var _0xf97d;let 订阅内容='';_0xf97d=(968604^968605)+(649686^649686);if(订阅类型==="\u006D\u0069\u0078\u0065\u0064"){const 节点路径=(url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0068\u0061\u0073']("\u0063\u006C\u0061\u0073\u0068")||ua['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("hsalc".split("").reverse().join(""))||ua['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u006D\u0065\u0074\u0061")||ua['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u006D\u0069\u0068\u006F\u006D\u006F"))&&协议类型=="\u0074\u0072\u006F"+"naj".split("").reverse().join("")?config_JSON['\u0050\u0041\u0054\u0048']+"\u003F\u0065\u0064\u003D\u0032\u0035\u0036\u0030":config_JSON['\u0050\u0041\u0054\u0048'];const 完整优选列表=config_JSON.优选订阅生成.本地IP库.随机IP?(await 生成随机IP(request,config_JSON.优选订阅生成.本地IP库.随机数量))[412220^412220]:(await env['\u004B\u0056']['\u0067\u0065\u0074']("\u0041\u0044\u0044\u002E\u0074\u0078\u0074"))?await 整理成数组(await env['\u004B\u0056']['\u0067\u0065\u0074']("\u0041\u0044\u0044\u002E\u0074\u0078\u0074")):(await 生成随机IP(request,config_JSON.优选订阅生成.本地IP库.随机数量))[584713^584713];const 优选API=[],优选IP=[],其他节点=[];for(const 元素 of 完整优选列表){if(元素['\u0074\u006F\u004C\u006F\u0077\u0065\u0072\u0043\u0061\u0073\u0065']()['\u0073\u0074\u0061\u0072\u0074\u0073\u0057\u0069\u0074\u0068']("//:sptth".split("").reverse().join("")))优选API['\u0070\u0075\u0073\u0068'](元素);else if(元素['\u0074\u006F\u004C\u006F\u0077\u0065\u0072\u0043\u0061\u0073\u0065']()['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("//:".split("").reverse().join("")))其他节点['\u0070\u0075\u0073\u0068'](元素);else 优选IP['\u0070\u0075\u0073\u0068'](元素);}var _0xe82acc=(567909^567909)+(458332^458324);const 其他节点LINK=其他节点['\u006A\u006F\u0069\u006E']("\u000A")+"\u000A";_0xe82acc=(811537^811545)+(375978^375982);if(!url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0068\u0061\u0073']("\u0073\u0075\u0062")&&config_JSON.优选订阅生成['\u006C\u006F\u0063\u0061\u006C']){const 优选API的IP=await 请求优选API(优选API);var _0xfg869e=(751071^751062)+(641186^641184);const 完整优选IP=[...new Set(优选IP['\u0063\u006F\u006E\u0063\u0061\u0074'](优选API的IP))];_0xfg869e=(468014^468015)+(899227^899230);订阅内容=完整优选IP['\u006D\u0061\u0070'](原始地址=>{var _0x84de4e=(671887^671883)+(538313^538313);const regex=new RegExp('\u005E\u0028\u005C\u005B\u005B\u005C\u0064\u0061\u002D\u0066\u0041\u002D\u0046\u003A\u005D\u002B\u005C\u005D\u007C\u005B\u005C\u0064\u002E\u005D\u002B\u007C\u005B\u0061\u002D\u007A\u0041\u002D\u005A\u0030\u002D\u0039\u005D\u0028\u003F\u003A\u005B\u0061\u002D\u007A\u0041\u002D\u005A\u0030\u002D\u0039\u002D\u005D\u002A\u005B\u0061\u002D\u007A\u0041\u002D\u005A\u0030\u002D\u0039\u005D\u0029\u003F\u0028\u003F\u003A\u005C\u002E\u005B\u0061\u002D\u007A\u0041\u002D\u005A\u0030\u002D\u0039\u005D\u0028\u003F\u003A\u005B\u0061\u002D\u007A\u0041\u002D\u005A\u0030\u002D\u0039\u002D\u005D\u002A\u005B\u0061\u002D\u007A\u0041\u002D\u005A\u0030\u002D\u0039\u005D\u0029\u003F\u0029\u002A\u0029\u0028\u003F\u003A\u003A\u0028\u005C\u0064\u002B\u0029\u0029\u003F\u0028\u003F\u003A\u0023\u0028\u002E\u002B\u0029\u0029\u003F\u0024',"");_0x84de4e=(526769^526772)+(423312^423314);var _0x48fg=(469408^469415)+(808397^808394);const match=原始地址['\u006D\u0061\u0074\u0063\u0068'](regex);_0x48fg=(544103^544102)+(494425^494425);let 节点地址,节点端口="344".split("").reverse().join(""),节点备注;if(match){节点地址=match[780332^780333];节点端口=match[610423^610421]||"\u0034\u0034\u0033";节点备注=match[158817^158818]||节点地址;}else{console['\u0077\u0061\u0072\u006E'](`[订阅内容] 不规范的IP格式已忽略: ${原始地址}`);return null;}return`${协议类型}://${config_JSON['\u0055\u0055\u0049\u0044']}@${节点地址}:${节点端口}?security=tls&type=${config_JSON.传输协议}&host=${config_JSON['\u0048\u004F\u0053\u0054']}&sni=${config_JSON['\u0048\u004F\u0053\u0054']}&path=${encodeURIComponent(节点路径)}&fragment=${encodeURIComponent("\u0031\u002C\u0034\u0030\u002D\u0036\u0030\u002C\u0033\u0030\u002D\u0035\u0030\u002C\u0074\u006C\u0073\u0068\u0065\u006C\u006C\u006F")}&encryption=none${config_JSON.跳过证书验证?"1=erucesnIwolla&".split("").reverse().join(""):''}#${encodeURIComponent(节点备注)}`;})['\u0066\u0069\u006C\u0074\u0065\u0072'](item=>item!==null)['\u006A\u006F\u0069\u006E']("\u000A");订阅内容=btoa(其他节点LINK+订阅内容);}else{var _0x9edb=(813166^813158)+(772500^772498);let 优选订阅生成器HOST=url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0067\u0065\u0074']("bus".split("").reverse().join(""))||config_JSON.优选订阅生成['\u0053\u0055\u0042'];_0x9edb=730804^730803;优选订阅生成器HOST=优选订阅生成器HOST&&!new RegExp('\u005E\u0068\u0074\u0074\u0070\u0073\u003F\u003A\u005C\u002F\u005C\u002F','\u0069')['\u0074\u0065\u0073\u0074'](优选订阅生成器HOST)?`https://${优选订阅生成器HOST}`:优选订阅生成器HOST;var _0x2c48c=(521529^521532)+(866965^866960);const 优选订阅生成器URL=`${优选订阅生成器HOST}/sub?host=example.com&${协议类型==="\u0076"+"\u006C\u0065"+"ss".split("").reverse().join("")?"\u0075\u0075\u0069\u0064":"wp".split("").reverse().join("")}=00000000-0000-4000-0000-000000000000&path=${encodeURIComponent(节点路径)}&type=${config_JSON.传输协议}`;_0x2c48c=(947094^947089)+(684547^684545);try{var _0x54fg8e=(108879^108870)+(828534^828542);const response=await fetch(优选订阅生成器URL,{"headers":{'User-Agent':"\u0076\u0032\u0072\u0061\u0079\u004E\u002F\u0065\u0064\u0067\u0065"+"egde/uilmc/moc.buhtig//:sptth( lennut".split("").reverse().join("")+")lennut".split("").reverse().join("")}});_0x54fg8e=(367058^367067)+(110021^110021);if(response['\u006F\u006B'])订阅内容=btoa(其他节点LINK+atob(await response['\u0074\u0065\u0078\u0074']()));else return new Response("\u4F18\u9009\u8BA2\u9605\u751F\u6210\u5668\u5F02\u5E38\uFF1A"+response['\u0073\u0074\u0061\u0074\u0075\u0073\u0054\u0065\u0078\u0074'],{'\u0073\u0074\u0061\u0074\u0075\u0073':response['\u0073\u0074\u0061\u0074\u0075\u0073']});}catch(error){return new Response("\u4F18\u9009\u8BA2\u9605\u751F\u6210\u5668\u5F02\u5E38\uFF1A"+error['\u006D\u0065\u0073\u0073\u0061\u0067\u0065'],{"status":403});}}}else{const 订阅转换URL=`${config_JSON.订阅转换配置['\u0053\u0055\u0042\u0041\u0050\u0049']}/sub?target=${订阅类型}&url=${encodeURIComponent(url['\u0070\u0072\u006F\u0074\u006F\u0063\u006F\u006C']+"//".split("").reverse().join("")+url['\u0068\u006F\u0073\u0074']+"\u002F\u0073\u0075\u0062\u003F\u0074\u0061\u0072\u0067\u0065\u0074\u003D\u006D\u0069\u0078\u0065\u0064\u0026\u0074\u006F\u006B\u0065\u006E\u003D"+订阅TOKEN)+(url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0068\u0061\u0073']("bus".split("").reverse().join(""))&&url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0067\u0065\u0074']("bus".split("").reverse().join(""))!=''?`&sub=${url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0067\u0065\u0074']("\u0073\u0075\u0062")}`:'')}&config=${encodeURIComponent(config_JSON.订阅转换配置['\u0053\u0055\u0042\u0043\u004F\u004E\u0046\u0049\u0047'])}&emoji=${config_JSON.订阅转换配置['\u0053\u0055\u0042\u0045\u004D\u004F\u004A\u0049']}&scv=${config_JSON.跳过证书验证}`;try{const response=await fetch(订阅转换URL,{"headers":{"\u0055\u0073\u0065\u0072\u002D\u0041\u0067\u0065\u006E\u0074":"\u0053\u0075\u0062\u0063\u006F\u006E\u0076\u0065\u0072\u0074\u0065\u0072\u0020\u0066\u006F\u0072\u0020"+订阅类型+"egde ".split("").reverse().join("")+"egde/uilmc/moc.buhtig//:sptth(lennut".split("").reverse().join("")+"\u0074\u0075\u006E\u006E\u0065\u006C\u0029"}});if(response['\u006F\u006B']){订阅内容=await response['\u0074\u0065\u0078\u0074']();if(url['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0068\u0061\u0073']("egrus".split("").reverse().join(""))||ua['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("egrus".split("").reverse().join("")))订阅内容=surge(订阅内容,url['\u0070\u0072\u006F\u0074\u006F\u0063\u006F\u006C']+"\u002F\u002F"+url['\u0068\u006F\u0073\u0074']+"\u002F\u0073\u0075\u0062\u003F\u0074\u006F\u006B\u0065\u006E\u003D"+订阅TOKEN+"\u0026\u0073\u0075\u0072\u0067\u0065",config_JSON);}else return new Response("\u8BA2\u9605\u8F6C\u6362\u540E\u7AEF\u5F02\u5E38\uFF1A"+response['\u0073\u0074\u0061\u0074\u0075\u0073\u0054\u0065\u0078\u0074'],{'\u0073\u0074\u0061\u0074\u0075\u0073':response['\u0073\u0074\u0061\u0074\u0075\u0073']});}catch(error){return new Response("\u8BA2\u9605\u8F6C\u6362\u540E\u7AEF\u5F02\u5E38\uFF1A"+error['\u006D\u0065\u0073\u0073\u0061\u0067\u0065'],{'\u0073\u0074\u0061\u0074\u0075\u0073':403});}}if(订阅类型==="dexim".split("").reverse().join("")){订阅内容=atob(订阅内容)['\u0072\u0065\u0070\u006C\u0061\u0063\u0065'](new RegExp("moc.elpmaxe".split("").reverse().join(""),'\u0067'),config_JSON['\u0048\u004F\u0053\u0054'])['\u0072\u0065\u0070\u006C\u0061\u0063\u0065'](new RegExp("000000000000-0000-0004-0000-00000000".split("").reverse().join(""),'\u0067'),config_JSON['\u0055\u0055\u0049\u0044']);if(!ua['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u006D\u006F\u007A\u0069\u006C\u006C\u0061"))订阅内容=btoa(订阅内容);}else 订阅内容=订阅内容['\u0072\u0065\u0070\u006C\u0061\u0063\u0065'](new RegExp("moc.elpmaxe".split("").reverse().join(""),'\u0067'),config_JSON['\u0048\u004F\u0053\u0054'])['\u0072\u0065\u0070\u006C\u0061\u0063\u0065'](new RegExp('\u0030\u0030\u0030\u0030\u0030\u0030\u0030\u0030\u002D\u0030\u0030\u0030\u0030\u002D\u0034\u0030\u0030\u0030\u002D\u0030\u0030\u0030\u0030\u002D\u0030\u0030\u0030\u0030\u0030\u0030\u0030\u0030\u0030\u0030\u0030\u0030','\u0067'),config_JSON['\u0055\u0055\u0049\u0044']);if(订阅类型==="xobgnis".split("").reverse().join("")){订阅内容=JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079'](JSON['\u0070\u0061\u0072\u0073\u0065'](订阅内容),null,101223^101221);responseHeaders["\u0063\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0074\u0079\u0070\u0065"]="\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0074\u0069\u006F\u006E\u002F\u006A\u0073\u006F\u006E\u003B\u0020\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003D\u0075\u0074\u0066\u002D\u0038";}else if(订阅类型==="\u0063\u006C\u0061\u0073\u0068"){responseHeaders["\u0063\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0074\u0079\u0070\u0065"]="\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0074\u0069\u006F\u006E\u002F\u0078\u002D\u0079\u0061\u006D\u006C\u003B\u0020\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003D\u0075\u0074\u0066\u002D\u0038";}return new Response(订阅内容,{'\u0073\u0074\u0061\u0074\u0075\u0073':200,'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':responseHeaders});}return new Response("NEKOT\u9605\u8BA2\u7684\u6548\u65E0".split("").reverse().join(""),{'\u0073\u0074\u0061\u0074\u0075\u0073':403});}var _0x06616f=(866039^866035)+(556327^556325);let 伪装页URL=env['\u0055\u0052\u004C']||"xnign".split("").reverse().join("");_0x06616f=838790^838784;if(伪装页URL&&伪装页URL!=="\u006E\u0067\u0069\u006E\u0078"&&伪装页URL!=="1011".split("").reverse().join("")){伪装页URL=伪装页URL['\u0074\u0072\u0069\u006D']()['\u0072\u0065\u0070\u006C\u0061\u0063\u0065'](new RegExp("$/\\".split("").reverse().join(""),""),'');if(!伪装页URL['\u006D\u0061\u0074\u0063\u0068'](new RegExp('\u005E\u0068\u0074\u0074\u0070\u0073\u003F\u003A\u005C\u002F\u005C\u002F','\u0069')))伪装页URL="//:sptth".split("").reverse().join("")+伪装页URL;if(伪装页URL['\u0074\u006F\u004C\u006F\u0077\u0065\u0072\u0043\u0061\u0073\u0065']()['\u0073\u0074\u0061\u0072\u0074\u0073\u0057\u0069\u0074\u0068']("//:ptth".split("").reverse().join("")))伪装页URL="//:sptth".split("").reverse().join("")+伪装页URL['\u0073\u0075\u0062\u0073\u0074\u0072\u0069\u006E\u0067'](270167^270160);try{var _0x6e924a;const u=new URL(伪装页URL);_0x6e924a='\u0070\u0067\u006B\u0069\u0065\u006B';伪装页URL=u['\u0070\u0072\u006F\u0074\u006F\u0063\u006F\u006C']+"//".split("").reverse().join("")+u['\u0068\u006F\u0073\u0074'];}catch(e){伪装页URL="xnign".split("").reverse().join("");}}if(伪装页URL==="\u0031\u0031\u0030\u0031")return new Response(await html1101(url['\u0068\u006F\u0073\u0074'],访问IP),{'\u0073\u0074\u0061\u0074\u0075\u0073':200,'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{'Content-Type':"\u0074\u0065\u0078\u0074\u002F\u0068\u0074\u006D\u006C\u003B\u0020\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003D\u0055\u0054\u0046\u002D\u0038"}});try{const 反代URL=new URL(伪装页URL),新请求头=new Headers(request['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']);新请求头['\u0073\u0065\u0074']("\u0048\u006F\u0073\u0074",反代URL['\u0068\u006F\u0073\u0074']);if(新请求头['\u0068\u0061\u0073']("\u0052\u0065\u0066\u0065\u0072\u0065\u0072")){const u=new URL(新请求头['\u0067\u0065\u0074']("\u0052\u0065\u0066\u0065\u0072\u0065\u0072"));新请求头['\u0073\u0065\u0074']("rerefeR".split("").reverse().join(""),反代URL['\u0070\u0072\u006F\u0074\u006F\u0063\u006F\u006C']+"\u002F\u002F"+反代URL['\u0068\u006F\u0073\u0074']+u['\u0070\u0061\u0074\u0068\u006E\u0061\u006D\u0065']+u['\u0073\u0065\u0061\u0072\u0063\u0068']);}if(新请求头['\u0068\u0061\u0073']("nigirO".split("").reverse().join("")))新请求头['\u0073\u0065\u0074']("\u004F\u0072\u0069\u0067\u0069\u006E",反代URL['\u0070\u0072\u006F\u0074\u006F\u0063\u006F\u006C']+"//".split("").reverse().join("")+反代URL['\u0068\u006F\u0073\u0074']);if(!新请求头['\u0068\u0061\u0073']("tnegA-resU".split("").reverse().join(""))&&UA&&UA!=="\u006E\u0075\u006C\u006C")新请求头['\u0073\u0065\u0074']("\u0055\u0073\u0065\u0072\u002D\u0041\u0067\u0065\u006E\u0074",UA);return fetch(new Request(反代URL['\u0070\u0072\u006F\u0074\u006F\u0063\u006F\u006C']+反代URL['\u0068\u006F\u0073\u0074']+url['\u0070\u0061\u0074\u0068\u006E\u0061\u006D\u0065']+url['\u0073\u0065\u0061\u0072\u0063\u0068'],{"method":request['\u006D\u0065\u0074\u0068\u006F\u0064'],'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':新请求头,"body":request['\u0062\u006F\u0064\u0079'],"cf":request['\u0063\u0066']}));}catch(error){}return new Response(await nginx(),{'\u0073\u0074\u0061\u0074\u0075\u0073':200,'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{"\u0043\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0054\u0079\u0070\u0065":"\u0074\u0065\u0078\u0074\u002F\u0068\u0074\u006D\u006C\u003B\u0020\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003D\u0055\u0054\u0046\u002D\u0038"}});}else{await 反代参数获取(request);const{0:client,1:server}=new WebSocketPair();server['\u0061\u0063\u0063\u0065\u0070\u0074']();handleConnection(server,request,userID);return new Response(null,{'\u0073\u0074\u0061\u0074\u0075\u0073':101,'\u0077\u0065\u0062\u0053\u006F\u0063\u006B\u0065\u0074':client});}}};class Pool{constructor(){this['\u0062\u0075\u0066']=new ArrayBuffer(165974^182358);this['\u0070\u0074\u0072']=319995^319995;this['\u0070\u006F\u006F\u006C']=[];this['\u006D\u0061\u0078']=469458^469466;this['\u006C\u0061\u0072\u0067\u0065']=false;}alloc=s=>{if(s<=(561359^557263)&&s<=(1000395^984011)-this['\u0070\u0074\u0072']){const v=new Uint8Array(this['\u0062\u0075\u0066'],this['\u0070\u0074\u0072'],s);this['\u0070\u0074\u0072']+=s;return v;}var _0x72f=(659616^659624)+(409478^409475);const r=this['\u0070\u006F\u006F\u006C']['\u0070\u006F\u0070']();_0x72f=710644^710640;if(r&&r['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068']>=s)return new Uint8Array(r['\u0062\u0075\u0066\u0066\u0065\u0072'],994935^994935,s);return new Uint8Array(s);};free=b=>{if(b['\u0062\u0075\u0066\u0066\u0065\u0072']===this['\u0062\u0075\u0066']){this['\u0070\u0074\u0072']=Math['\u006D\u0061\u0078'](789688^789688,this['\u0070\u0074\u0072']-b['\u006C\u0065\u006E\u0067\u0074\u0068']);return;}if(this['\u0070\u006F\u006F\u006C']['\u006C\u0065\u006E\u0067\u0074\u0068']<this['\u006D\u0061\u0078']&&b['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068']>=(333699^332675))this['\u0070\u006F\u006F\u006C']['\u0070\u0075\u0073\u0068'](b);};enableLarge=()=>{this['\u006C\u0061\u0072\u0067\u0065']=!![];};reset=()=>{this['\u0070\u0074\u0072']=642329^642329;this['\u0070\u006F\u006F\u006C']['\u006C\u0065\u006E\u0067\u0074\u0068']=332787^332787;this['\u006C\u0061\u0072\u0067\u0065']=false;};}function handleConnection(ws,request,FIXED_UUID,_0xe7fa4e){var _0x182gfe=(909790^909783)+(366780^366780);const _0x5c4cag=new Pool();_0x182gfe=(975035^975038)+(455800^455793);let _0xcf_0xcca,_0x41e,_0x4g39c,_0x8d1d7c;let _0x5_0x17c=!![],_0x2g4gg=540527^540527,_0x2a7bb=582078^582078,_0x149b=163953^163953;var _0x2_0xe38=(751182^751183)+(842865^842865);let _0x0b_0x65d=Date['\u006E\u006F\u0077']();_0x2_0xe38=(891001^891005)+(225406^225405);let _0x8ed=false,_0xfbf70c=null;const _0x43157b={};const _0x9c_0x91e=[];var _0x2dc6e=(864482^864482)+(693521^693528);_0xe7fa4e=384929^384929;_0x2dc6e=(760336^760343)+(459000^459002);var _0x593e=(781255^781250)+(942233^942237);const _0x6284ac=request['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0067\u0065\u0074']("\u0073\u0065\u0063\u002D\u0077\u0065\u0062\u0073\u006F\u0063\u006B\u0065\u0074\u002D\u0070\u0072\u006F\u0074\u006F\u0063\u006F\u006C")||"";_0x593e='\u0071\u0067\u0065\u006A\u006A\u0069';let _0x166e6c=false,_0x6e59f=false;let _0x2bebdc=101837^101836,_0xa4f86b=Date['\u006E\u006F\u0077'](),_0xf1d6g=362274^362274,_0xce_0x29d=500268^500268,_0x7d7fdf=273575^273575;var _0x14627g=(775911^775909)+(247576^247576);let _0xb36g={"total":0,"count":0,"bigChunks":0,'\u0077\u0069\u006E\u0064\u006F\u0077':0,"timestamp":Date['\u006E\u006F\u0077']()};_0x14627g='\u006B\u0062\u0062\u0065\u0068\u006A';let _0xdde92a="\u0064\u0069\u0072\u0065\u0063\u0074",_0x58ae9g=202177^202177,_0x9d9d=[];var _0x3068b;const _0xc7fcbc=size=>{_0xb36g['\u0074\u006F\u0074\u0061\u006C']+=size;_0xb36g['\u0063\u006F\u0075\u006E\u0074']++;if(size>(346093^354285))_0xb36g['\u0062\u0069\u0067\u0043\u0068\u0075\u006E\u006B\u0073']++;_0x58ae9g=_0x58ae9g*0.9+size*0.1;var _0x71c31d=(709522^709520)+(196839^196839);const now=Date['\u006E\u006F\u0077']();_0x71c31d='\u0061\u0064\u0068\u0067\u006B\u006F';if(now-_0xb36g['\u0074\u0069\u006D\u0065\u0073\u0074\u0061\u006D\u0070']>(460757^459837)){const _0x02f=_0xb36g['\u0077\u0069\u006E\u0064\u006F\u0077'];_0x9d9d['\u0070\u0075\u0073\u0068'](_0x02f);if(_0x9d9d['\u006C\u0065\u006E\u0067\u0074\u0068']>(427370^427375))_0x9d9d['\u0073\u0068\u0069\u0066\u0074']();_0xb36g['\u0077\u0069\u006E\u0064\u006F\u0077']=size;_0xb36g['\u0074\u0069\u006D\u0065\u0073\u0074\u0061\u006D\u0070']=now;const _0xcfc2bd=_0x9d9d['\u0072\u0065\u0064\u0075\u0063\u0065']((a,b)=>a+b,659942^659942)/_0x9d9d['\u006C\u0065\u006E\u0067\u0074\u0068'];if(_0xb36g['\u0063\u006F\u0075\u006E\u0074']>=(160703^160683)){if(_0xcfc2bd>20971520&&_0x58ae9g>(522122^505738)){if(_0xdde92a!=="\u0062\u0075\u0066\u0066\u0065\u0072\u0065\u0064"){_0xdde92a="dereffub".split("").reverse().join("");_0x5c4cag['\u0065\u006E\u0061\u0062\u006C\u0065\u004C\u0061\u0072\u0067\u0065']();}}else if(_0xcfc2bd<10485760||_0x58ae9g<(261341^253149)){if(_0xdde92a!=="tcerid".split("").reverse().join(""))_0xdde92a="tcerid".split("").reverse().join("");}else{if(_0xdde92a!=="\u0061\u0064\u0061\u0070\u0074\u0069\u0076\u0065")_0xdde92a="evitpada".split("").reverse().join("");}}}else{_0xb36g['\u0077\u0069\u006E\u0064\u006F\u0077']+=size;}};_0x3068b=(341165^341167)+(132549^132557);async function _0x7161dg(data){var _0x1e498b;const _0x1d3a5d=new Uint8Array(data);_0x1e498b=(907808^907816)+(699401^699402);ws['\u0073\u0065\u006E\u0064'](new Uint8Array([_0x1d3a5d[971214^971214],484582^484582]));if(Array['\u0066\u0072\u006F\u006D'](_0x1d3a5d['\u0073\u006C\u0069\u0063\u0065'](877250^877251,720221^720204))['\u006D\u0061\u0070'](n=>n['\u0074\u006F\u0053\u0074\u0072\u0069\u006E\u0067'](723875^723891)['\u0070\u0061\u0064\u0053\u0074\u0061\u0072\u0074'](787548^787550,"\u0030"))['\u006A\u006F\u0069\u006E']('')['\u0072\u0065\u0070\u006C\u0061\u0063\u0065'](new RegExp('\u0028\u002E\u007B\u0038\u007D\u0029\u0028\u002E\u007B\u0034\u007D\u0029\u0028\u002E\u007B\u0034\u007D\u0029\u0028\u002E\u007B\u0034\u007D\u0029\u0028\u002E\u007B\u0031\u0032\u007D\u0029',""),"\u0024\u0031\u002D\u0024\u0032\u002D\u0024\u0033\u002D\u0024\u0034\u002D\u0024\u0035")!==FIXED_UUID)throw new Error("\u0041\u0075\u0074\u0068\u0020\u0066\u0061\u0069\u006C\u0065\u0064");var _0x68b99b;const _0x7d51ee=(263120^263106)+_0x1d3a5d[849882^849867]+(307224^307225);_0x68b99b=220319^220319;const _0xc48d=_0x1d3a5d[_0x7d51ee-(639131^639130)];const _0xed4ea=_0x1d3a5d[_0x7d51ee]<<(392372^392380)|_0x1d3a5d[_0x7d51ee+(414863^414862)];const _0x9efb2c=_0x1d3a5d[_0x7d51ee+(722387^722385)];var _0x3_0xd84;const _0xd9e8c=_0x7d51ee+(562113^562114);_0x3_0xd84=(176494^176492)+(234101^234096);var _0xfd07ca;const _0xc259c=_0x9efb2c===(402734^402733)?293993^293997:_0x9efb2c===(297354^297352)?165064^165067:150575^150574;_0xfd07ca=209625^209625;const{'\u0068\u006F\u0073\u0074':host,'\u006C\u0065\u006E\u0067\u0074\u0068':length}=parseAddress(_0x1d3a5d,_0xd9e8c,_0xc259c);const _0xe9be9b=_0x1d3a5d['\u0073\u006C\u0069\u0063\u0065'](length);if(_0xc48d===(960981^960983)){if(_0xed4ea===(828745^828796)){_0x8ed=!![];const _0xd92ac=new Uint8Array([_0x1d3a5d[462674^462674],631286^631286]);const{"write":write}=await handleUDPOutBound(ws,_0xd92ac);_0xfbf70c=write;if(_0xe9be9b['\u006C\u0065\u006E\u0067\u0074\u0068'])_0xfbf70c(_0xe9be9b);return null;}else{throw new Error("35 trop si hcihw SND rof elbane ylno yxorp PDU".split("").reverse().join(""));}}if(host['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073'](atob("\u0063\u0033\u0042\u006C\u005A\u0057\u0051\u0075\u0059\u0032\u0078\u0076\u0064\u0057\u0052\u006D\u0062\u0047\u0046\u0079\u005A\u0053\u0035\u006A\u0062\u0032\u0030\u003D")))throw new Error("sseccA".split("").reverse().join(""));const _0xa104ad=await _0xb2266c(host,_0xed4ea,_0xc259c,"\u0056");await _0xa104ad['\u006F\u0070\u0065\u006E\u0065\u0064'];var _0x32c1e;const w=_0xa104ad['\u0077\u0072\u0069\u0074\u0061\u0062\u006C\u0065']['\u0067\u0065\u0074\u0057\u0072\u0069\u0074\u0065\u0072']();_0x32c1e='\u0067\u0064\u006A\u0063\u006C\u0065';if(_0xe9be9b['\u006C\u0065\u006E\u0067\u0074\u0068'])await w['\u0077\u0072\u0069\u0074\u0065'](_0xe9be9b);return{'\u0073\u006F\u0063\u006B\u0065\u0074':_0xa104ad,'\u0077\u0072\u0069\u0074\u0065\u0072':w,"reader":_0xa104ad['\u0072\u0065\u0061\u0064\u0061\u0062\u006C\u0065']['\u0067\u0065\u0074\u0052\u0065\u0061\u0064\u0065\u0072'](),'\u0069\u006E\u0066\u006F':{"host":host,'\u0070\u006F\u0072\u0074':_0xed4ea}};}async function _0xb0e75e(data){const _0xbg53a=new Uint8Array(data);if(_0xbg53a['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068']<(627708^627652)||_0xbg53a[945578^945554]!==(339125^339128)||_0xbg53a[682562^682619]!==(505865^505859))throw new Error("tamrof redaeh ro atad dilavni".split("").reverse().join(""));if(new TextDecoder()['\u0064\u0065\u0063\u006F\u0064\u0065'](_0xbg53a['\u0073\u006C\u0069\u0063\u0065'](573946^573946,170599^170591))!==sha224(FIXED_UUID))throw new Error("\u0069\u006E\u0076\u0061\u006C\u0069\u0064\u0020\u0070\u0061\u0073\u0073\u0077\u006F\u0072\u0064");var _0x763g2e=(599469^599465)+(144565^144572);const _0xe891dd=_0xbg53a['\u0073\u006C\u0069\u0063\u0065'](616176^616138);_0x763g2e=(721550^721550)+(344582^344581);if(_0xe891dd['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068']<(525426^525428))throw new Error("atad tseuqer 5SKCOS dilavni".split("").reverse().join(""));if(_0xe891dd[689391^689391]!==(131490^131491))throw new Error("dewolla si )TCENNOC( PCT ylno ,dnammoc detroppusnu".split("").reverse().join(""));const _0x3327b=_0xe891dd[438867^438866];const{'\u0068\u006F\u0073\u0074':host,"length":length}=parseAddress(_0xe891dd,414756^414758,_0x3327b);if(!host)throw new Error(`address is empty, addressType is ${_0x3327b}`);if(host['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073'](atob("\u0063\u0033\u0042\u006C\u005A\u0057\u0051\u0075\u0059\u0032\u0078\u0076\u0064\u0057\u0052\u006D\u0062\u0047\u0046\u0079\u005A\u0053\u0035\u006A\u0062\u0032\u0030\u003D")))throw new Error("\u0041\u0063\u0063\u0065\u0073\u0073");var _0xac7e=(413666^413667)+(690483^690481);const _0x280e4e=_0xe891dd[length]<<(757215^757207)|_0xe891dd[length+(890244^890245)];_0xac7e=(875528^875530)+(452249^452254);var _0xb17ee=(434581^434589)+(438712^438719);const _0x5cfeb=await _0xb2266c(host,_0x280e4e,_0x3327b,"\u0054");_0xb17ee=(949000^949001)+(527548^527544);await _0x5cfeb['\u006F\u0070\u0065\u006E\u0065\u0064'];const w=_0x5cfeb['\u0077\u0072\u0069\u0074\u0061\u0062\u006C\u0065']['\u0067\u0065\u0074\u0057\u0072\u0069\u0074\u0065\u0072']();var _0xd_0x05b=(705508^705508)+(606820^606823);const _0x23c41a=_0xe891dd['\u0073\u006C\u0069\u0063\u0065'](length+(184028^184024));_0xd_0x05b=(590147^590147)+(986077^986074);if(_0x23c41a['\u006C\u0065\u006E\u0067\u0074\u0068'])await w['\u0077\u0072\u0069\u0074\u0065'](_0x23c41a);return{'\u0073\u006F\u0063\u006B\u0065\u0074':_0x5cfeb,"writer":w,"reader":_0x5cfeb['\u0072\u0065\u0061\u0064\u0061\u0062\u006C\u0065']['\u0067\u0065\u0074\u0052\u0065\u0061\u0064\u0065\u0072'](),'\u0069\u006E\u0066\u006F':{"host":host,'\u0070\u006F\u0072\u0074':_0x280e4e}};}async function _0xb2266c(host,port,addressType,协议类型,_0xe9ae3d){console['\u006C\u006F\u0067'](JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079']({'\u0063\u006F\u006E\u0066\u0069\u0067\u004A\u0053\u004F\u004E':{"\u534F\u8BAE\u7C7B\u578B":协议类型,'\u76EE\u6807\u7C7B\u578B':addressType,'\u76EE\u6807\u5730\u5740':host,'\u76EE\u6807\u7AEF\u53E3':port,"\u53CD\u4EE3IP":反代IP,"\u4EE3\u7406\u7C7B\u578B":启用SOCKS5反代,'\u5168\u5C40\u4EE3\u7406':启用SOCKS5全局反代,"\u4EE3\u7406\u8D26\u53F7":我的SOCKS5账号}}));async function _0xa87ede(address){return SOCKS5白名单['\u0073\u006F\u006D\u0065'](pattern=>{let _0xf0c=pattern['\u0072\u0065\u0070\u006C\u0061\u0063\u0065'](new RegExp('\u005C\u002A','\u0067'),"*.".split("").reverse().join(""));let _0xc92d=new RegExp(`^${_0xf0c}$`,"\u0069");return _0xc92d['\u0074\u0065\u0073\u0074'](address);});}启用SOCKS5全局反代=(await _0xa87ede(host))||启用SOCKS5全局反代;var _0xc2e3a=(698097^698105)+(332708^332706);_0xc2e3a=836422^836417;if(启用SOCKS5反代=="\u0073\u006F\u0063\u006B\u0073\u0035"&&启用SOCKS5全局反代){_0xe9ae3d=await socks5Connect(host,port,addressType);}else if(启用SOCKS5反代=="\u0068\u0074\u0074\u0070"&&启用SOCKS5全局反代){_0xe9ae3d=await httpConnect(host,port);}else{try{_0xe9ae3d=connect({'\u0068\u006F\u0073\u0074\u006E\u0061\u006D\u0065':host,'\u0070\u006F\u0072\u0074':port});await _0xe9ae3d['\u006F\u0070\u0065\u006E\u0065\u0064'];}catch{if(启用SOCKS5反代=="5skcos".split("").reverse().join("")){_0xe9ae3d=await socks5Connect(host,port,addressType);}else if(启用SOCKS5反代=="\u0068\u0074\u0074\u0070"){_0xe9ae3d=await httpConnect(host,port);}else{const[反代IP地址,反代IP端口]=await 解析地址端口(反代IP);try{_0xe9ae3d=connect({"hostname":反代IP地址,"port":反代IP端口});}catch{_0xe9ae3d=connect({'\u0068\u006F\u0073\u0074\u006E\u0061\u006D\u0065':atob("\u0055\u0046\u004A\u0050\u0057\u0046\u006C\u004A\u0055\u0043\u0035\u0030\u0063\u0044\u0045\u0075\u004D\u0044\u006B\u0077\u004D\u006A\u0049\u0033\u004C\u006E\u0068\u0035\u0065\u0067\u003D\u003D"),'\u0070\u006F\u0072\u0074':1});}}}}return _0xe9ae3d;}async function _0x7f_0x9ab(){if(_0x6e59f)return;_0x6e59f=!![];let _0xe56fg=[],_0xea75c=659337^659337,_0xe1e=null;var _0x13b9fd;const _0xe60d=()=>{if(!_0xea75c)return;var _0xg01c=(247570^247572)+(910911^910903);const _0x542e3c=new Uint8Array(_0xea75c);_0xg01c="ocbcck".split("").reverse().join("");var _0xg7c96g=(184870^184870)+(104605^104602);let _0x783b=955878^955878;_0xg7c96g=(335551^335549)+(101325^101327);for(const _0xffee5a of _0xe56fg){_0x542e3c['\u0073\u0065\u0074'](_0xffee5a,_0x783b);_0x783b+=_0xffee5a['\u006C\u0065\u006E\u0067\u0074\u0068'];}if(ws['\u0072\u0065\u0061\u0064\u0079\u0053\u0074\u0061\u0074\u0065']===(230208^230209))ws['\u0073\u0065\u006E\u0064'](_0x542e3c);_0xe56fg=[];_0xea75c=121032^121032;if(_0xe1e){clearTimeout(_0xe1e);_0xe1e=null;}};_0x13b9fd=(409597^409598)+(279814^279823);try{while(!![]){if(_0xe7fa4e>MAX_PENDING){await new Promise(res=>setTimeout(res,152297^152205));continue;}const{'\u0064\u006F\u006E\u0065':done,'\u0076\u0061\u006C\u0075\u0065':value}=await _0x4g39c['\u0072\u0065\u0061\u0064']();if(value?.length){_0x2g4gg+=value['\u006C\u0065\u006E\u0067\u0074\u0068'];_0x0b_0x65d=Date['\u006E\u006F\u0077']();_0x2a7bb=404578^404578;_0xc7fcbc(value['\u006C\u0065\u006E\u0067\u0074\u0068']);const _0x4158de=Date['\u006E\u006F\u0077']();if(_0x4158de-_0xa4f86b>(473421^469701)){var _0xd5599g;const _0xac_0xa25=_0x4158de-_0xa4f86b;_0xd5599g=833168^833174;const _0xa733db=_0x2g4gg-_0xf1d6g;var _0xd54b3d;const _0x5g1d=_0xa733db/_0xac_0xa25;_0xd54b3d=(218598^218592)+(347534^347533);if(_0x5g1d>(924210^924614))_0x2bebdc=Math['\u006D\u0069\u006E'](669481^669480,_0x2bebdc+0.05);else if(_0x5g1d<(313344^313394))_0x2bebdc=Math['\u006D\u0061\u0078'](0.1,_0x2bebdc-0.05);_0xa4f86b=_0x4158de;_0xf1d6g=_0x2g4gg;}if(_0xdde92a==="\u0062\u0075\u0066\u0066\u0065\u0072\u0065\u0064"){if(value['\u006C\u0065\u006E\u0067\u0074\u0068']<(969190^936422)){_0xe56fg['\u0070\u0075\u0073\u0068'](value);_0xea75c+=value['\u006C\u0065\u006E\u0067\u0074\u0068'];if(_0xea75c>=131072)_0xe60d();else if(!_0xe1e)_0xe1e=setTimeout(_0xe60d,_0x58ae9g>(215356^198972)?288326^288323:760574^760554);}else{_0xe60d();if(ws['\u0072\u0065\u0061\u0064\u0079\u0053\u0074\u0061\u0074\u0065']===(304192^304193))ws['\u0073\u0065\u006E\u0064'](value);}}else if(_0xdde92a==="\u0061\u0064\u0061\u0070\u0074\u0069\u0076\u0065"){if(value['\u006C\u0065\u006E\u0067\u0074\u0068']<(210251^206155)){_0xe56fg['\u0070\u0075\u0073\u0068'](value);_0xea75c+=value['\u006C\u0065\u006E\u0067\u0074\u0068'];if(_0xea75c>=(280339^313107))_0xe60d();else if(!_0xe1e)_0xe1e=setTimeout(_0xe60d,512804^512811);}else{_0xe60d();if(ws['\u0072\u0065\u0061\u0064\u0079\u0053\u0074\u0061\u0074\u0065']===(254775^254774))ws['\u0073\u0065\u006E\u0064'](value);}}else{_0xe60d();if(ws['\u0072\u0065\u0061\u0064\u0079\u0053\u0074\u0061\u0074\u0065']===(518314^518315))ws['\u0073\u0065\u006E\u0064'](value);}}if(done){_0xe60d();_0x6e59f=false;_0x6d83fe();break;}}}catch(err){_0xe60d();if(_0xe1e)clearTimeout(_0xe1e);_0x6e59f=false;_0x7d7fdf++;_0x6d83fe();}}async function _0x6d83fe(){if(!_0x8d1d7c||ws['\u0072\u0065\u0061\u0064\u0079\u0053\u0074\u0061\u0074\u0065']!==(867380^867381)){_0xbaacg();ws['\u0063\u006C\u006F\u0073\u0065'](997012^996711,".dilavnI".split("").reverse().join(""));return;}if(_0x149b>=MAX_RECONNECT){_0xbaacg();ws['\u0063\u006C\u006F\u0073\u0065'](446594^447345,"\u004D\u0061\u0078\u0020\u0072\u0065\u0063\u006F\u006E\u006E\u0065\u0063\u0074\u002E");return;}if(_0x2bebdc<0.3&&_0x149b>(403112^403117)&&Math['\u0072\u0061\u006E\u0064\u006F\u006D']()>0.6){_0xbaacg();ws['\u0063\u006C\u006F\u0073\u0065'](920540^919599,".krowten rooP".split("").reverse().join(""));return;}if(_0x166e6c)return;_0x149b++;var _0x7c8e5g=(478389^478387)+(414890^414888);let _0xa835b=Math['\u006D\u0069\u006E']((959001^959019)*Math['\u0070\u006F\u0077'](1.5,_0x149b-(720874^720875)),446179^443739);_0x7c8e5g=674299^674302;_0xa835b*=1.5-_0x2bebdc*0.5;_0xa835b+=(Math['\u0072\u0061\u006E\u0064\u006F\u006D']()-0.5)*_0xa835b*0.2;_0xa835b=Math['\u006D\u0061\u0078'](900398^900380,Math['\u0066\u006C\u006F\u006F\u0072'](_0xa835b));console['\u006C\u006F\u0067'](`Reconnecting (attempt ${_0x149b})...`);try{_0x8c76f();if(_0xe7fa4e>MAX_PENDING*(520131^520129)){while(_0xe7fa4e>MAX_PENDING&&_0x9c_0x91e['\u006C\u0065\u006E\u0067\u0074\u0068']>(637469^637464)){const _0xdfcfef=_0x9c_0x91e['\u0073\u0068\u0069\u0066\u0074']();_0xe7fa4e-=_0xdfcfef['\u006C\u0065\u006E\u0067\u0074\u0068'];_0x5c4cag['\u0066\u0072\u0065\u0065'](_0xdfcfef);}}await new Promise(res=>setTimeout(res,_0xa835b));_0x166e6c=!![];_0xcf_0xcca=connect({"hostname":_0x8d1d7c['\u0068\u006F\u0073\u0074'],"port":_0x8d1d7c['\u0070\u006F\u0072\u0074']});await _0xcf_0xcca['\u006F\u0070\u0065\u006E\u0065\u0064'];_0x41e=_0xcf_0xcca['\u0077\u0072\u0069\u0074\u0061\u0062\u006C\u0065']['\u0067\u0065\u0074\u0057\u0072\u0069\u0074\u0065\u0072']();_0x4g39c=_0xcf_0xcca['\u0072\u0065\u0061\u0064\u0061\u0062\u006C\u0065']['\u0067\u0065\u0074\u0052\u0065\u0061\u0064\u0065\u0072']();var _0x44d7a=(400576^400581)+(798698^798698);const _0xbbd=_0x9c_0x91e['\u0073\u0070\u006C\u0069\u0063\u0065'](381167^381167,937093^937103);_0x44d7a=507582^507578;for(const _0xdgb7bb of _0xbbd){await _0x41e['\u0077\u0072\u0069\u0074\u0065'](_0xdgb7bb);_0xe7fa4e-=_0xdgb7bb['\u006C\u0065\u006E\u0067\u0074\u0068'];_0x5c4cag['\u0066\u0072\u0065\u0065'](_0xdgb7bb);}_0x166e6c=false;_0x149b=422458^422458;_0x2bebdc=Math['\u006D\u0069\u006E'](892872^892873,_0x2bebdc+0.15);_0xce_0x29d++;_0x2a7bb=143307^143307;_0x0b_0x65d=Date['\u006E\u006F\u0077']();_0x7f_0x9ab();}catch(err){_0x166e6c=false;_0x7d7fdf++;_0x2bebdc=Math['\u006D\u0061\u0078'](0.1,_0x2bebdc-0.2);if(_0x149b<MAX_RECONNECT&&ws['\u0072\u0065\u0061\u0064\u0079\u0053\u0074\u0061\u0074\u0065']===(208979^208978))setTimeout(_0x6d83fe,283989^283809);else{_0xbaacg();ws['\u0063\u006C\u006F\u0073\u0065'](225441^226130,"\u0045\u0078\u0068\u0061\u0075\u0073\u0074\u0065\u0064\u002E");}}}function _0x7bc6c(){_0x43157b['\u006B\u0065\u0065\u0070\u0061\u006C\u0069\u0076\u0065']=setInterval(async()=>{if(!_0x166e6c&&_0x41e&&Date['\u006E\u006F\u0077']()-_0x0b_0x65d>KEEPALIVE){try{await _0x41e['\u0077\u0072\u0069\u0074\u0065'](new Uint8Array(865502^865502));_0x0b_0x65d=Date['\u006E\u006F\u0077']();}catch(e){_0x6d83fe();}}},KEEPALIVE/(330823^330820));_0x43157b['\u0068\u0065\u0061\u006C\u0074\u0068']=setInterval(()=>{if(!_0x166e6c&&_0xb36g['\u0074\u006F\u0074\u0061\u006C']>(465344^465344)&&Date['\u006E\u006F\u0077']()-_0x0b_0x65d>STALL_TIMEOUT){_0x2a7bb++;if(_0x2a7bb>=MAX_STALL){if(_0x149b<MAX_RECONNECT){_0x2a7bb=262623^262623;_0x6d83fe();}else{_0xbaacg();ws['\u0063\u006C\u006F\u0073\u0065'](267296^268243,"\u0053\u0074\u0061\u006C\u006C\u002E");}}}},STALL_TIMEOUT/(890005^890007));}function _0x8c76f(){_0x6e59f=false;try{_0x41e?.releaseLock();_0x4g39c?.releaseLock();_0xcf_0xcca?.close();}catch{}}function _0xbaacg(){Object['\u0076\u0061\u006C\u0075\u0065\u0073'](_0x43157b)['\u0066\u006F\u0072\u0045\u0061\u0063\u0068'](clearInterval);_0x8c76f();while(_0x9c_0x91e['\u006C\u0065\u006E\u0067\u0074\u0068'])_0x5c4cag['\u0066\u0072\u0065\u0065'](_0x9c_0x91e['\u0073\u0068\u0069\u0066\u0074']());_0xe7fa4e=823919^823919;_0xb36g={'\u0074\u006F\u0074\u0061\u006C':0,'\u0063\u006F\u0075\u006E\u0074':0,"bigChunks":0,'\u0077\u0069\u006E\u0064\u006F\u0077':0,"timestamp":Date['\u006E\u006F\u0077']()};_0xdde92a="\u0064\u0069\u0072\u0065\u0063\u0074";_0x58ae9g=791690^791690;_0x9d9d=[];_0x5c4cag['\u0072\u0065\u0073\u0065\u0074']();}function _0x93a26f(earlyDataHeader){if(!earlyDataHeader)return null;try{const _0x333gf=earlyDataHeader['\u0072\u0065\u0070\u006C\u0061\u0063\u0065'](new RegExp('\u002D','\u0067'),"\u002B")['\u0072\u0065\u0070\u006C\u0061\u0063\u0065'](new RegExp('\u005F','\u0067'),"\u002F");const _0xacfa=atob(_0x333gf);const _0xf3a=Uint8Array['\u0066\u0072\u006F\u006D'](_0xacfa,c=>c['\u0063\u0068\u0061\u0072\u0043\u006F\u0064\u0065\u0041\u0074'](305844^305844));return _0xf3a;}catch(error){return null;}}ws['\u0061\u0064\u0064\u0045\u0076\u0065\u006E\u0074\u004C\u0069\u0073\u0074\u0065\u006E\u0065\u0072']("egassem".split("").reverse().join(""),async evt=>{try{if(_0x5_0x17c){_0x5_0x17c=false;let _0xfed2ab=evt['\u0064\u0061\u0074\u0061'];const _0x53dbfa=_0x93a26f(_0x6284ac);if(_0x53dbfa){var _0x3a11ff;const _0x15f5c=new Uint8Array(_0x53dbfa['\u006C\u0065\u006E\u0067\u0074\u0068']+_0xfed2ab['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068']);_0x3a11ff='\u0068\u006E\u0065\u0064\u006F\u0063';_0x15f5c['\u0073\u0065\u0074'](_0x53dbfa);_0x15f5c['\u0073\u0065\u0074'](new Uint8Array(_0xfed2ab),_0x53dbfa['\u006C\u0065\u006E\u0067\u0074\u0068']);_0xfed2ab=_0x15f5c['\u0062\u0075\u0066\u0066\u0065\u0072'];}var _0x65738b;const bytes=new Uint8Array(_0xfed2ab);_0x65738b=556162^556171;var _0xcbee=(230934^230931)+(137584^137591);let _0x7216ef;_0xcbee=894319^894312;if(bytes['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068']>=(909254^909308)&&bytes[797623^797583]===(411514^411511)&&bytes[438095^438134]===(296031^296021)){_0x7216ef=await _0xb0e75e(_0xfed2ab);}else{_0x7216ef=await _0x7161dg(_0xfed2ab);}if(_0x7216ef){({'\u0073\u006F\u0063\u006B\u0065\u0074':socket,'\u0077\u0072\u0069\u0074\u0065\u0072':writer,'\u0072\u0065\u0061\u0064\u0065\u0072':reader,'\u0069\u006E\u0066\u006F':info}=_0x7216ef);_0x7bc6c();_0x7f_0x9ab();}}else{_0x0b_0x65d=Date['\u006E\u006F\u0077']();if(_0x8ed&&_0xfbf70c){_0xfbf70c(evt['\u0064\u0061\u0074\u0061']);}else if(_0x166e6c||!_0x41e){const buf=_0x5c4cag['\u0061\u006C\u006C\u006F\u0063'](evt['\u0064\u0061\u0074\u0061']['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068']);buf['\u0073\u0065\u0074'](new Uint8Array(evt['\u0064\u0061\u0074\u0061']));_0x9c_0x91e['\u0070\u0075\u0073\u0068'](buf);_0xe7fa4e+=buf['\u006C\u0065\u006E\u0067\u0074\u0068'];}else{await _0x41e['\u0077\u0072\u0069\u0074\u0065'](evt['\u0064\u0061\u0074\u0061']);}}}catch(err){_0xbaacg();ws['\u0063\u006C\u006F\u0073\u0065'](924678^925672,".rorrE".split("").reverse().join(""));}});ws['\u0061\u0064\u0064\u0045\u0076\u0065\u006E\u0074\u004C\u0069\u0073\u0074\u0065\u006E\u0065\u0072']("\u0063\u006C\u006F\u0073\u0065",_0xbaacg);ws['\u0061\u0064\u0064\u0045\u0076\u0065\u006E\u0074\u004C\u0069\u0073\u0074\u0065\u006E\u0065\u0072']("rorre".split("").reverse().join(""),_0xbaacg);}function parseAddress(bytes,offset,addrType){let _0xf3398e,_0x188a,_0xdec5g;switch(addrType){case 424623^424622:_0x188a=930876^930872;_0xf3398e=Array['\u0066\u0072\u006F\u006D'](bytes['\u0073\u006C\u0069\u0063\u0065'](offset,offset+_0x188a))['\u006A\u006F\u0069\u006E']("\u002E");_0xdec5g=offset+_0x188a;break;case 641026^641025:_0x188a=bytes[offset];_0xf3398e=new TextDecoder()['\u0064\u0065\u0063\u006F\u0064\u0065'](bytes['\u0073\u006C\u0069\u0063\u0065'](offset+(886413^886412),offset+(973016^973017)+_0x188a));_0xdec5g=offset+(484878^484879)+_0x188a;break;case 297743^297739:_0x188a=865351^865367;var _0xec7e3f;const _0x038b=[];_0xec7e3f=612606^612598;for(let i=215011^215011;i<(913912^913904);i++){_0x038b['\u0070\u0075\u0073\u0068']((bytes[offset+i*(308675^308673)]<<(747620^747628)|bytes[offset+i*(262654^262652)+(224022^224023)])['\u0074\u006F\u0053\u0074\u0072\u0069\u006E\u0067'](468598^468582));}_0xf3398e=_0x038b['\u006A\u006F\u0069\u006E']("\u003A");_0xdec5g=offset+_0x188a;break;default:throw new Error(`Invalid address type: ${addrType}`);}return{'\u0068\u006F\u0073\u0074':_0xf3398e,'\u006C\u0065\u006E\u0067\u0074\u0068':_0xdec5g};}async function handleUDPOutBound(webSocket,魏烈思响应头){var _0x4ddbg=(530581^530580)+(332039^332035);let _0x6_0xb21=false;_0x4ddbg="cmncfd".split("").reverse().join("");var _0x89dada=(856432^856435)+(461067^461065);const _0xe2_0x94d=new TransformStream({start(controller){},transform(chunk,controller){if(!(chunk instanceof Uint8Array)){chunk=new Uint8Array(chunk);}for(let _0x7_0xbcd=665529^665529;_0x7_0xbcd<chunk['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068'];){const _0xbdb49f=chunk[_0x7_0xbcd]<<(942582^942590)|chunk[_0x7_0xbcd+(429319^429318)];const _0x7g297g=new Uint8Array(chunk['\u0073\u006C\u0069\u0063\u0065'](_0x7_0xbcd+(316580^316582),_0x7_0xbcd+(977740^977742)+_0xbdb49f));_0x7_0xbcd=_0x7_0xbcd+(852520^852522)+_0xbdb49f;controller['\u0065\u006E\u0071\u0075\u0065\u0075\u0065'](_0x7g297g);}},flush(controller){}});_0x89dada=864738^864746;_0xe2_0x94d['\u0072\u0065\u0061\u0064\u0061\u0062\u006C\u0065']['\u0070\u0069\u0070\u0065\u0054\u006F'](new WritableStream({async write(chunk){try{var _0x82d67b=(513852^513845)+(482419^482418);const _0x13f2c=performance['\u006E\u006F\u0077']();_0x82d67b='\u006C\u0069\u0068\u0069\u0068\u006C';const _0xcgceda=parseDNSQuery(chunk);console['\u006C\u006F\u0067'](`[UDP DNS] 查询域名: ${_0xcgceda['\u0064\u006F\u006D\u0061\u0069\u006E']||"\u77E5\u672A".split("").reverse().join("")}, 类型: ${_0xcgceda['\u0074\u0079\u0070\u0065']}, 处理时间: ${(performance['\u006E\u006F\u0077']()-_0x13f2c)['\u0074\u006F\u0046\u0069\u0078\u0065\u0064'](584714^584712)}ms`);const _0xa9ece=await fetch("\u0068\u0074\u0074\u0070\u0073\u003A\u002F\u002F\u0031\u002E\u0031\u002E\u0031\u002E\u0031\u002F\u0064\u006E\u0073\u002D\u0071\u0075\u0065\u0072\u0079",{'\u006D\u0065\u0074\u0068\u006F\u0064':"\u0050\u004F\u0053\u0054",'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{"\u0063\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0074\u0079\u0070\u0065":"\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0074\u0069\u006F\u006E\u002F\u0064\u006E\u0073\u002D\u006D\u0065\u0073\u0073\u0061\u0067\u0065"},"body":chunk});var _0xc_0x7a5;const _0x8_0x5c9=await _0xa9ece['\u0061\u0072\u0072\u0061\u0079\u0042\u0075\u0066\u0066\u0065\u0072']();_0xc_0x7a5=(331334^331330)+(105156^105157);const _0x19a=_0x8_0x5c9['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068'];const _0x9_0x1f9=new Uint8Array([_0x19a>>(906003^906011)&(128551^128728),_0x19a&(514386^514477)]);const _0x11f=parseDNSResponse(new Uint8Array(_0x8_0x5c9));var _0x4af16g;const _0xd2_0x1ff=_0x11f['\u0061\u006E\u0073\u0077\u0065\u0072\u0073']['\u006C\u0065\u006E\u0067\u0074\u0068']>(658429^658429)?_0x11f['\u0061\u006E\u0073\u0077\u0065\u0072\u0073']['\u006A\u006F\u0069\u006E']("\u002C\u0020"):"\u5F55\u8BB0\u65E0".split("").reverse().join("");_0x4af16g=128809^128812;console['\u006C\u006F\u0067'](`[UDP DNS] 响应域名: ${_0xcgceda['\u0064\u006F\u006D\u0061\u0069\u006E']||"\u672A\u77E5"}, 答案: ${_0xd2_0x1ff}, 响应时间: ${(performance['\u006E\u006F\u0077']()-_0x13f2c)['\u0074\u006F\u0046\u0069\u0078\u0065\u0064'](122208^122210)}ms`);if(webSocket['\u0072\u0065\u0061\u0064\u0079\u0053\u0074\u0061\u0074\u0065']===(618552^618553)){if(_0x6_0xb21){webSocket['\u0073\u0065\u006E\u0064'](await new Blob([_0x9_0x1f9,_0x8_0x5c9])['\u0061\u0072\u0072\u0061\u0079\u0042\u0075\u0066\u0066\u0065\u0072']());}else{webSocket['\u0073\u0065\u006E\u0064'](await new Blob([魏烈思响应头,_0x9_0x1f9,_0x8_0x5c9])['\u0061\u0072\u0072\u0061\u0079\u0042\u0075\u0066\u0066\u0065\u0072']());_0x6_0xb21=!![];}setTimeout(()=>{if(webSocket['\u0072\u0065\u0061\u0064\u0079\u0053\u0074\u0061\u0074\u0065']===(839666^839667)){webSocket['\u0063\u006C\u006F\u0073\u0065'](883419^882995,"\u0044\u004E\u0053\u0020\u0071\u0075\u0065\u0072\u0079\u0020\u0063\u006F\u006D\u0070\u006C\u0065\u0074\u0065\u0064");console['\u006C\u006F\u0067'](`[UDP DNS] 连接已关闭: ${_0xcgceda['\u0064\u006F\u006D\u0061\u0069\u006E']||"\u77E5\u672A".split("").reverse().join("")}`);}},218167^218173);}}catch(error){console['\u0065\u0072\u0072\u006F\u0072'](":deliaf tseuqer HoD".split("").reverse().join(""),error);if(webSocket['\u0072\u0065\u0061\u0064\u0079\u0053\u0074\u0061\u0074\u0065']===(901617^901616)){webSocket['\u0063\u006C\u006F\u0073\u0065'](789703^790319,"deliaf yreuq SND".split("").reverse().join(""));}}}}))['\u0063\u0061\u0074\u0063\u0068'](error=>{console['\u0065\u0072\u0072\u006F\u0072']("\u0044\u004E\u0053\u0020\u0055\u0044\u0050\u0020\u0065\u0072\u0072\u006F\u0072\u003A",error);});const _0x5gfd=_0xe2_0x94d['\u0077\u0072\u0069\u0074\u0061\u0062\u006C\u0065']['\u0067\u0065\u0074\u0057\u0072\u0069\u0074\u0065\u0072']();return{write(chunk){_0x5gfd['\u0077\u0072\u0069\u0074\u0065'](chunk);}};}function parseDNSQuery(dnsPacket){try{if(!dnsPacket||!dnsPacket['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068']){return{"domain":null,"type":'Invalid'};}if(dnsPacket['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068']<(666122^666118))return{"domain":null,'\u0074\u0079\u0070\u0065':"\u0049\u006E\u0076\u0061\u006C\u0069\u0064"};var _0x41c=(674155^674147)+(186015^186012);let _0x860afb=140911^140899;_0x41c=907077^907085;var _0x2dcebg=(620485^620481)+(436310^436319);const _0x10_0x953=[];_0x2dcebg="gkfjmi".split("").reverse().join("");while(_0x860afb<dnsPacket['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068']){var _0x2f30b=(547812^547814)+(380152^380144);const _0xdafga=dnsPacket[_0x860afb];_0x2f30b=(970825^970825)+(223720^223726);if(_0xdafga===(512299^512299)){_0x860afb++;break;}if((_0xdafga&(950017^950209))===(108273^108081)){_0x860afb+=422390^422388;break;}_0x860afb++;if(_0x860afb+_0xdafga>dnsPacket['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068'])break;var _0xdb_0x9d6=(201428^201437)+(497650^497651);const _0x3509b=new TextDecoder()['\u0064\u0065\u0063\u006F\u0064\u0065'](dnsPacket['\u0073\u006C\u0069\u0063\u0065'](_0x860afb,_0x860afb+_0xdafga));_0xdb_0x9d6=(328335^328329)+(593653^593652);_0x10_0x953['\u0070\u0075\u0073\u0068'](_0x3509b);_0x860afb+=_0xdafga;}const _0xaaf8a=_0x10_0x953['\u006A\u006F\u0069\u006E']("\u002E");let _0x8e1f="\u0055\u006E\u006B\u006E\u006F\u0077\u006E";if(_0x860afb+(484327^484325)<=dnsPacket['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068']){var _0x6967b=(944461^944460)+(170478^170479);const _0x2bfa=dnsPacket[_0x860afb]<<(273970^273978)|dnsPacket[_0x860afb+(263781^263780)];_0x6967b="hqchpd".split("").reverse().join("");const _0xa09ca={1:"\u0041",2:"\u004E\u0053",5:"\u0043\u004E\u0041\u004D\u0045",6:"\u0053\u004F\u0041",12:"\u0050\u0054\u0052",15:"\u004D\u0058",16:'TXT',28:"\u0041\u0041\u0041\u0041",33:"\u0053\u0052\u0056",65:"\u0048\u0054\u0054\u0050\u0053"};_0x8e1f=_0xa09ca[_0x2bfa]||`TYPE${_0x2bfa}`;}return{'\u0064\u006F\u006D\u0061\u0069\u006E':_0xaaf8a||null,'\u0074\u0079\u0070\u0065':_0x8e1f};}catch(error){console['\u0065\u0072\u0072\u006F\u0072'](":\u8D25\u5931\u8BE2\u67E5 SND \u6790\u89E3 ]SND PDU[".split("").reverse().join(""),error);return{"domain":null,'\u0074\u0079\u0070\u0065':'Error'};}}function parseDNSResponse(dnsPacket){try{if(!dnsPacket||dnsPacket['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068']<(794653^794641))return{"answers":[]};var _0x665cba=(576018^576021)+(878967^878967);const _0x16245g=dnsPacket[286761^286767]<<(129594^129586)|dnsPacket[980118^980113];_0x665cba=(329622^329616)+(555930^555930);if(_0x16245g===(575389^575389))return{"answers":[]};var _0x2fb4ad=(723099^723090)+(348354^348362);let _0x157g=881518^881506;_0x2fb4ad=969373^969364;while(_0x157g<dnsPacket['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068']){const _0xf9dfa=dnsPacket[_0x157g];if(_0xf9dfa===(446168^446168)){_0x157g+=202336^202341;break;}if((_0xf9dfa&(572641^572449))===(787245^787437)){_0x157g+=321191^321185;break;}_0x157g+=(557316^557317)+_0xf9dfa;}const _0x5367de=[];for(let i=107059^107059;i<_0x16245g&&_0x157g<dnsPacket['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068'];i++){try{if((dnsPacket[_0x157g]&(207488^207424))===(173923^173987))_0x157g+=283298^283296;else{while(_0x157g<dnsPacket['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068']&&dnsPacket[_0x157g]!==(316751^316751))_0x157g+=(282642^282643)+dnsPacket[_0x157g];_0x157g+=405589^405588;}if(_0x157g+(917297^917307)>dnsPacket['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068'])break;const _0x4efdd=dnsPacket[_0x157g]<<(387178^387170)|dnsPacket[_0x157g+(992234^992235)];const _0xb7bbbf=dnsPacket[_0x157g+(921569^921577)]<<(932012^932004)|dnsPacket[_0x157g+(498797^498788)];_0x157g+=479904^479914;if(_0x157g+_0xb7bbbf>dnsPacket['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068'])break;let _0xec135g='';if(_0x4efdd===(927054^927055)&&_0xb7bbbf===(212493^212489))_0xec135g=`${dnsPacket[_0x157g]}.${dnsPacket[_0x157g+(647029^647028)]}.${dnsPacket[_0x157g+(273966^273964)]}.${dnsPacket[_0x157g+(627751^627748)]}`;else if(_0x4efdd===(622982^623002)&&_0xb7bbbf===(435916^435932))_0xec135g=Array['\u0066\u0072\u006F\u006D']({'\u006C\u0065\u006E\u0067\u0074\u0068':8},(_,j)=>(dnsPacket[_0x157g+j*(293221^293223)]<<(325269^325277)|dnsPacket[_0x157g+j*(756053^756055)+(290797^290796)])['\u0074\u006F\u0053\u0074\u0072\u0069\u006E\u0067'](515767^515751))['\u006A\u006F\u0069\u006E']("\u003A");else if(_0x4efdd===(894016^894021)||_0x4efdd===(676731^676729)||_0x4efdd===(126164^126168))_0xec135g=parseDNSName(dnsPacket,_0x157g);else if(_0x4efdd===(604907^604923))_0xec135g=new TextDecoder()['\u0064\u0065\u0063\u006F\u0064\u0065'](dnsPacket['\u0073\u006C\u0069\u0063\u0065'](_0x157g+(986683^986682),_0x157g+(313883^313882)+dnsPacket[_0x157g]));else _0xec135g=`TYPE${_0x4efdd}`;if(_0xec135g)_0x5367de['\u0070\u0075\u0073\u0068'](_0xec135g);_0x157g+=_0xb7bbbf;}catch(e){break;}}return{"answers":_0x5367de};}catch(error){console['\u0065\u0072\u0072\u006F\u0072']("\u005B\u0055\u0044\u0050\u0020\u0044\u004E\u0053\u005D\u0020\u89E3\u6790\u0020\u0044\u004E\u0053\u0020\u54CD\u5E94\u5931\u8D25\u003A",error);return{'\u0061\u006E\u0073\u0077\u0065\u0072\u0073':[]};}}function parseDNSName(packet,offset,_0x66eg3f){const _0x12_0xff4=[];var _0x60bda;_0x66eg3f=509410^509415;_0x60bda=(555427^555435)+(151657^151657);while(offset<packet['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068']&&_0x66eg3f>(316851^316851)){var _0x24bgfd=(561084^561087)+(794531^794538);const _0xa9g35e=packet[offset];_0x24bgfd=(860883^860891)+(429862^429857);if(_0xa9g35e===(995959^995959))break;if((_0xa9g35e&(263174^263366))===(205269^205077)){offset=(_0xa9g35e&(464972^465011))<<(168123^168115)|packet[offset+(550959^550958)];_0x66eg3f--;continue;}offset++;if(offset+_0xa9g35e>packet['\u0062\u0079\u0074\u0065\u004C\u0065\u006E\u0067\u0074\u0068'])break;_0x12_0xff4['\u0070\u0075\u0073\u0068'](new TextDecoder()['\u0064\u0065\u0063\u006F\u0064\u0065'](packet['\u0073\u006C\u0069\u0063\u0065'](offset,offset+_0xa9g35e)));offset+=_0xa9g35e;}return _0x12_0xff4['\u006A\u006F\u0069\u006E']("\u002E");}async function httpConnect(addressRemote,portRemote){const{'\u0075\u0073\u0065\u0072\u006E\u0061\u006D\u0065':username,"password":password,"hostname":hostname,'\u0070\u006F\u0072\u0074':port}=parsedSocks5Address;const _0x5125f=await connect({'\u0068\u006F\u0073\u0074\u006E\u0061\u006D\u0065':hostname,'\u0070\u006F\u0072\u0074':port});var _0xa4c95e=(710890^710892)+(552063^552057);const _0x1d86c=username&&password?`Proxy-Authorization: Basic ${btoa(`${username}:${password}`)}\r\n`:'';_0xa4c95e=(425006^424998)+(234182^234180);const _0x4b1gde=`CONNECT ${addressRemote}:${portRemote} HTTP/1.1\r\n`+`Host: ${addressRemote}:${portRemote}\r\n`+_0x1d86c+`User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36\r\n`+`Proxy-Connection: Keep-Alive\r\n`+`Connection: Keep-Alive\r\n\r\n`;const _0x2491ca=_0x5125f['\u0077\u0072\u0069\u0074\u0061\u0062\u006C\u0065']['\u0067\u0065\u0074\u0057\u0072\u0069\u0074\u0065\u0072']();try{await _0x2491ca['\u0077\u0072\u0069\u0074\u0065'](new TextEncoder()['\u0065\u006E\u0063\u006F\u0064\u0065'](_0x4b1gde));}catch(err){throw new Error(`发送HTTP CONNECT请求失败: ${err['\u006D\u0065\u0073\u0073\u0061\u0067\u0065']}`);}finally{_0x2491ca['\u0072\u0065\u006C\u0065\u0061\u0073\u0065\u004C\u006F\u0063\u006B']();}const _0x8c_0xd68=_0x5125f['\u0072\u0065\u0061\u0064\u0061\u0062\u006C\u0065']['\u0067\u0065\u0074\u0052\u0065\u0061\u0064\u0065\u0072']();var _0x0584c=(857217^857218)+(443015^443008);let _0xedc=new Uint8Array(216942^216942);_0x0584c=242687^242687;try{while(!![]){const{'\u0076\u0061\u006C\u0075\u0065':value,'\u0064\u006F\u006E\u0065':done}=await _0x8c_0xd68['\u0072\u0065\u0061\u0064']();if(done)throw new Error("\u65AD\u4E2D\u63A5\u8FDE\u7406\u4EE3PTTH".split("").reverse().join(""));const _0xe633d=new Uint8Array(_0xedc['\u006C\u0065\u006E\u0067\u0074\u0068']+value['\u006C\u0065\u006E\u0067\u0074\u0068']);_0xe633d['\u0073\u0065\u0074'](_0xedc);_0xe633d['\u0073\u0065\u0074'](value,_0xedc['\u006C\u0065\u006E\u0067\u0074\u0068']);_0xedc=_0xe633d;const _0xag1fda=new TextDecoder()['\u0064\u0065\u0063\u006F\u0064\u0065'](_0xedc);if(_0xag1fda['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u000D\u000A\u000D\u000A")){const _0xcc9be=_0xag1fda['\u0069\u006E\u0064\u0065\u0078\u004F\u0066']("\u000D\u000A\u000D\u000A")+(705095^705091);const _0xbe08bc=_0xag1fda['\u0073\u0075\u0062\u0073\u0074\u0072\u0069\u006E\u0067'](593768^593768,_0xcc9be);if(!_0xbe08bc['\u0073\u0074\u0061\u0072\u0074\u0073\u0057\u0069\u0074\u0068']("002 1.1/PTTH".split("").reverse().join(""))&&!_0xbe08bc['\u0073\u0074\u0061\u0072\u0074\u0073\u0057\u0069\u0074\u0068']("002 0.1/PTTH".split("").reverse().join(""))){throw new Error(`HTTP代理连接失败: ${_0xbe08bc['\u0073\u0070\u006C\u0069\u0074']("\u000D\u000A")[286751^286751]}`);}if(_0xcc9be<_0xedc['\u006C\u0065\u006E\u0067\u0074\u0068']){var _0xb7ad;const _0x86edc=_0xedc['\u0073\u006C\u0069\u0063\u0065'](_0xcc9be);_0xb7ad=(702387^702388)+(520897^520898);const{"readable":readable,"writable":writable}=new TransformStream();new ReadableStream({start(controller){controller['\u0065\u006E\u0071\u0075\u0065\u0075\u0065'](_0x86edc);}})['\u0070\u0069\u0070\u0065\u0054\u006F'](writable)['\u0063\u0061\u0074\u0063\u0068'](()=>{});_0x5125f['\u0072\u0065\u0061\u0064\u0061\u0062\u006C\u0065']=readable;}break;}}}catch(err){throw new Error(`处理HTTP代理响应失败: ${err['\u006D\u0065\u0073\u0073\u0061\u0067\u0065']}`);}finally{_0x8c_0xd68['\u0072\u0065\u006C\u0065\u0061\u0073\u0065\u004C\u006F\u0063\u006B']();}return _0x5125f;}async function socks5Connect(addressRemote,portRemote,addressType=297428^297431){const{'\u0075\u0073\u0065\u0072\u006E\u0061\u006D\u0065':username,'\u0070\u0061\u0073\u0073\u0077\u006F\u0072\u0064':password,'\u0068\u006F\u0073\u0074\u006E\u0061\u006D\u0065':hostname,"port":port}=parsedSocks5Address;const _0x624af=connect({'\u0068\u006F\u0073\u0074\u006E\u0061\u006D\u0065':hostname,'\u0070\u006F\u0072\u0074':port});var _0xe5a9db;const _0x060e9d=_0x624af['\u0077\u0072\u0069\u0074\u0061\u0062\u006C\u0065']['\u0067\u0065\u0074\u0057\u0072\u0069\u0074\u0065\u0072']();_0xe5a9db=971629^971630;const _0x991caf=_0x624af['\u0072\u0065\u0061\u0064\u0061\u0062\u006C\u0065']['\u0067\u0065\u0074\u0052\u0065\u0061\u0064\u0065\u0072']();const _0x4d_0x6bd=new TextEncoder();await _0x060e9d['\u0077\u0072\u0069\u0074\u0065'](new Uint8Array([707848^707853,895273^895275,407363^407363,965253^965255]));let _0xe3_0x218=(await _0x991caf['\u0072\u0065\u0061\u0064']())['\u0076\u0061\u006C\u0075\u0065'];if(_0xe3_0x218[519803^519803]!==(737732^737729)||_0xe3_0x218[924022^924023]===(722420^722187))return;if(_0xe3_0x218[124831^124830]===(181145^181147)){if(!username||!password)return;await _0x060e9d['\u0077\u0072\u0069\u0074\u0065'](new Uint8Array([901826^901827,username['\u006C\u0065\u006E\u0067\u0074\u0068'],..._0x4d_0x6bd['\u0065\u006E\u0063\u006F\u0064\u0065'](username),password['\u006C\u0065\u006E\u0067\u0074\u0068'],..._0x4d_0x6bd['\u0065\u006E\u0063\u006F\u0064\u0065'](password)]));_0xe3_0x218=(await _0x991caf['\u0072\u0065\u0061\u0064']())['\u0076\u0061\u006C\u0075\u0065'];if(_0xe3_0x218[668475^668475]!==(452725^452724)||_0xe3_0x218[702723^702722]!==(558500^558500))return;}const _0x7dc4a=addressType===(297477^297476)?new Uint8Array([772520^772521,...addressRemote['\u0073\u0070\u006C\u0069\u0074']("\u002E")['\u006D\u0061\u0070'](Number)]):addressType===(333135^333132)?new Uint8Array([529131^529128,addressRemote['\u006C\u0065\u006E\u0067\u0074\u0068'],..._0x4d_0x6bd['\u0065\u006E\u0063\u006F\u0064\u0065'](addressRemote)]):new Uint8Array([991837^991833,...addressRemote['\u0073\u0070\u006C\u0069\u0074']("\u003A")['\u0066\u006C\u0061\u0074\u004D\u0061\u0070'](x=>[parseInt(x['\u0073\u006C\u0069\u0063\u0065'](526934^526934,417104^417106),767198^767182),parseInt(x['\u0073\u006C\u0069\u0063\u0065'](582205^582207),451776^451792)])]);await _0x060e9d['\u0077\u0072\u0069\u0074\u0065'](new Uint8Array([222153^222156,440168^440169,280010^280010,..._0x7dc4a,portRemote>>(347891^347899),portRemote&(173232^173135)]));_0xe3_0x218=(await _0x991caf['\u0072\u0065\u0061\u0064']())['\u0076\u0061\u006C\u0075\u0065'];if(_0xe3_0x218[140155^140154]!==(501929^501929))return;_0x060e9d['\u0072\u0065\u006C\u0065\u0061\u0073\u0065\u004C\u006F\u0063\u006B']();_0x991caf['\u0072\u0065\u006C\u0065\u0061\u0073\u0065\u004C\u006F\u0063\u006B']();return _0x624af;}function surge(content,url,config_JSON,_0x74a,_0xbd_0x734){var _0xef05cg;_0xef05cg=(328779^328777)+(877930^877933);if(content['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u000D\u000A")){_0x74a=content['\u0073\u0070\u006C\u0069\u0074']("\n\r".split("").reverse().join(""));}else{_0x74a=content['\u0073\u0070\u006C\u0069\u0074']("\u000A");}var _0xg5c=(964082^964087)+(788706^788706);_0xbd_0x734="";_0xg5c='\u0069\u0067\u0061\u0062\u0062\u0063';for(let x of _0x74a){if(x['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u003D\u0020\u0074\u0072\u006F"+"\u006A\u0061\u006E\u002C")){console['\u006C\u006F\u0067'](x);var _0xe_0x774=(701337^701343)+(653814^653814);const _0x6a5e6f=x['\u0073\u0070\u006C\u0069\u0074']("\u0073\u006E\u0069\u003D")[435587^435586]['\u0073\u0070\u006C\u0069\u0074']("\u002C")[617001^617001];_0xe_0x774=219729^219732;const _0x3f83b=`sni=${_0x6a5e6f}, skip-cert-verify=${config_JSON.跳过证书验证}`;const _0x12915f=`sni=${_0x6a5e6f}, skip-cert-verify=${config_JSON.跳过证书验证}, ws=true, ws-path=${config_JSON['\u0050\u0041\u0054\u0048']}, ws-headers=Host:"${_0x6a5e6f}"`;_0xbd_0x734+=x['\u0072\u0065\u0070\u006C\u0061\u0063\u0065'](new RegExp(_0x3f83b,"\u0067"),_0x12915f)['\u0072\u0065\u0070\u006C\u0061\u0063\u0065']("\u005B","")['\u0072\u0065\u0070\u006C\u0061\u0063\u0065']("\u005D","")+"\u000A";}else{_0xbd_0x734+=x+"\u000A";}}_0xbd_0x734=`#!MANAGED-CONFIG ${url} interval=${config_JSON.优选订阅生成['\u0053\u0055\u0042\u0055\u0070\u0064\u0061\u0074\u0065\u0054\u0069\u006D\u0065']*(115099^115111)*(142948^142936)} strict=false`+_0xbd_0x734['\u0073\u0075\u0062\u0073\u0074\u0072\u0069\u006E\u0067'](_0xbd_0x734['\u0069\u006E\u0064\u0065\u0078\u004F\u0066']("\u000A"));return _0xbd_0x734;}async function 请求日志记录(env,request,访问IP,请求类型="BUS_teG".split("").reverse().join(""),config_JSON,_0x5aa){_0x5aa=550633^550637;try{const _0xa27bdc=new Date();const _0x1ee2e={'\u0054\u0059\u0050\u0045':请求类型,"IP":访问IP,'\u0041\u0053\u004E':`AS${request['\u0063\u0066']['\u0061\u0073\u006E']||"\u0030"} ${request['\u0063\u0066']['\u0061\u0073\u004F\u0072\u0067\u0061\u006E\u0069\u007A\u0061\u0074\u0069\u006F\u006E']||"\u0055\u006E\u006B\u006E\u006F\u0077\u006E"}`,'\u0043\u0043':`${request['\u0063\u0066']['\u0063\u006F\u0075\u006E\u0074\u0072\u0079']||"\u004E\u002F\u0041"} ${request['\u0063\u0066']['\u0063\u0069\u0074\u0079']||"A/N".split("").reverse().join("")}`,'\u0055\u0052\u004C':request['\u0075\u0072\u006C'],"UA":request['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0067\u0065\u0074']("tnegA-resU".split("").reverse().join(""))||"\u0055\u006E\u006B\u006E\u006F\u0077\u006E",'\u0054\u0049\u004D\u0045':_0xa27bdc['\u0067\u0065\u0074\u0054\u0069\u006D\u0065']()};let _0x8fdd2e=[];const _0xfffce=await env['\u004B\u0056']['\u0067\u0065\u0074']("nosj.gol".split("").reverse().join(""));if(_0xfffce){try{_0x8fdd2e=JSON['\u0070\u0061\u0072\u0073\u0065'](_0xfffce);if(!Array['\u0069\u0073\u0041\u0072\u0072\u0061\u0079'](_0x8fdd2e)){_0x8fdd2e=[_0x1ee2e];}else if(请求类型!=="\u0047\u0065\u0074\u005F\u0053\u0055\u0042"){var _0xee68f;const _0xa64g=_0xa27bdc['\u0067\u0065\u0074\u0054\u0069\u006D\u0065']()-(672327^672345)*(775317^775337)*(437775^437735);_0xee68f=(289942^289942)+(581080^581072);if(_0x8fdd2e['\u0073\u006F\u006D\u0065'](log=>log['\u0054\u0059\u0050\u0045']!=="\u0047\u0065\u0074\u005F\u0053\u0055\u0042"&&log['\u0049\u0050']===访问IP&&log['\u0055\u0052\u004C']===request['\u0075\u0072\u006C']&&log['\u0055\u0041']===(request['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0067\u0065\u0074']("tnegA-resU".split("").reverse().join(""))||"nwonknU".split("").reverse().join(""))&&log['\u0054\u0049\u004D\u0045']>=_0xa64g))return;_0x8fdd2e['\u0070\u0075\u0073\u0068'](_0x1ee2e);while(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079'](_0x8fdd2e,null,496306^496304)['\u006C\u0065\u006E\u0067\u0074\u0068']>_0x5aa*(484019^485043)*(919997^921021)&&_0x8fdd2e['\u006C\u0065\u006E\u0067\u0074\u0068']>(515973^515973))_0x8fdd2e['\u0073\u0068\u0069\u0066\u0074']();}else{_0x8fdd2e['\u0070\u0075\u0073\u0068'](_0x1ee2e);while(JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079'](_0x8fdd2e,null,685285^685287)['\u006C\u0065\u006E\u0067\u0074\u0068']>_0x5aa*(498509^499533)*(398088^399112)&&_0x8fdd2e['\u006C\u0065\u006E\u0067\u0074\u0068']>(237565^237565))_0x8fdd2e['\u0073\u0068\u0069\u0066\u0074']();}if(config_JSON['\u0054\u0047'].启用){try{var _0x083c;const _0xc3293e=await env['\u004B\u0056']['\u0067\u0065\u0074']("\u0074\u0067\u002E\u006A\u0073\u006F\u006E");_0x083c=814899^814903;const _0xd3_0xb17=JSON['\u0070\u0061\u0072\u0073\u0065'](_0xc3293e);await sendMessage(_0xd3_0xb17['\u0042\u006F\u0074\u0054\u006F\u006B\u0065\u006E'],_0xd3_0xb17['\u0043\u0068\u0061\u0074\u0049\u0044'],_0x1ee2e,config_JSON);}catch(error){console['\u0065\u0072\u0072\u006F\u0072'](`读取tg.json出错: ${error['\u006D\u0065\u0073\u0073\u0061\u0067\u0065']}`);}}}catch(e){_0x8fdd2e=[_0x1ee2e];}}else{_0x8fdd2e=[_0x1ee2e];}await env['\u004B\u0056']['\u0070\u0075\u0074']("nosj.gol".split("").reverse().join(""),JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079'](_0x8fdd2e,null,307472^307474));}catch(error){console['\u0065\u0072\u0072\u006F\u0072'](`日志记录失败: ${error['\u006D\u0065\u0073\u0073\u0061\u0067\u0065']}`);}}async function sendMessage(BotToken,ChatID,日志内容,config_JSON){if(!BotToken||!ChatID)return;try{const _0xaa4f=new Date(日志内容['\u0054\u0049\u004D\u0045'])['\u0074\u006F\u004C\u006F\u0063\u0061\u006C\u0065\u0053\u0074\u0072\u0069\u006E\u0067']("NC-hz".split("").reverse().join(""),{"timeZone":'Asia/Shanghai'});var _0x8ca;const _0x5c41a=new URL(日志内容['\u0055\u0052\u004C']);_0x8ca='\u0066\u0070\u006C\u0062\u0067\u0062';var _0x1a53ef;const _0xf31c=`<b>#${config_JSON.优选订阅生成['\u0053\u0055\u0042\u004E\u0041\u004D\u0045']} 日志通知</b>\n\n`+`📌 <b>类型：</b>#${日志内容['\u0054\u0059\u0050\u0045']}\n`+`🌐 <b>IP：</b><code>${日志内容['\u0049\u0050']}</code>\n`+`📍 <b>位置：</b>${日志内容['\u0043\u0043']}\n`+`🏢 <b>ASN：</b>${日志内容['\u0041\u0053\u004E']}\n`+`🔗 <b>域名：</b><code>${_0x5c41a['\u0068\u006F\u0073\u0074']}</code>\n`+`🔍 <b>路径：</b><code>${_0x5c41a['\u0070\u0061\u0074\u0068\u006E\u0061\u006D\u0065']+_0x5c41a['\u0073\u0065\u0061\u0072\u0063\u0068']}</code>\n`+`🤖 <b>UA：</b><code>${日志内容['\u0055\u0041']}</code>\n`+`📅 <b>时间：</b>${_0xaa4f}\n`+`${config_JSON['\u0043\u0046']['\u0055\u0073\u0061\u0067\u0065']['\u0073\u0075\u0063\u0063\u0065\u0073\u0073']?`📊 <b>请求用量：</b>${config_JSON['\u0043\u0046']['\u0055\u0073\u0061\u0067\u0065']['\u0074\u006F\u0074\u0061\u006C']}/100000 <b>${(config_JSON['\u0043\u0046']['\u0055\u0073\u0061\u0067\u0065']['\u0074\u006F\u0074\u0061\u006C']/100000*(824090^824190))['\u0074\u006F\u0046\u0069\u0078\u0065\u0064'](716406^716404)}%</b>\n`:''}`;_0x1a53ef=212455^212453;const _0x22c33f=`https://api.telegram.org/bot${BotToken}/sendMessage?chat_id=${ChatID}&parse_mode=HTML&text=${encodeURIComponent(_0xf31c)}`;return fetch(_0x22c33f,{"method":"\u0047\u0045\u0054","headers":{"\u0041\u0063\u0063\u0065\u0070\u0074":"\u0074\u0065\u0078\u0074\u002F\u0068\u0074\u006D\u006C\u002C\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0074\u0069\u006F\u006E\u002F\u0078\u0068\u0074\u006D\u006C\u002B\u0078\u006D\u006C\u002C\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0074\u0069\u006F\u006E\u002F\u0078\u006D\u006C\u003B","\u0041\u0063\u0063\u0065\u0070\u0074\u002D\u0045\u006E\u0063\u006F\u0064\u0069\u006E\u0067":"\u0067\u007A\u0069\u0070\u002C\u0020\u0064\u0065\u0066\u006C\u0061\u0074\u0065\u002C\u0020\u0062\u0072","\u0055\u0073\u0065\u0072\u002D\u0041\u0067\u0065\u006E\u0074":日志内容['\u0055\u0041']||"\u0055\u006E\u006B\u006E\u006F\u0077\u006E"}});}catch(error){console['\u0065\u0072\u0072\u006F\u0072'](":egassem gnidnes rorrE".split("").reverse().join(""),error);}}function 掩码敏感信息(文本,前缀长度=683520^683523,后缀长度=594842^594840){if(!文本||typeof 文本!=="\u0073\u0074\u0072\u0069\u006E\u0067")return 文本;if(文本['\u006C\u0065\u006E\u0067\u0074\u0068']<=前缀长度+后缀长度)return 文本;const _0xabf0ce=文本['\u0073\u006C\u0069\u0063\u0065'](167475^167475,前缀长度);var _0x217e;const _0x13_0x2ae=文本['\u0073\u006C\u0069\u0063\u0065'](-后缀长度);_0x217e=360697^360688;const _0x1e30d=文本['\u006C\u0065\u006E\u0067\u0074\u0068']-前缀长度-后缀长度;return`${_0xabf0ce}${"\u002A"['\u0072\u0065\u0070\u0065\u0061\u0074'](_0x1e30d)}${_0x13_0x2ae}`;}async function MD5MD5(文本){const _0x3c877a=new TextEncoder();const _0xf4169c=await crypto['\u0073\u0075\u0062\u0074\u006C\u0065']['\u0064\u0069\u0067\u0065\u0073\u0074']("5DM".split("").reverse().join(""),_0x3c877a['\u0065\u006E\u0063\u006F\u0064\u0065'](文本));const _0xeb3e=Array['\u0066\u0072\u006F\u006D'](new Uint8Array(_0xf4169c));const _0xa96b7e=_0xeb3e['\u006D\u0061\u0070'](字节=>字节['\u0074\u006F\u0053\u0074\u0072\u0069\u006E\u0067'](656869^656885)['\u0070\u0061\u0064\u0053\u0074\u0061\u0072\u0074'](541887^541885,"\u0030"))['\u006A\u006F\u0069\u006E']('');const _0x4bb6b=await crypto['\u0073\u0075\u0062\u0074\u006C\u0065']['\u0064\u0069\u0067\u0065\u0073\u0074']("\u004D\u0044\u0035",_0x3c877a['\u0065\u006E\u0063\u006F\u0064\u0065'](_0xa96b7e['\u0073\u006C\u0069\u0063\u0065'](416675^416676,827291^827264)));var _0xe8dg=(226510^226508)+(890777^890769);const _0x325ba=Array['\u0066\u0072\u006F\u006D'](new Uint8Array(_0x4bb6b));_0xe8dg=795128^795131;var _0xdec5b;const _0xf15gg=_0x325ba['\u006D\u0061\u0070'](字节=>字节['\u0074\u006F\u0053\u0074\u0072\u0069\u006E\u0067'](391796^391780)['\u0070\u0061\u0064\u0053\u0074\u0061\u0072\u0074'](410470^410468,"\u0030"))['\u006A\u006F\u0069\u006E']('');_0xdec5b="gflfjc".split("").reverse().join("");return _0xf15gg['\u0074\u006F\u004C\u006F\u0077\u0065\u0072\u0043\u0061\u0073\u0065']();}async function 读取config_JSON(env,host,userID,重置配置=false){var _0xa3f87a=(905233^905236)+(191430^191429);const _0x36c=performance['\u006E\u006F\u0077']();_0xa3f87a=(502882^502883)+(880292^880301);const _0x1bb95a={'\u0054\u0049\u004D\u0045':new Date()['\u0074\u006F\u0049\u0053\u004F\u0053\u0074\u0072\u0069\u006E\u0067'](),'\u0048\u004F\u0053\u0054':host,"UUID":userID,'\u534F\u8BAE\u7C7B\u578B':"\u0076"+"\u006C\u0065"+"\u0073\u0073",'\u4F20\u8F93\u534F\u8BAE':"\u0077\u0073","\u8DF3\u8FC7\u8BC1\u4E66\u9A8C\u8BC1":!![],'\u4F18\u9009\u8BA2\u9605\u751F\u6210':{'\u006C\u006F\u0063\u0061\u006C':!![],'\u672C\u5730\u0049\u0050\u5E93':{'\u968F\u673A\u0049\u0050':!![],'\u968F\u673A\u6570\u91CF':16},"SUB":null,'\u0053\u0055\u0042\u004E\u0041\u004D\u0045':"egde".split("").reverse().join("")+"\u0074\u0075\u006E\u006E\u0065\u006C",'\u0053\u0055\u0042\u0055\u0070\u0064\u0061\u0074\u0065\u0054\u0069\u006D\u0065':6,'\u0054\u004F\u004B\u0045\u004E':await MD5MD5(host+userID)},"\u8BA2\u9605\u8F6C\u6362\u914D\u7F6E":{"SUBAPI":"https://SUBAPI.cmliussss.net",'\u0053\u0055\u0042\u0043\u004F\u004E\u0046\u0049\u0047':"https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini",'\u0053\u0055\u0042\u0045\u004D\u004F\u004A\u0049':false},"\u53CD\u4EE3":{'\u0050\u0052\u004F\u0058\u0059\u0049\u0050':"\u0061\u0075\u0074\u006F",'\u0053\u004F\u0043\u004B\u0053\u0035':{'\u542F\u7528':启用SOCKS5反代,'\u5168\u5C40':启用SOCKS5全局反代,'\u8D26\u53F7':我的SOCKS5账号,'\u767D\u540D\u5355':SOCKS5白名单}},'\u0054\u0047':{"\u542F\u7528":false,"BotToken":null,"ChatID":null},"CF":{"Email":null,'\u0047\u006C\u006F\u0062\u0061\u006C\u0041\u0050\u0049\u004B\u0065\u0079':null,'\u0041\u0063\u0063\u006F\u0075\u006E\u0074\u0049\u0044':null,'\u0041\u0050\u0049\u0054\u006F\u006B\u0065\u006E':null,'\u0055\u0073\u0061\u0067\u0065':{'\u0073\u0075\u0063\u0063\u0065\u0073\u0073':false,'\u0070\u0061\u0067\u0065\u0073':0,'\u0077\u006F\u0072\u006B\u0065\u0072\u0073':0,"total":0}}};try{let _0x14_0x62e=await env['\u004B\u0056']['\u0067\u0065\u0074']("nosj.gifnoc".split("").reverse().join(""));if(!_0x14_0x62e||重置配置==!![]){await env['\u004B\u0056']['\u0070\u0075\u0074']("\u0063\u006F\u006E\u0066\u0069\u0067\u002E\u006A\u0073\u006F\u006E",JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079'](_0x1bb95a,null,803878^803876));config_JSON=_0x1bb95a;}else{config_JSON=JSON['\u0070\u0061\u0072\u0073\u0065'](_0x14_0x62e);}}catch(error){console['\u0065\u0072\u0072\u006F\u0072'](`读取config_JSON出错: ${error['\u006D\u0065\u0073\u0073\u0061\u0067\u0065']}`);config_JSON=_0x1bb95a;}config_JSON['\u0048\u004F\u0053\u0054']=host;config_JSON['\u0055\u0055\u0049\u0044']=userID;config_JSON['\u0050\u0041\u0054\u0048']=config_JSON.反代['\u0053\u004F\u0043\u004B\u0053\u0035'].启用?"\u002F"+config_JSON.反代['\u0053\u004F\u0043\u004B\u0053\u0035'].启用+(config_JSON.反代['\u0053\u004F\u0043\u004B\u0053\u0035'].全局?"\u003A\u002F\u002F":"\u003D")+config_JSON.反代['\u0053\u004F\u0043\u004B\u0053\u0035'].账号:config_JSON.反代['\u0050\u0052\u004F\u0058\u0059\u0049\u0050']==="otua".split("").reverse().join("")?"\u002F":`/proxyip=${config_JSON.反代['\u0050\u0052\u004F\u0058\u0059\u0049\u0050']}`;config_JSON['\u004C\u0049\u004E\u004B']=`${config_JSON.协议类型}://${userID}@${host}:443?security=tls&type=${config_JSON.传输协议}&host=${host}&sni=${host}&path=${encodeURIComponent(config_JSON['\u0050\u0041\u0054\u0048'])}&fragment=${encodeURIComponent("ollehslt,05-03,06-04,1".split("").reverse().join(""))}&encryption=none${config_JSON.跳过证书验证?"\u0026\u0061\u006C\u006C\u006F\u0077\u0049\u006E\u0073\u0065\u0063\u0075\u0072\u0065\u003D\u0031":''}#${encodeURIComponent(config_JSON.优选订阅生成['\u0053\u0055\u0042\u004E\u0041\u004D\u0045'])}`;config_JSON.优选订阅生成['\u0054\u004F\u004B\u0045\u004E']=await MD5MD5(host+userID);const _0x3101cb={'\u0042\u006F\u0074\u0054\u006F\u006B\u0065\u006E':null,'\u0043\u0068\u0061\u0074\u0049\u0044':null};config_JSON['\u0054\u0047']={"\u542F\u7528":config_JSON['\u0054\u0047'].启用?config_JSON['\u0054\u0047'].启用:false,..._0x3101cb};try{var _0xgba61g=(176144^176148)+(768584^768591);const _0x4ac=await env['\u004B\u0056']['\u0067\u0065\u0074']("\u0074\u0067\u002E\u006A\u0073\u006F\u006E");_0xgba61g='\u0065\u0067\u006D\u006F\u006E\u0062';if(!_0x4ac){await env['\u004B\u0056']['\u0070\u0075\u0074']("nosj.gt".split("").reverse().join(""),JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079'](_0x3101cb,null,730830^730828));}else{var _0x5abbb;const _0x2b87a=JSON['\u0070\u0061\u0072\u0073\u0065'](_0x4ac);_0x5abbb='\u0063\u006F\u006F\u0070\u0065\u0062';config_JSON['\u0054\u0047']['\u0043\u0068\u0061\u0074\u0049\u0044']=_0x2b87a['\u0043\u0068\u0061\u0074\u0049\u0044']?_0x2b87a['\u0043\u0068\u0061\u0074\u0049\u0044']:null;config_JSON['\u0054\u0047']['\u0042\u006F\u0074\u0054\u006F\u006B\u0065\u006E']=_0x2b87a['\u0042\u006F\u0074\u0054\u006F\u006B\u0065\u006E']?掩码敏感信息(_0x2b87a['\u0042\u006F\u0074\u0054\u006F\u006B\u0065\u006E']):null;}}catch(error){console['\u0065\u0072\u0072\u006F\u0072'](`读取tg.json出错: ${error['\u006D\u0065\u0073\u0073\u0061\u0067\u0065']}`);}const _0x6cbbf={'\u0045\u006D\u0061\u0069\u006C':null,"GlobalAPIKey":null,"AccountID":null,'\u0041\u0050\u0049\u0054\u006F\u006B\u0065\u006E':null};config_JSON['\u0043\u0046']={..._0x6cbbf,'\u0055\u0073\u0061\u0067\u0065':{'\u0073\u0075\u0063\u0063\u0065\u0073\u0073':false,'\u0070\u0061\u0067\u0065\u0073':0,'\u0077\u006F\u0072\u006B\u0065\u0072\u0073':0,"total":0}};try{var _0xbcb=(424647^424644)+(735195^735186);const _0xac51g=await env['\u004B\u0056']['\u0067\u0065\u0074']("\u0063\u0066\u002E\u006A\u0073\u006F\u006E");_0xbcb=(129930^129928)+(904350^904343);if(!_0xac51g){await env['\u004B\u0056']['\u0070\u0075\u0074']("\u0063\u0066\u002E\u006A\u0073\u006F\u006E",JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079'](_0x6cbbf,null,101257^101259));}else{const _0xa402f=JSON['\u0070\u0061\u0072\u0073\u0065'](_0xac51g);config_JSON['\u0043\u0046']['\u0045\u006D\u0061\u0069\u006C']=_0xa402f['\u0045\u006D\u0061\u0069\u006C']?_0xa402f['\u0045\u006D\u0061\u0069\u006C']:null;config_JSON['\u0043\u0046']['\u0047\u006C\u006F\u0062\u0061\u006C\u0041\u0050\u0049\u004B\u0065\u0079']=_0xa402f['\u0047\u006C\u006F\u0062\u0061\u006C\u0041\u0050\u0049\u004B\u0065\u0079']?掩码敏感信息(_0xa402f['\u0047\u006C\u006F\u0062\u0061\u006C\u0041\u0050\u0049\u004B\u0065\u0079']):null;config_JSON['\u0043\u0046']['\u0041\u0063\u0063\u006F\u0075\u006E\u0074\u0049\u0044']=_0xa402f['\u0041\u0063\u0063\u006F\u0075\u006E\u0074\u0049\u0044']?掩码敏感信息(_0xa402f['\u0041\u0063\u0063\u006F\u0075\u006E\u0074\u0049\u0044']):null;config_JSON['\u0043\u0046']['\u0041\u0050\u0049\u0054\u006F\u006B\u0065\u006E']=_0xa402f['\u0041\u0050\u0049\u0054\u006F\u006B\u0065\u006E']?掩码敏感信息(_0xa402f['\u0041\u0050\u0049\u0054\u006F\u006B\u0065\u006E']):null;var _0x3d3cb;const _0x515e9d=await getCloudflareUsage(_0xa402f['\u0045\u006D\u0061\u0069\u006C'],_0xa402f['\u0047\u006C\u006F\u0062\u0061\u006C\u0041\u0050\u0049\u004B\u0065\u0079'],_0xa402f['\u0041\u0063\u0063\u006F\u0075\u006E\u0074\u0049\u0044'],_0xa402f['\u0041\u0050\u0049\u0054\u006F\u006B\u0065\u006E']);_0x3d3cb=(160035^160033)+(517331^517331);config_JSON['\u0043\u0046']['\u0055\u0073\u0061\u0067\u0065']=_0x515e9d;}}catch(error){console['\u0065\u0072\u0072\u006F\u0072'](`读取cf.json出错: ${error['\u006D\u0065\u0073\u0073\u0061\u0067\u0065']}`);}config_JSON.加载时间=(performance['\u006E\u006F\u0077']()-_0x36c)['\u0074\u006F\u0046\u0069\u0078\u0065\u0064'](855556^855558)+"\u006D\u0073";return config_JSON;}async function 生成随机IP(request,count=588025^588009){const _0x32e0a={'9808':"\u0063\u006D\u0063\u0063",'4837':'cu','4134':"\u0063\u0074"},_0x8c1b=request['\u0063\u0066']['\u0061\u0073\u006E'];const _0x57a5c=_0x32e0a[_0x8c1b]?`https://raw.githubusercontent.com/cmliu/cmliu/main/CF-CIDR/${_0x32e0a[_0x8c1b]}.txt`:"\u0068\u0074\u0074\u0070\u0073\u003A\u002F\u002F\u0072\u0061\u0077\u002E\u0067\u0069\u0074\u0068\u0075\u0062\u0075\u0073\u0065\u0072\u0063\u006F\u006E\u0074\u0065\u006E\u0074\u002E\u0063\u006F\u006D\u002F\u0063\u006D\u006C\u0069\u0075\u002F\u0063\u006D\u006C\u0069\u0075\u002F\u006D\u0061\u0069\u006E\u002F\u0043\u0046\u002D\u0043\u0049\u0044\u0052\u002E\u0074\u0078\u0074";var _0x39g1c;const _0x5ad09d={'9808':"\u0043\u0046\u79FB\u52A8\u4F18\u9009",'4837':"\u0043\u0046\u8054\u901A\u4F18\u9009",'4134':'CF电信优选'}[_0x8c1b]||"\u0043\u0046\u5B98\u65B9\u4F18\u9009";_0x39g1c=(497038^497030)+(790669^790667);var _0x127gec=(942563^942567)+(727141^727143);let _0xff1a0c=[];_0x127gec='\u006F\u006F\u0061\u0062\u006E\u0067';try{const _0x5e2=await fetch(_0x57a5c);_0xff1a0c=_0x5e2['\u006F\u006B']?await 整理成数组(await _0x5e2['\u0074\u0065\u0078\u0074']()):["\u0031\u0030\u0034\u002E\u0031\u0036\u002E\u0030\u002E\u0030\u002F\u0031\u0033"];}catch{_0xff1a0c=["\u0031\u0030\u0034\u002E\u0031\u0036\u002E\u0030\u002E\u0030\u002F\u0031\u0033"];}var _0x275f;const _0xc6faf=cidr=>{const[baseIP,prefixLength]=cidr['\u0073\u0070\u006C\u0069\u0074']("\u002F"),_0xg979a=parseInt(prefixLength),_0xf4e5be=(632494^632462)-_0xg979a;const _0xe4_0x9d8=baseIP['\u0073\u0070\u006C\u0069\u0074']("\u002E")['\u0072\u0065\u0064\u0075\u0063\u0065']((a,p,i)=>a|parseInt(p)<<(801317^801341)-i*(741956^741964),861618^861618);const _0x142gd=Math['\u0066\u006C\u006F\u006F\u0072'](Math['\u0072\u0061\u006E\u0064\u006F\u006D']()*Math['\u0070\u006F\u0077'](963884^963886,_0xf4e5be));const _0xd95af=0xFFFFFFFF<<_0xf4e5be>>>(791284^791284),_0xdcb8fd=((_0xe4_0x9d8&_0xd95af)>>>(229890^229890))+_0x142gd>>>(253149^253149);return[_0xdcb8fd>>>(870858^870866)&(448287^448480),_0xdcb8fd>>>(651583^651567)&(892244^892331),_0xdcb8fd>>>(573202^573210)&(671789^671954),_0xdcb8fd&(924859^924740)]['\u006A\u006F\u0069\u006E']("\u002E");};_0x275f=999639^999636;var _0xc9ae=(645808^645809)+(873812^873812);const _0x1c6b=Array['\u0066\u0072\u006F\u006D']({'\u006C\u0065\u006E\u0067\u0074\u0068':count},()=>{var _0xe1a1aa=(188656^188662)+(607404^607397);const _0x8bd1c=_0xc6faf(_0xff1a0c[Math['\u0066\u006C\u006F\u006F\u0072'](Math['\u0072\u0061\u006E\u0064\u006F\u006D']()*_0xff1a0c['\u006C\u0065\u006E\u0067\u0074\u0068'])]);_0xe1a1aa=456382^456382;return`${_0x8bd1c}#${_0x5ad09d}`;});_0xc9ae=(536298^536296)+(299183^299179);return[_0x1c6b,_0x1c6b['\u006A\u006F\u0069\u006E']("\u000A")];}async function 整理成数组(内容){var _0xc0g6ca=内容['\u0072\u0065\u0070\u006C\u0061\u0063\u0065'](new RegExp('\u005B\u0009\u0022\u0027\u005C\u0072\u005C\u006E\u005D\u002B','\u0067'),"\u002C")['\u0072\u0065\u0070\u006C\u0061\u0063\u0065'](new RegExp('\u002C\u002B','\u0067'),"\u002C");if(_0xc0g6ca['\u0063\u0068\u0061\u0072\u0041\u0074'](217303^217303)=="\u002C")_0xc0g6ca=_0xc0g6ca['\u0073\u006C\u0069\u0063\u0065'](772893^772892);if(_0xc0g6ca['\u0063\u0068\u0061\u0072\u0041\u0074'](_0xc0g6ca['\u006C\u0065\u006E\u0067\u0074\u0068']-(411596^411597))=="\u002C")_0xc0g6ca=_0xc0g6ca['\u0073\u006C\u0069\u0063\u0065'](852257^852257,_0xc0g6ca['\u006C\u0065\u006E\u0067\u0074\u0068']-(800631^800630));const _0x26defb=_0xc0g6ca['\u0073\u0070\u006C\u0069\u0074']("\u002C");return _0x26defb;}async function 请求优选API(urls,默认端口="344".split("").reverse().join(""),超时时间=685219^687899){if(!urls?.length)return[];var _0x29417a=(134787^134794)+(781119^781112);const _0x0241c=new Set();_0x29417a=693450^693452;await Promise['\u0061\u006C\u006C\u0053\u0065\u0074\u0074\u006C\u0065\u0064'](urls['\u006D\u0061\u0070'](async url=>{try{const _0x81ef9c=new AbortController();var _0xdbc4b;const _0x5252be=setTimeout(()=>_0x81ef9c['\u0061\u0062\u006F\u0072\u0074'](),超时时间);_0xdbc4b=(645177^645168)+(673822^673816);const _0x34ff1d=await fetch(url,{"signal":_0x81ef9c['\u0073\u0069\u0067\u006E\u0061\u006C']});clearTimeout(_0x5252be);let _0x343e0c='';try{var _0xcb75b;const _0x257e1f=await _0x34ff1d['\u0061\u0072\u0072\u0061\u0079\u0042\u0075\u0066\u0066\u0065\u0072']();_0xcb75b=(899390^899389)+(918788^918797);var _0x125d8d=(443597^443599)+(529641^529644);const _0xef3d=(_0x34ff1d['\u0068\u0065\u0061\u0064\u0065\u0072\u0073']['\u0067\u0065\u0074']("\u0063\u006F\u006E\u0074\u0065\u006E\u0074\u002D\u0074\u0079\u0070\u0065")||'')['\u0074\u006F\u004C\u006F\u0077\u0065\u0072\u0043\u0061\u0073\u0065']();_0x125d8d=(986416^986425)+(790425^790426);const _0x74c9be=_0xef3d['\u006D\u0061\u0074\u0063\u0068'](new RegExp('\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003D\u0028\u005B\u005E\u005C\u0073\u003B\u005D\u002B\u0029','\u0069'))?.[508244^508245]?.toLowerCase()||'';let _0x489e6b=["8-ftu".split("").reverse().join(""),"2132bg".split("").reverse().join("")];if(_0x74c9be['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("bg".split("").reverse().join(""))||_0x74c9be['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u0067\u0062\u006B")||_0x74c9be['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u0067\u0062\u0032\u0033\u0031\u0032")){_0x489e6b=["2132bg".split("").reverse().join(""),"\u0075\u0074\u0066\u002D\u0038"];}let _0x1bg=false;for(const _0xg43d of _0x489e6b){try{const _0xe18dg=new TextDecoder(_0xg43d)['\u0064\u0065\u0063\u006F\u0064\u0065'](_0x257e1f);if(_0xe18dg&&_0xe18dg['\u006C\u0065\u006E\u0067\u0074\u0068']>(366062^366062)&&!_0xe18dg['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']('\ufffd')){_0x343e0c=_0xe18dg;_0x1bg=!![];break;}else if(_0xe18dg&&_0xe18dg['\u006C\u0065\u006E\u0067\u0074\u0068']>(382924^382924)){continue;}}catch(e){continue;}}if(!_0x1bg){_0x343e0c=await _0x34ff1d['\u0074\u0065\u0078\u0074']();}if(!_0x343e0c||_0x343e0c['\u0074\u0072\u0069\u006D']()['\u006C\u0065\u006E\u0067\u0074\u0068']===(323484^323484)){return;}}catch(e){console['\u0065\u0072\u0072\u006F\u0072']("\u0046\u0061\u0069\u006C\u0065\u0064\u0020\u0074\u006F\u0020\u0064\u0065\u0063\u006F\u0064\u0065\u0020\u0072\u0065\u0073\u0070\u006F\u006E\u0073\u0065\u003A",e);return;}const _0xae48da=_0x343e0c['\u0074\u0072\u0069\u006D']()['\u0073\u0070\u006C\u0069\u0074']("\u000A")['\u006D\u0061\u0070'](l=>l['\u0074\u0072\u0069\u006D']())['\u0066\u0069\u006C\u0074\u0065\u0072'](l=>l);const _0x2c3d=_0xae48da['\u006C\u0065\u006E\u0067\u0074\u0068']>(296570^296571)&&_0xae48da[258839^258839]['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u002C");var _0x19f=(774652^774653)+(329726^329725);const _0x6a7e=new RegExp('\u005E\u005B\u005E\u005C\u005B\u005C\u005D\u005D\u002A\u003A\u005B\u005E\u005C\u005B\u005C\u005D\u005D\u002A\u003A\u005B\u005E\u005C\u005B\u005C\u005D\u005D',"");_0x19f=775803^775805;if(!_0x2c3d){_0xae48da['\u0066\u006F\u0072\u0045\u0061\u0063\u0068'](line=>{var _0x6cff6a;const _0xda9gdd=line['\u0069\u006E\u0064\u0065\u0078\u004F\u0066']("\u0023");_0x6cff6a=421074^421075;const[hostPart,remark]=_0xda9gdd>-(963059^963058)?[line['\u0073\u0075\u0062\u0073\u0074\u0072\u0069\u006E\u0067'](581381^581381,_0xda9gdd),line['\u0073\u0075\u0062\u0073\u0074\u0072\u0069\u006E\u0067'](_0xda9gdd)]:[line,''];let _0x1dbeaf=false;if(hostPart['\u0073\u0074\u0061\u0072\u0074\u0073\u0057\u0069\u0074\u0068']("\u005B")){_0x1dbeaf=new RegExp("$)+d\\(:]\\".split("").reverse().join(""),"")['\u0074\u0065\u0073\u0074'](hostPart);}else{const _0xef_0xda7=hostPart['\u006C\u0061\u0073\u0074\u0049\u006E\u0064\u0065\u0078\u004F\u0066']("\u003A");_0x1dbeaf=_0xef_0xda7>-(306639^306638)&&new RegExp('\u005E\u005C\u0064\u002B\u0024',"")['\u0074\u0065\u0073\u0074'](hostPart['\u0073\u0075\u0062\u0073\u0074\u0072\u0069\u006E\u0067'](_0xef_0xda7+(890221^890220)));}const port=new URL(url)['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0067\u0065\u0074']("trop".split("").reverse().join(""))||默认端口;_0x0241c['\u0061\u0064\u0064'](_0x1dbeaf?line:`${hostPart}:${port}${remark}`);});}else{var _0x6ce;const _0xf4_0x959=_0xae48da[885279^885279]['\u0073\u0070\u006C\u0069\u0074']("\u002C")['\u006D\u0061\u0070'](h=>h['\u0074\u0072\u0069\u006D']());_0x6ce=402166^402166;var _0x1b8e;const _0xf359c=_0xae48da['\u0073\u006C\u0069\u0063\u0065'](857503^857502);_0x1b8e=(709058^709063)+(190649^190655);if(_0xf4_0x959['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u5740\u5730PI".split("").reverse().join(""))&&_0xf4_0x959['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u53E3\u7AEF".split("").reverse().join(""))&&_0xf4_0x959['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u5FC3\u4E2D\u636E\u6570".split("").reverse().join(""))){const ipIdx=_0xf4_0x959['\u0069\u006E\u0064\u0065\u0078\u004F\u0066']("\u0049\u0050\u5730\u5740"),_0x7191g=_0xf4_0x959['\u0069\u006E\u0064\u0065\u0078\u004F\u0066']("\u53E3\u7AEF".split("").reverse().join(""));const _0x126b=_0xf4_0x959['\u0069\u006E\u0064\u0065\u0078\u004F\u0066']("\u56FD\u5BB6")>-(566983^566982)?_0xf4_0x959['\u0069\u006E\u0064\u0065\u0078\u004F\u0066']("\u56FD\u5BB6"):_0xf4_0x959['\u0069\u006E\u0064\u0065\u0078\u004F\u0066']("\u57CE\u5E02")>-(768640^768641)?_0xf4_0x959['\u0069\u006E\u0064\u0065\u0078\u004F\u0066']("\u57CE\u5E02"):_0xf4_0x959['\u0069\u006E\u0064\u0065\u0078\u004F\u0066']("\u6570\u636E\u4E2D\u5FC3");_0xf359c['\u0066\u006F\u0072\u0045\u0061\u0063\u0068'](line=>{var _0x9b2=(377792^377794)+(861666^861664);const cols=line['\u0073\u0070\u006C\u0069\u0074']("\u002C")['\u006D\u0061\u0070'](c=>c['\u0074\u0072\u0069\u006D']());_0x9b2=(881610^881602)+(997440^997447);var _0x5228fb=(940863^940860)+(663425^663426);const wrappedIP=_0x6a7e['\u0074\u0065\u0073\u0074'](cols[ipIdx])?`[${cols[ipIdx]}]`:cols[ipIdx];_0x5228fb=(907321^907326)+(356250^356242);_0x0241c['\u0061\u0064\u0064'](`${wrappedIP}:${cols[_0x7191g]}#${cols[_0x126b]}`);});}else if(_0xf4_0x959['\u0073\u006F\u006D\u0065'](h=>h['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u0049\u0050"))&&_0xf4_0x959['\u0073\u006F\u006D\u0065'](h=>h['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u5EF6\u8FDF"))&&_0xf4_0x959['\u0073\u006F\u006D\u0065'](h=>h['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u5EA6\u901F\u8F7D\u4E0B".split("").reverse().join("")))){const ipIdx=_0xf4_0x959['\u0066\u0069\u006E\u0064\u0049\u006E\u0064\u0065\u0078'](h=>h['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("PI".split("").reverse().join("")));var _0x8e_0x7cc=(688968^688960)+(294201^294200);const _0xf3a83d=_0xf4_0x959['\u0066\u0069\u006E\u0064\u0049\u006E\u0064\u0065\u0078'](h=>h['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u8FDF\u5EF6".split("").reverse().join("")));_0x8e_0x7cc="gbnkmj".split("").reverse().join("");const _0xb2442f=_0xf4_0x959['\u0066\u0069\u006E\u0064\u0049\u006E\u0064\u0065\u0078'](h=>h['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u5EA6\u901F\u8F7D\u4E0B".split("").reverse().join("")));const port=new URL(url)['\u0073\u0065\u0061\u0072\u0063\u0068\u0050\u0061\u0072\u0061\u006D\u0073']['\u0067\u0065\u0074']("\u0070\u006F\u0072\u0074")||默认端口;_0xf359c['\u0066\u006F\u0072\u0045\u0061\u0063\u0068'](line=>{const cols=line['\u0073\u0070\u006C\u0069\u0074']("\u002C")['\u006D\u0061\u0070'](c=>c['\u0074\u0072\u0069\u006D']());const wrappedIP=_0x6a7e['\u0074\u0065\u0073\u0074'](cols[ipIdx])?`[${cols[ipIdx]}]`:cols[ipIdx];_0x0241c['\u0061\u0064\u0064'](`${wrappedIP}:${port}#CF优选 ${cols[_0xf3a83d]}ms ${cols[_0xb2442f]}MB/s`);});}}}catch(e){}}));return Array['\u0066\u0072\u006F\u006D'](_0x0241c);}async function 反代参数获取(request,_0x5d132b){const _0xg4aa3a=new URL(request['\u0075\u0072\u006C']);const{"pathname":pathname,"searchParams":searchParams}=_0xg4aa3a;const _0x1ge33f=pathname['\u0074\u006F\u004C\u006F\u0077\u0065\u0072\u0043\u0061\u0073\u0065']();我的SOCKS5账号=searchParams['\u0067\u0065\u0074']("\u0073\u006F\u0063\u006B\u0073\u0035")||searchParams['\u0067\u0065\u0074']("\u0068\u0074\u0074\u0070")||我的SOCKS5账号;启用SOCKS5全局反代=searchParams['\u0068\u0061\u0073']("yxorplabolg".split("").reverse().join(""))||启用SOCKS5全局反代;var _0x6416b=(520443^520444)+(221781^221789);const _0x2a5cg=_0x1ge33f['\u006D\u0061\u0074\u0063\u0068'](new RegExp(")+.()=pi|=piyp|]=.[piyxorp(/\\".split("").reverse().join(""),""));_0x6416b=(507937^507943)+(724926^724919);if(searchParams['\u0068\u0061\u0073']("\u0070\u0072\u006F\u0078\u0079\u0069\u0070")){反代IP=searchParams['\u0067\u0065\u0074']("\u0070\u0072\u006F\u0078\u0079\u0069\u0070");return;}else if(_0x2a5cg){反代IP=_0x2a5cg[685243^685242]==="\u0070\u0072\u006F\u0078\u0079\u0069\u0070\u002E"?`proxyip.${_0x2a5cg[171060^171062]}`:_0x2a5cg[200099^200097];return;}if(_0x5d132b=pathname['\u006D\u0061\u0074\u0063\u0068'](new RegExp('\u005C\u002F\u0028\u0073\u006F\u0063\u006B\u0073\u0035\u003F\u007C\u0068\u0074\u0074\u0070\u0029\u003A\u005C\u002F\u003F\u005C\u002F\u003F\u0028\u002E\u002B\u0029','\u0069'))){启用SOCKS5反代=_0x5d132b[364513^364512]['\u0074\u006F\u004C\u006F\u0077\u0065\u0072\u0043\u0061\u0073\u0065']()==="\u0068\u0074\u0074\u0070"?"\u0068\u0074\u0074\u0070":"\u0073\u006F\u0063\u006B\u0073\u0035";我的SOCKS5账号=_0x5d132b[746945^746947]['\u0073\u0070\u006C\u0069\u0074']("\u0023")[284983^284983];启用SOCKS5全局反代=!![];if(我的SOCKS5账号['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u0040")){var _0x867fcb=(185875^185878)+(169036^169034);const _0xc1c=我的SOCKS5账号['\u006C\u0061\u0073\u0074\u0049\u006E\u0064\u0065\u0078\u004F\u0066']("\u0040");_0x867fcb=(192790^192788)+(689724^689724);var _0x3aa84b=(671275^671275)+(323386^323384);let _0x2321c=我的SOCKS5账号['\u0073\u0075\u0062\u0073\u0074\u0072\u0069\u006E\u0067'](204820^204820,_0xc1c)['\u0072\u0065\u0070\u006C\u0061\u0063\u0065\u0041\u006C\u006C']("D3%".split("").reverse().join(""),"\u003D");_0x3aa84b=727741^727740;if(new RegExp('\u005E\u0028\u003F\u003A\u005B\u0041\u002D\u005A\u0030\u002D\u0039\u002B\u002F\u005D\u007B\u0034\u007D\u0029\u002A\u0028\u003F\u003A\u005B\u0041\u002D\u005A\u0030\u002D\u0039\u002B\u002F\u005D\u007B\u0032\u007D\u003D\u003D\u007C\u005B\u0041\u002D\u005A\u0030\u002D\u0039\u002B\u002F\u005D\u007B\u0033\u007D\u003D\u0029\u003F\u0024','\u0069')['\u0074\u0065\u0073\u0074'](_0x2321c)&&!_0x2321c['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u003A")){_0x2321c=atob(_0x2321c);}我的SOCKS5账号=`${_0x2321c}@${我的SOCKS5账号['\u0073\u0075\u0062\u0073\u0074\u0072\u0069\u006E\u0067'](_0xc1c+(464372^464373))}`;}}else if(_0x5d132b=pathname['\u006D\u0061\u0074\u0063\u0068'](new RegExp(")+.(=)ptth?g|5skcos|5s?g(/\\".split("").reverse().join(""),'\u0069'))){const _0x455dd=_0x5d132b[442937^442936]['\u0074\u006F\u004C\u006F\u0077\u0065\u0072\u0043\u0061\u0073\u0065']();我的SOCKS5账号=_0x5d132b[391585^391587];启用SOCKS5反代=_0x455dd['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("ptth".split("").reverse().join(""))?"ptth".split("").reverse().join(""):"\u0073\u006F\u0063\u006B\u0073\u0035";启用SOCKS5全局反代=_0x455dd['\u0073\u0074\u0061\u0072\u0074\u0073\u0057\u0069\u0074\u0068']("\u0067")||启用SOCKS5全局反代;}if(我的SOCKS5账号){try{parsedSocks5Address=await 获取SOCKS5账号(我的SOCKS5账号);启用SOCKS5反代=searchParams['\u0067\u0065\u0074']("\u0068\u0074\u0074\u0070")?"\u0068\u0074\u0074\u0070":启用SOCKS5反代;}catch(err){console['\u0065\u0072\u0072\u006F\u0072'](":\u8D25\u5931\u5740\u57305SKCOS\u6790\u89E3".split("").reverse().join(""),err['\u006D\u0065\u0073\u0073\u0061\u0067\u0065']);启用SOCKS5反代=null;}}}async function 获取SOCKS5账号(address){if(address['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u0040")){var _0xdc7c=(169549^169545)+(267260^267260);const _0xgb4ag=address['\u006C\u0061\u0073\u0074\u0049\u006E\u0064\u0065\u0078\u004F\u0066']("\u0040");_0xdc7c=(941456^941458)+(709924^709932);var _0x3c43d;let _0xeae=address['\u0073\u0075\u0062\u0073\u0074\u0072\u0069\u006E\u0067'](284002^284002,_0xgb4ag)['\u0072\u0065\u0070\u006C\u0061\u0063\u0065\u0041\u006C\u006C']("\u0025\u0033\u0044","\u003D");_0x3c43d='\u0061\u006A\u0065\u0062\u006C\u0067';var _0xf8g11d=(921274^921275)+(890885^890892);const _0x1c09e=new RegExp('\u005E\u0028\u003F\u003A\u005B\u0041\u002D\u005A\u0030\u002D\u0039\u002B\u002F\u005D\u007B\u0034\u007D\u0029\u002A\u0028\u003F\u003A\u005B\u0041\u002D\u005A\u0030\u002D\u0039\u002B\u002F\u005D\u007B\u0032\u007D\u003D\u003D\u007C\u005B\u0041\u002D\u005A\u0030\u002D\u0039\u002B\u002F\u005D\u007B\u0033\u007D\u003D\u0029\u003F\u0024','\u0069');_0xf8g11d=(587628^587626)+(811913^811916);if(_0x1c09e['\u0074\u0065\u0073\u0074'](_0xeae)&&!_0xeae['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u003A"))_0xeae=atob(_0xeae);address=`${_0xeae}@${address['\u0073\u0075\u0062\u0073\u0074\u0072\u0069\u006E\u0067'](_0xgb4ag+(302225^302224))}`;}const _0x6eg=address['\u006C\u0061\u0073\u0074\u0049\u006E\u0064\u0065\u0078\u004F\u0066']("\u0040");const[hostPart,authPart]=_0x6eg===-(643278^643279)?[address,undefined]:[address['\u0073\u0075\u0062\u0073\u0074\u0072\u0069\u006E\u0067'](_0x6eg+(404616^404617)),address['\u0073\u0075\u0062\u0073\u0074\u0072\u0069\u006E\u0067'](825784^825784,_0x6eg)];let _0x9e1c7e,_0xe83f;if(authPart){[username,password]=authPart['\u0073\u0070\u006C\u0069\u0074']("\u003A");if(!_0xe83f)throw new Error("\u5F0F\u5F62\u7684 \"drowssap:emanresu\" \u662F\u987B\u5FC5\u5206\u90E8\u8BC1\u8BA4\uFF1A\u5F0F\u683C\u5740\u5730 SKCOS \u7684\u6548\u65E0".split("").reverse().join(""));}let _0xba723a,_0x5d06ea;if(hostPart['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u005D\u003A")){[hostname,port]=[hostPart['\u0073\u0070\u006C\u0069\u0074']("\u005D\u003A")[758538^758538]+"\u005D",Number(hostPart['\u0073\u0070\u006C\u0069\u0074'](":]".split("").reverse().join(""))[730104^730105]['\u0072\u0065\u0070\u006C\u0061\u0063\u0065'](new RegExp('\u005B\u005E\u005C\u0064\u005D','\u0067'),''))];}else if(hostPart['\u0073\u0074\u0061\u0072\u0074\u0073\u0057\u0069\u0074\u0068']("\u005B")){[hostname,port]=[hostPart,879270^879350];}else{const _0x8fb24f=hostPart['\u0073\u0070\u006C\u0069\u0074']("\u003A");[hostname,port]=_0x8fb24f['\u006C\u0065\u006E\u0067\u0074\u0068']===(670835^670833)?[_0x8fb24f[885152^885152],Number(_0x8fb24f[390818^390819]['\u0072\u0065\u0070\u006C\u0061\u0063\u0065'](new RegExp('\u005B\u005E\u005C\u0064\u005D','\u0067'),''))]:[hostPart,404694^404614];}if(isNaN(_0x5d06ea))throw new Error("\u5B57\u6570\u662F\u987B\u5FC5\u53F7\u53E3\u7AEF\uFF1A\u5F0F\u683C\u5740\u5730 SKCOS \u7684\u6548\u65E0".split("").reverse().join(""));if(_0xba723a['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u003A")&&!new RegExp('\u005E\u005C\u005B\u002E\u002A\u005C\u005D\u0024',"")['\u0074\u0065\u0073\u0074'](_0xba723a))throw new Error("\u65E0\u6548\u7684\u0020\u0053\u004F\u0043\u004B\u0053\u0020\u5730\u5740\u683C\u5F0F\uFF1A\u0049\u0050\u0076\u0036\u0020\u5730\u5740\u5FC5\u987B\u7528\u65B9\u62EC\u53F7\u62EC\u8D77\u6765\uFF0C\u5982\u0020\u005B\u0032\u0030\u0030\u0031\u003A\u0064\u0062\u0038\u003A\u003A\u0031\u005D");return{"username":_0x9e1c7e,'\u0070\u0061\u0073\u0073\u0077\u006F\u0072\u0064':_0xe83f,"hostname":_0xba723a,'\u0070\u006F\u0072\u0074':_0x5d06ea};}async function getCloudflareUsage(Email,GlobalAPIKey,AccountID,APIToken,_0xe1g7f){var _0x582aa=(474211^474212)+(289032^289034);_0xe1g7f="\u0068\u0074\u0074\u0070\u0073\u003A\u002F\u002F\u0061\u0070\u0069\u002E\u0063\u006C\u006F\u0075\u0064\u0066\u006C\u0061\u0072\u0065\u002E\u0063\u006F\u006D\u002F\u0063\u006C\u0069\u0065\u006E\u0074\u002F\u0076\u0034";_0x582aa='\u0063\u0064\u006F\u0063\u0071\u0071';const _0xcga=a=>a?.reduce((t,i)=>t+(i?.sum?.requests||181650^181650),329648^329648)||123356^123356;const _0xec463e={"Content-Type":"\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0074\u0069\u006F\u006E\u002F\u006A\u0073\u006F\u006E"};try{if(!AccountID&&(!Email||!GlobalAPIKey))return{"success":false,'\u0070\u0061\u0067\u0065\u0073':0,'\u0077\u006F\u0072\u006B\u0065\u0072\u0073':0,"total":0};if(!AccountID){const r=await fetch(`${_0xe1g7f}/accounts`,{'\u006D\u0065\u0074\u0068\u006F\u0064':"GET",'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':{..._0xec463e,"\u0058\u002D\u0041\u0055\u0054\u0048\u002D\u0045\u004D\u0041\u0049\u004C":Email,"X-AUTH-KEY":GlobalAPIKey}});if(!r['\u006F\u006B'])throw new Error(`账户获取失败: ${r['\u0073\u0074\u0061\u0074\u0075\u0073']}`);const d=await r['\u006A\u0073\u006F\u006E']();if(!d?.result?.length)throw new Error("\u672A\u627E\u5230\u8D26\u6237");var _0xe88c=(723558^723557)+(822350^822348);const _0x41131c=d['\u0072\u0065\u0073\u0075\u006C\u0074']['\u0066\u0069\u006E\u0064\u0049\u006E\u0064\u0065\u0078'](a=>a['\u006E\u0061\u006D\u0065']?.toLowerCase().startsWith(Email['\u0074\u006F\u004C\u006F\u0077\u0065\u0072\u0043\u0061\u0073\u0065']()));_0xe88c=544016^544023;AccountID=d['\u0072\u0065\u0073\u0075\u006C\u0074'][_0x41131c>=(202812^202812)?_0x41131c:414777^414777]?.id;}var _0x88adc;const _0xg2bgfe=new Date();_0x88adc='\u0070\u0068\u006B\u006F\u006C\u006C';_0xg2bgfe['\u0073\u0065\u0074\u0055\u0054\u0043\u0048\u006F\u0075\u0072\u0073'](437637^437637,632237^632237,789095^789095,800601^800601);const _0xf4c=APIToken?{..._0xec463e,"\u0041\u0075\u0074\u0068\u006F\u0072\u0069\u007A\u0061\u0074\u0069\u006F\u006E":`Bearer ${APIToken}`}:{..._0xec463e,"\u0058\u002D\u0041\u0055\u0054\u0048\u002D\u0045\u004D\u0041\u0049\u004C":Email,"\u0058\u002D\u0041\u0055\u0054\u0048\u002D\u004B\u0045\u0059":GlobalAPIKey};var _0x089eb=(823621^823618)+(774267^774258);const _0x557gff=await fetch(`${_0xe1g7f}/graphql`,{'\u006D\u0065\u0074\u0068\u006F\u0064':"\u0050\u004F\u0053\u0054",'\u0068\u0065\u0061\u0064\u0065\u0072\u0073':_0xf4c,'\u0062\u006F\u0064\u0079':JSON['\u0073\u0074\u0072\u0069\u006E\u0067\u0069\u0066\u0079']({'\u0071\u0075\u0065\u0072\u0079':`query getBillingMetrics($AccountID: String!, $filter: AccountWorkersInvocationsAdaptiveFilter_InputObject) {
+import { connect } from "cloudflare:sockets";
+let config_JSON, 反代IP = '', 启用SOCKS5反代 = null, 启用SOCKS5全局反代 = false, 我的SOCKS5账号 = '', parsedSocks5Address = {};
+let SOCKS5白名单 = ['*tapecontent.net', '*cloudatacdn.com', '*loadshare.org', '*cdn-centaurus.com', 'scholar.google.com'];
+const Pages静态页面 = 'https://edt-pages.github.io';
+///////////////////////////////////////////////////////stallTCP参数///////////////////////////////////////////////
+const MAX_PENDING = 8 * 1024 * 1024,  // 最大缓冲大小（字节）：8MB，超过此值将触发背压控制，防止内存溢出
+    KEEPALIVE = 15000,           // 心跳保活间隔（毫秒）：15秒，定期向服务器发送空包保持连接活跃
+    STALL_TIMEOUT = 8000,        // 连接停滞检测超时（毫秒）：8秒，检测数据流是否中断
+    MAX_STALL = 12,              // 最大连续停滞次数：触发12次停滞后将重新连接（12 × 8秒 = 96秒）
+    MAX_RECONNECT = 24;          // 最大重连尝试次数：超过24次重连失败后关闭连接
+///////////////////////////////////////////////////////主程序入口///////////////////////////////////////////////
+export default {
+    async fetch(request, env) {
+        const url = new URL(request.url);
+        const UA = request.headers.get('User-Agent') || 'null';
+        const upgradeHeader = request.headers.get('Upgrade');
+        const 管理员密码 = env.ADMIN || env.admin || env.UUID || env.uuid || env.PASSWORD || env.password || env.pswd || env.TOKEN || env.KEY;
+        const 加密秘钥 = env.KEY || '勿动此默认密钥，有需求请自行通过添加变量KEY进行修改';
+        const userIDMD5 = await MD5MD5(管理员密码 + 加密秘钥);
+        const userID = [userIDMD5.slice(0, 8), userIDMD5.slice(8, 12), '4' + userIDMD5.slice(13, 16), userIDMD5.slice(16, 20), userIDMD5.slice(20)].join('-');
+        反代IP = 反代IP ? 反代IP : request.cf.colo + '.PrOxYIp.CmLiUsSsS.nEt';
+        const 访问IP = request.headers.get('X-Real-IP') || request.headers.get('CF-Connecting-IP') || request.headers.get('X-Forwarded-For') || request.headers.get('True-Client-IP') || request.headers.get('Fly-Client-IP') || request.headers.get('X-Appengine-Remote-Addr') || request.headers.get('X-Forwarded-For') || request.headers.get('X-Real-IP') || request.headers.get('X-Cluster-Client-IP') || request.cf?.clientTcpRtt || '未知IP';
+        if (env.GO2SOCKS5) SOCKS5白名单 = await 整理成数组(env.GO2SOCKS5);
+        if (!upgradeHeader || upgradeHeader !== 'websocket') {
+            if (url.protocol === 'http:') return Response.redirect(url.href.replace(`http://${url.hostname}`, `https://${url.hostname}`), 301);
+            if (!管理员密码) return fetch(Pages静态页面 + '/noADMIN').then(r => { const headers = new Headers(r.headers); headers.set('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate'); headers.set('Pragma', 'no-cache'); headers.set('Expires', '0'); return new Response(r.body, { status: 404, statusText: r.statusText, headers }); });
+            if (!env.KV) return fetch(Pages静态页面 + '/noKV').then(r => { const headers = new Headers(r.headers); headers.set('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate'); headers.set('Pragma', 'no-cache'); headers.set('Expires', '0'); return new Response(r.body, { status: 404, statusText: r.statusText, headers }); });
+            const 访问路径 = url.pathname.slice(1).toLowerCase();
+            const 区分大小写访问路径 = url.pathname.slice(1);
+            if (访问路径 === 加密秘钥 && 加密秘钥 !== '勿动此默认密钥，有需求请自行通过添加变量KEY进行修改') {//快速订阅
+                return new Response('重定向中...', { status: 302, headers: { 'Location': `/sub?token=${await MD5MD5(url.host + userID)}` } });
+            } else if (访问路径 === 'login') {//处理登录页面和登录请求
+                const cookies = request.headers.get('Cookie') || '';
+                const authCookie = cookies.split(';').find(c => c.trim().startsWith('auth='))?.split('=')[1];
+                if (authCookie == await MD5MD5(UA + 加密秘钥 + 管理员密码)) return new Response('重定向中...', { status: 302, headers: { 'Location': '/admin' } });
+                if (request.method === 'POST') {
+                    const formData = await request.text();
+                    const params = new URLSearchParams(formData);
+                    const 输入密码 = params.get('password');
+                    if (输入密码 === 管理员密码) {
+                        // 密码正确，设置cookie并返回成功标记
+                        const 响应 = new Response(JSON.stringify({ success: true }), { status: 200, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                        响应.headers.set('Set-Cookie', `auth=${await MD5MD5(UA + 加密秘钥 + 管理员密码)}; Path=/; Max-Age=86400; HttpOnly`);
+                        return 响应;
+                    }
+                }
+                return fetch(Pages静态页面 + '/login');
+            } else if (访问路径.startsWith('admin')) {//验证cookie后响应管理页面
+                const cookies = request.headers.get('Cookie') || '';
+                const authCookie = cookies.split(';').find(c => c.trim().startsWith('auth='))?.split('=')[1];
+                // 没有cookie或cookie错误，跳转到/login页面
+                if (!authCookie || authCookie !== await MD5MD5(UA + 加密秘钥 + 管理员密码)) return new Response('重定向中...', { status: 302, headers: { 'Location': '/login' } });
+                if (访问路径 === 'admin/log.json') {// 读取日志内容
+                    const 读取日志内容 = await env.KV.get('log.json') || '[]';
+                    return new Response(读取日志内容, { status: 200, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                } else if (区分大小写访问路径 === 'admin/getCloudflareUsage') {// 查询请求量
+                    try {
+                        const Usage_JSON = await getCloudflareUsage(url.searchParams.get('Email'), url.searchParams.get('GlobalAPIKey'), url.searchParams.get('AccountID'), url.searchParams.get('APIToken'));
+                        return new Response(JSON.stringify(Usage_JSON, null, 2), { status: 200, headers: { 'Content-Type': 'application/json' } });
+                    } catch (err) {
+                        const errorResponse = { msg: '查询请求量失败，失败原因：' + err.message, error: err.message };
+                        return new Response(JSON.stringify(errorResponse, null, 2), { status: 500, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                    }
+                } else if (区分大小写访问路径 === 'admin/getADDAPI') {// 验证优选API
+                    if (url.searchParams.get('url')) {
+                        const 待验证优选URL = url.searchParams.get('url');
+                        try {
+                            new URL(待验证优选URL);
+                            const 优选API的IP = await 请求优选API([待验证优选URL], url.searchParams.get('port') || '443');
+                            return new Response(JSON.stringify({ success: true, data: 优选API的IP }, null, 2), { status: 200, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                        } catch (err) {
+                            const errorResponse = { msg: '验证优选API失败，失败原因：' + err.message, error: err.message };
+                            return new Response(JSON.stringify(errorResponse, null, 2), { status: 500, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                        }
+                    }
+                    return new Response(JSON.stringify({ success: false, data: [] }, null, 2), { status: 403, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                } else if (访问路径 === 'admin/check') {// SOCKS5代理检查
+                    let 检测代理响应;
+                    if (url.searchParams.has('socks5')) {
+                        检测代理响应 = await SOCKS5可用性验证('socks5', url.searchParams.get('socks5'));
+                    } else if (url.searchParams.has('http')) {
+                        检测代理响应 = await SOCKS5可用性验证('http', url.searchParams.get('http'));
+                    } else {
+                        return new Response(JSON.stringify({ error: '缺少代理参数' }), { status: 400, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                    }
+                    return new Response(JSON.stringify(检测代理响应, null, 2), { status: 200, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                }
+
+                config_JSON = await 读取config_JSON(env, url.host, userID);
+
+                if (访问路径 === 'admin/init') {// 重置配置为默认值
+                    try {
+                        config_JSON = await 读取config_JSON(env, url.host, userID, true);
+                        await 请求日志记录(env, request, 访问IP, 'Init_Config', config_JSON);
+                        config_JSON.init = '配置已重置为默认值';
+                        return new Response(JSON.stringify(config_JSON, null, 2), { status: 200, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                    } catch (err) {
+                        const errorResponse = { msg: '配置重置失败，失败原因：' + err.message, error: err.message };
+                        return new Response(JSON.stringify(errorResponse, null, 2), { status: 500, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                    }
+                } else if (request.method === 'POST') {// 处理 KV 操作（POST 请求）
+                    if (访问路径 === 'admin/config.json') { // 保存config.json配置
+                        try {
+                            const newConfig = await request.json();
+                            // 验证配置完整性
+                            if (!newConfig.UUID || !newConfig.HOST) return new Response(JSON.stringify({ error: '配置不完整' }), { status: 400, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+
+                            // 保存到 KV
+                            await env.KV.put('config.json', JSON.stringify(newConfig, null, 2));
+                            await 请求日志记录(env, request, 访问IP, 'Save_Config', config_JSON);
+                            return new Response(JSON.stringify({ success: true, message: '配置已保存' }), { status: 200, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                        } catch (error) {
+                            console.error('保存配置失败:', error);
+                            return new Response(JSON.stringify({ error: '保存配置失败: ' + error.message }), { status: 500, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                        }
+                    } else if (访问路径 === 'admin/cf.json') { // 保存cf.json配置
+                        try {
+                            const newConfig = await request.json();
+                            const CF_JSON = { Email: null, GlobalAPIKey: null, AccountID: null, APIToken: null };
+                            if (!newConfig.init || newConfig.init !== true) {
+                                if (newConfig.Email && newConfig.GlobalAPIKey) {
+                                    CF_JSON.Email = newConfig.Email;
+                                    CF_JSON.GlobalAPIKey = newConfig.GlobalAPIKey;
+                                    CF_JSON.AccountID = null;
+                                    CF_JSON.APIToken = null;
+                                } else if (newConfig.AccountID && newConfig.APIToken) {
+                                    CF_JSON.Email = null;
+                                    CF_JSON.GlobalAPIKey = null;
+                                    CF_JSON.AccountID = newConfig.AccountID;
+                                    CF_JSON.APIToken = newConfig.APIToken;
+                                } else {
+                                    return new Response(JSON.stringify({ error: '配置不完整' }), { status: 400, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                                }
+                            }
+
+                            // 保存到 KV
+                            await env.KV.put('cf.json', JSON.stringify(CF_JSON, null, 2));
+                            await 请求日志记录(env, request, 访问IP, 'Save_Config', config_JSON);
+                            return new Response(JSON.stringify({ success: true, message: '配置已保存' }), { status: 200, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                        } catch (error) {
+                            console.error('保存配置失败:', error);
+                            return new Response(JSON.stringify({ error: '保存配置失败: ' + error.message }), { status: 500, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                        }
+                    } else if (访问路径 === 'admin/tg.json') { // 保存tg.json配置
+                        try {
+                            const newConfig = await request.json();
+                            if (newConfig.init && newConfig.init === true) {
+                                const TG_JSON = { BotToken: null, ChatID: null };
+                                await env.KV.put('tg.json', JSON.stringify(TG_JSON, null, 2));
+                            } else {
+                                if (!newConfig.BotToken || !newConfig.ChatID) return new Response(JSON.stringify({ error: '配置不完整' }), { status: 400, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                                await env.KV.put('tg.json', JSON.stringify(newConfig, null, 2));
+                            }
+                            await 请求日志记录(env, request, 访问IP, 'Save_Config', config_JSON);
+                            return new Response(JSON.stringify({ success: true, message: '配置已保存' }), { status: 200, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                        } catch (error) {
+                            console.error('保存配置失败:', error);
+                            return new Response(JSON.stringify({ error: '保存配置失败: ' + error.message }), { status: 500, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                        }
+                    } else if (区分大小写访问路径 === 'admin/ADD.txt') { // 保存自定义优选IP
+                        try {
+                            const customIPs = await request.text();
+                            await env.KV.put('ADD.txt', customIPs);// 保存到 KV
+                            await 请求日志记录(env, request, 访问IP, 'Save_Custom_IPs', config_JSON);
+                            return new Response(JSON.stringify({ success: true, message: '自定义IP已保存' }), { status: 200, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                        } catch (error) {
+                            console.error('保存自定义IP失败:', error);
+                            return new Response(JSON.stringify({ error: '保存自定义IP失败: ' + error.message }), { status: 500, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                        }
+                    } else return new Response(JSON.stringify({ error: '不支持的POST请求路径' }), { status: 404, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                } else if (访问路径 === 'admin/config.json') {// 处理 admin/config.json 请求，返回JSON
+                    return new Response(JSON.stringify(config_JSON, null, 2), { status: 200, headers: { 'Content-Type': 'application/json' } });
+                } else if (区分大小写访问路径 === 'admin/ADD.txt') {// 处理 admin/ADD.txt 请求，返回本地优选IP
+                    let 本地优选IP = await env.KV.get('ADD.txt') || 'null';
+                    if (本地优选IP == 'null') 本地优选IP = (await 生成随机IP(request, config_JSON.优选订阅生成.本地IP库.随机数量))[1];
+                    return new Response(本地优选IP, { status: 200, headers: { 'Content-Type': 'text/plain;charset=utf-8', 'asn': request.cf.asn } });
+                } else if (访问路径 === 'admin/cf.json') {// CF配置文件
+                    return new Response(JSON.stringify(request.cf, null, 2), { status: 200, headers: { 'Content-Type': 'application/json;charset=utf-8' } });
+                }
+
+                await 请求日志记录(env, request, 访问IP, 'Admin_Login', config_JSON);
+                return fetch(Pages静态页面 + '/admin');
+            } else if (访问路径 === 'logout') {//清除cookie并跳转到登录页面
+                const 响应 = new Response('重定向中...', { status: 302, headers: { 'Location': '/login' } });
+                响应.headers.set('Set-Cookie', 'auth=; Path=/; Max-Age=0; HttpOnly');
+                return 响应;
+            } else if (访问路径 === 'sub') {//处理订阅请求
+                const 订阅TOKEN = await MD5MD5(url.host + userID);
+                if (url.searchParams.get('token') === 订阅TOKEN) {
+                    config_JSON = await 读取config_JSON(env, url.host, userID);
+                    await 请求日志记录(env, request, 访问IP, 'Get_SUB', config_JSON);
+                    const ua = UA.toLowerCase();
+                    const expire = 4102329600;//2099-12-31 到期时间
+                    const now = Date.now();
+                    const today = new Date(now);
+                    today.setHours(0, 0, 0, 0);
+                    const UD = Math.floor(((now - today.getTime()) / 86400000) * 24 * 1099511627776 / 2);
+                    let pagesSum = UD, workersSum = UD, total = 24 * 1099511627776;
+                    if (config_JSON.CF.Usage.success) {
+                        pagesSum = config_JSON.CF.Usage.pages;
+                        workersSum = config_JSON.CF.Usage.workers;
+                        total = 1024 * 100;
+                    }
+                    const responseHeaders = {
+                        "content-type": "text/plain; charset=utf-8",
+                        "Profile-Update-Interval": config_JSON.优选订阅生成.SUBUpdateTime,
+                        "Profile-web-page-url": url.protocol + '//' + url.host + '/admin',
+                        "Subscription-Userinfo": `upload=${pagesSum}; download=${workersSum}; total=${total}; expire=${expire}`,
+                        "Cache-Control": "no-store",
+                    };
+                    const isSubConverterRequest = request.headers.has('b64') || request.headers.has('base64') || request.headers.get('subconverter-request') || request.headers.get('subconverter-version') || ua.includes('subconverter') || ua.includes(('CF-Workers-SUB').toLowerCase());
+                    const 订阅类型 = isSubConverterRequest
+                        ? 'mixed'
+                        : url.searchParams.has('target')
+                            ? url.searchParams.get('target')
+                            : url.searchParams.has('clash') || ua.includes('clash') || ua.includes('meta') || ua.includes('mihomo')
+                                ? 'clash'
+                                : url.searchParams.has('sb') || url.searchParams.has('singbox') || ua.includes('singbox') || ua.includes('sing-box')
+                                    ? 'singbox'
+                                    : url.searchParams.has('surge') || ua.includes('surge')
+                                        ? 'surge&ver=4'
+                                        : 'mixed';
+
+                    if (!ua.includes('mozilla')) responseHeaders["Content-Disposition"] = `attachment; filename*=utf-8''${encodeURIComponent(config_JSON.优选订阅生成.SUBNAME)}`;
+                    const 协议类型 = (url.searchParams.has('surge') || ua.includes('surge')) ? 'tro' + 'jan' : config_JSON.协议类型;
+                    let 订阅内容 = '';
+                    if (订阅类型 === 'mixed') {
+                        const 节点路径 = (url.searchParams.has('clash') || ua.includes('clash') || ua.includes('meta') || ua.includes('mihomo')) && 协议类型 == 'tro' + 'jan' ? config_JSON.PATH + '?ed=2560' : config_JSON.PATH;
+                        const 完整优选列表 = config_JSON.优选订阅生成.本地IP库.随机IP ? (await 生成随机IP(request, config_JSON.优选订阅生成.本地IP库.随机数量))[0] : await env.KV.get('ADD.txt') ? await 整理成数组(await env.KV.get('ADD.txt')) : (await 生成随机IP(request, config_JSON.优选订阅生成.本地IP库.随机数量))[0];
+                        const 优选API = [], 优选IP = [], 其他节点 = [];
+                        for (const 元素 of 完整优选列表) {
+                            if (元素.toLowerCase().startsWith('https://')) 优选API.push(元素);
+                            else if (元素.toLowerCase().includes('://')) 其他节点.push(元素);
+                            else 优选IP.push(元素);
+                        }
+                        const 其他节点LINK = 其他节点.join('\n') + '\n';
+                        if (!url.searchParams.has('sub') && config_JSON.优选订阅生成.local) { // 本地生成订阅
+                            const 优选API的IP = await 请求优选API(优选API);
+                            const 完整优选IP = [...new Set(优选IP.concat(优选API的IP))];
+                            订阅内容 = 完整优选IP.map(原始地址 => {
+                                // 统一正则: 匹配 域名/IPv4/IPv6地址 + 可选端口 + 可选备注
+                                // 示例: 
+                                //   - 域名: hj.xmm1993.top:2096#备注 或 example.com
+                                //   - IPv4: 166.0.188.128:443#Los Angeles 或 166.0.188.128
+                                //   - IPv6: [2606:4700::]:443#CMCC 或 [2606:4700::]
+                                const regex = /^(\[[\da-fA-F:]+\]|[\d.]+|[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?)*)(?::(\d+))?(?:#(.+))?$/;
+                                const match = 原始地址.match(regex);
+
+                                let 节点地址, 节点端口 = "443", 节点备注;
+
+                                if (match) {
+                                    节点地址 = match[1];  // IP地址或域名(可能带方括号)
+                                    节点端口 = match[2] || "443";  // 端口,默认443
+                                    节点备注 = match[3] || 节点地址;  // 备注,默认为地址本身
+                                } else {
+                                    // 不规范的格式，跳过处理返回null
+                                    console.warn(`[订阅内容] 不规范的IP格式已忽略: ${原始地址}`);
+                                    return null;
+                                }
+
+                                return `${协议类型}://${config_JSON.UUID}@${节点地址}:${节点端口}?security=tls&type=${config_JSON.传输协议}&host=${config_JSON.HOST}&sni=${config_JSON.HOST}&path=${encodeURIComponent(节点路径)}&fragment=${encodeURIComponent('1,40-60,30-50,tlshello')}&encryption=none${config_JSON.跳过证书验证 ? '&allowInsecure=1' : ''}#${encodeURIComponent(节点备注)}`;
+                            }).filter(item => item !== null).join('\n');
+                            订阅内容 = btoa(其他节点LINK + 订阅内容);
+                        } else { // 优选订阅生成器
+                            let 优选订阅生成器HOST = url.searchParams.get('sub') || config_JSON.优选订阅生成.SUB;
+                            优选订阅生成器HOST = 优选订阅生成器HOST && !/^https?:\/\//i.test(优选订阅生成器HOST) ? `https://${优选订阅生成器HOST}` : 优选订阅生成器HOST;
+                            const 优选订阅生成器URL = `${优选订阅生成器HOST}/sub?host=example.com&${协议类型 === ('v' + 'le' + 'ss') ? 'uuid' : 'pw'}=00000000-0000-4000-0000-000000000000&path=${encodeURIComponent(节点路径)}&type=${config_JSON.传输协议}`;
+                            try {
+                                const response = await fetch(优选订阅生成器URL, { headers: { 'User-Agent': 'v2rayN/edge' + 'tunnel (https://github.com/cmliu/edge' + 'tunnel)' } });
+                                if (response.ok) 订阅内容 = btoa(其他节点LINK + atob(await response.text()));
+                                else return new Response('优选订阅生成器异常：' + response.statusText, { status: response.status });
+                            } catch (error) {
+                                return new Response('优选订阅生成器异常：' + error.message, { status: 403 });
+                            }
+                        }
+                    } else { // 订阅转换
+                        const 订阅转换URL = `${config_JSON.订阅转换配置.SUBAPI}/sub?target=${订阅类型}&url=${encodeURIComponent(url.protocol + '//' + url.host + '/sub?target=mixed&token=' + 订阅TOKEN) + (url.searchParams.has('sub') && url.searchParams.get('sub') != '' ? `&sub=${url.searchParams.get('sub')}` : '')}&config=${encodeURIComponent(config_JSON.订阅转换配置.SUBCONFIG)}&emoji=${config_JSON.订阅转换配置.SUBEMOJI}&scv=${config_JSON.跳过证书验证}`;
+                        try {
+                            const response = await fetch(订阅转换URL, { headers: { 'User-Agent': 'Subconverter for ' + 订阅类型 + ' edge' + 'tunnel(https://github.com/cmliu/edge' + 'tunnel)' } });
+                            if (response.ok) {
+                                订阅内容 = await response.text();
+                                if (url.searchParams.has('surge') || ua.includes('surge')) 订阅内容 = surge(订阅内容, url.protocol + '//' + url.host + '/sub?token=' + 订阅TOKEN + '&surge', config_JSON);
+                            } else return new Response('订阅转换后端异常：' + response.statusText, { status: response.status });
+                        } catch (error) {
+                            return new Response('订阅转换后端异常：' + error.message, { status: 403 });
+                        }
+                    }
+                    if (订阅类型 === 'mixed') {
+                        订阅内容 = atob(订阅内容).replace(/example.com/g, config_JSON.HOST).replace(/00000000-0000-4000-0000-000000000000/g, config_JSON.UUID);
+                        if (!ua.includes('mozilla')) 订阅内容 = btoa(订阅内容);
+                    } else 订阅内容 = 订阅内容.replace(/example.com/g, config_JSON.HOST).replace(/00000000-0000-4000-0000-000000000000/g, config_JSON.UUID);
+                    if (订阅类型 === 'singbox') {
+                        订阅内容 = JSON.stringify(JSON.parse(订阅内容), null, 2);
+                        responseHeaders["content-type"] = 'application/json; charset=utf-8';
+                    } else if (订阅类型 === 'clash') {
+                        responseHeaders["content-type"] = 'application/x-yaml; charset=utf-8';
+                    }
+                    return new Response(订阅内容, { status: 200, headers: responseHeaders });
+                }
+                return new Response('无效的订阅TOKEN', { status: 403 });
+            }
+
+            let 伪装页URL = env.URL || 'nginx';
+            if (伪装页URL && 伪装页URL !== 'nginx' && 伪装页URL !== '1101') {
+                伪装页URL = 伪装页URL.trim().replace(/\/$/, '');
+                if (!伪装页URL.match(/^https?:\/\//i)) 伪装页URL = 'https://' + 伪装页URL;
+                if (伪装页URL.toLowerCase().startsWith('http://')) 伪装页URL = 'https://' + 伪装页URL.substring(7);
+                try { const u = new URL(伪装页URL); 伪装页URL = u.protocol + '//' + u.host; } catch (e) { 伪装页URL = 'nginx'; }
+            }
+            if (伪装页URL === '1101') return new Response(await html1101(url.host, 访问IP), { status: 200, headers: { 'Content-Type': 'text/html; charset=UTF-8' } });
+            try {
+                const 反代URL = new URL(伪装页URL), 新请求头 = new Headers(request.headers);
+                新请求头.set('Host', 反代URL.host);
+                if (新请求头.has('Referer')) { const u = new URL(新请求头.get('Referer')); 新请求头.set('Referer', 反代URL.protocol + '//' + 反代URL.host + u.pathname + u.search); }
+                if (新请求头.has('Origin')) 新请求头.set('Origin', 反代URL.protocol + '//' + 反代URL.host);
+                if (!新请求头.has('User-Agent') && UA && UA !== 'null') 新请求头.set('User-Agent', UA);
+                return fetch(new Request(反代URL.protocol + 反代URL.host + url.pathname + url.search, { method: request.method, headers: 新请求头, body: request.body, cf: request.cf }));
+            } catch (error) { }
+            return new Response(await nginx(), { status: 200, headers: { 'Content-Type': 'text/html; charset=UTF-8' } });
+        } else {// ws代理
+            await 反代参数获取(request);
+            const { 0: client, 1: server } = new WebSocketPair();
+            server.accept();
+            handleConnection(server, request, userID);
+            return new Response(null, { status: 101, webSocket: client });
+        }
+    }
+};
+///////////////////////////////////////////////////////////////////////WS传输数据///////////////////////////////////////////////
+// 内存池类 - 优化内存分配和回收
+class Pool {
+    constructor() {
+        this.buf = new ArrayBuffer(16384);
+        this.ptr = 0;
+        this.pool = [];
+        this.max = 8;
+        this.large = false;
+    }
+    alloc = s => {
+        if (s <= 4096 && s <= 16384 - this.ptr) {
+            const v = new Uint8Array(this.buf, this.ptr, s);
+            this.ptr += s;
+            return v;
+        }
+        const r = this.pool.pop();
+        if (r && r.byteLength >= s) return new Uint8Array(r.buffer, 0, s);
+        return new Uint8Array(s);
+    };
+    free = b => {
+        if (b.buffer === this.buf) {
+            this.ptr = Math.max(0, this.ptr - b.length);
+            return;
+        }
+        if (this.pool.length < this.max && b.byteLength >= 1024) this.pool.push(b);
+    };
+    enableLarge = () => { this.large = true; };
+    reset = () => { this.ptr = 0; this.pool.length = 0; this.large = false; };
+}
+
+function handleConnection(ws, request, FIXED_UUID) {
+    const pool = new Pool();
+    let socket, writer, reader, info;
+    let isFirstMsg = true, bytesReceived = 0, stallCount = 0, reconnectCount = 0;
+    let lastData = Date.now();
+    let isDns = false, udpStreamWrite = null;
+    const timers = {};
+    const dataBuffer = [];
+    let dataBufferBytes = 0;
+    const earlyDataHeader = request.headers.get("sec-websocket-protocol") || "";
+
+    // 新增: 连接状态和性能监控变量
+    let isConnecting = false, isReading = false;
+    let score = 1.0, lastCheck = Date.now(), lastRxBytes = 0, successCount = 0, failCount = 0;
+    let stats = { total: 0, count: 0, bigChunks: 0, window: 0, timestamp: Date.now() };
+    let mode = 'direct', avgSize = 0, throughputs = [];
+
+    // 动态调整传输模式
+    const updateMode = size => {
+        stats.total += size;
+        stats.count++;
+        if (size > 8192) stats.bigChunks++;
+        avgSize = avgSize * 0.9 + size * 0.1;
+        const now = Date.now();
+
+        if (now - stats.timestamp > 1000) {
+            const rate = stats.window;
+            throughputs.push(rate);
+            if (throughputs.length > 5) throughputs.shift();
+            stats.window = size;
+            stats.timestamp = now;
+            const avg = throughputs.reduce((a, b) => a + b, 0) / throughputs.length;
+
+            if (stats.count >= 20) {
+                if (avg > 20971520 && avgSize > 16384) {
+                    if (mode !== 'buffered') {
+                        mode = 'buffered';
+                        pool.enableLarge();
+                    }
+                } else if (avg < 10485760 || avgSize < 8192) {
+                    if (mode !== 'direct') mode = 'direct';
+                } else {
+                    if (mode !== 'adaptive') mode = 'adaptive';
+                }
+            }
+        } else {
+            stats.window += size;
+        }
+    };
+
+    async function 处理魏烈思握手(data) {
+        const bytes = new Uint8Array(data);
+        ws.send(new Uint8Array([bytes[0], 0]));
+        if (Array.from(bytes.slice(1, 17)).map(n => n.toString(16).padStart(2, '0')).join('').replace(/(.{8})(.{4})(.{4})(.{4})(.{12})/, '$1-$2-$3-$4-$5') !== FIXED_UUID) throw new Error('Auth failed');
+        const offset1 = 18 + bytes[17] + 1;
+        const command = bytes[offset1 - 1]; // 获取命令字节: 0x01=TCP, 0x02=UDP, 0x03=MUX
+        const port = (bytes[offset1] << 8) | bytes[offset1 + 1];
+        const addrType = bytes[offset1 + 2];
+        const offset2 = offset1 + 3;
+        const addressType = addrType === 3 ? 4 : addrType === 2 ? 3 : 1;
+        const { host, length } = parseAddress(bytes, offset2, addressType);
+        const payload = bytes.slice(length);
+
+        // 处理 UDP 请求
+        if (command === 2) { // 0x02 = UDP
+            if (port === 53) {
+                isDns = true;
+                const 魏烈思响应头 = new Uint8Array([bytes[0], 0]);
+                const { write } = await handleUDPOutBound(ws, 魏烈思响应头);
+                udpStreamWrite = write;
+                if (payload.length) udpStreamWrite(payload);
+                return null; // UDP 不需要返回 socket
+            } else {
+                throw new Error('UDP proxy only enable for DNS which is port 53');
+            }
+        }
+
+        if (host.includes(atob('c3BlZWQuY2xvdWRmbGFyZS5jb20='))) throw new Error('Access');
+        const sock = await createConnection(host, port, addressType, 'V');
+        await sock.opened;
+        const w = sock.writable.getWriter();
+        if (payload.length) await w.write(payload);
+        return { socket: sock, writer: w, reader: sock.readable.getReader(), info: { host, port } };
+    }
+
+    async function 处理木马握手(data) {
+        const bytes = new Uint8Array(data);
+        if (bytes.byteLength < 56 || bytes[56] !== 0x0d || bytes[57] !== 0x0a) throw new Error("invalid data or header format");
+        if (new TextDecoder().decode(bytes.slice(0, 56)) !== sha224(FIXED_UUID)) throw new Error("invalid password");
+
+        const socks5Data = bytes.slice(58);
+        if (socks5Data.byteLength < 6) throw new Error("invalid SOCKS5 request data");
+        if (socks5Data[0] !== 1) throw new Error("unsupported command, only TCP (CONNECT) is allowed");
+        const addressType = socks5Data[1]
+        const { host, length } = parseAddress(socks5Data, 2, addressType);
+        if (!host) throw new Error(`address is empty, addressType is ${addressType}`);
+        if (host.includes(atob('c3BlZWQuY2xvdWRmbGFyZS5jb20='))) throw new Error('Access');
+
+        const port = (socks5Data[length] << 8) | socks5Data[length + 1];
+        const sock = await createConnection(host, port, addressType, 'T');
+        await sock.opened;
+        const w = sock.writable.getWriter();
+        const payload = socks5Data.slice(length + 4);
+        if (payload.length) await w.write(payload);
+        return { socket: sock, writer: w, reader: sock.readable.getReader(), info: { host, port } };
+    }
+
+    async function createConnection(host, port, addressType, 协议类型) {
+        console.log(JSON.stringify({ configJSON: { 协议类型: 协议类型, 目标类型: addressType, 目标地址: host, 目标端口: port, 反代IP: 反代IP, 代理类型: 启用SOCKS5反代, 全局代理: 启用SOCKS5全局反代, 代理账号: 我的SOCKS5账号 } }));
+        async function useSocks5Pattern(address) {
+            return SOCKS5白名单.some(pattern => {
+                let regexPattern = pattern.replace(/\*/g, '.*');
+                let regex = new RegExp(`^${regexPattern}$`, 'i');
+                return regex.test(address);
+            });
+        }
+        启用SOCKS5全局反代 = (await useSocks5Pattern(host)) || 启用SOCKS5全局反代;
+        let sock;
+        if (启用SOCKS5反代 == 'socks5' && 启用SOCKS5全局反代) {
+            sock = await socks5Connect(host, port, addressType);
+        } else if (启用SOCKS5反代 == 'http' && 启用SOCKS5全局反代) {
+            sock = await httpConnect(host, port);
+        } else {
+            try {
+                sock = connect({ hostname: host, port });
+                await sock.opened;
+            } catch {
+                if (启用SOCKS5反代 == 'socks5') {
+                    sock = await socks5Connect(host, port, addressType);
+                } else if (启用SOCKS5反代 == 'http') {
+                    sock = await httpConnect(host, port);
+                } else {
+                    const [反代IP地址, 反代IP端口] = await 解析地址端口(反代IP);
+                    try {
+                        sock = connect({ hostname: 反代IP地址, port: 反代IP端口 });
+                    } catch {
+                        sock = connect({ hostname: atob('UFJPWFlJUC50cDEuMDkwMjI3Lnh5eg=='), port: 1 });
+                    }
+                }
+            }
+        }
+        return sock;
+    }
+
+    async function readLoop() {
+        if (isReading) return;
+        isReading = true;
+        let batch = [], batchSize = 0, batchTimer = null;
+
+        // 批处理发送函数
+        const flush = () => {
+            if (!batchSize) return;
+            const merged = new Uint8Array(batchSize);
+            let pos = 0;
+            for (const chunk of batch) {
+                merged.set(chunk, pos);
+                pos += chunk.length;
+            }
+            if (ws.readyState === 1) ws.send(merged);
+            batch = [];
+            batchSize = 0;
+            if (batchTimer) {
+                clearTimeout(batchTimer);
+                batchTimer = null;
+            }
+        };
+
+        try {
+            while (true) {
+                // 背压控制
+                if (dataBufferBytes > MAX_PENDING) {
+                    await new Promise(res => setTimeout(res, 100));
+                    continue;
+                }
+
+                const { done, value } = await reader.read();
+                if (value?.length) {
+                    bytesReceived += value.length;
+                    lastData = Date.now();
+                    stallCount = 0;
+                    updateMode(value.length);
+
+                    // 定期更新网络评分
+                    const now = Date.now();
+                    if (now - lastCheck > 5000) {
+                        const elapsed = now - lastCheck;
+                        const bytes = bytesReceived - lastRxBytes;
+                        const throughput = bytes / elapsed;
+
+                        if (throughput > 500) score = Math.min(1.0, score + 0.05);
+                        else if (throughput < 50) score = Math.max(0.1, score - 0.05);
+
+                        lastCheck = now;
+                        lastRxBytes = bytesReceived;
+                    }
+
+                    // 根据模式选择发送策略
+                    if (mode === 'buffered') {
+                        if (value.length < 32768) {
+                            batch.push(value);
+                            batchSize += value.length;
+                            if (batchSize >= 131072) flush();
+                            else if (!batchTimer) batchTimer = setTimeout(flush, avgSize > 16384 ? 5 : 20);
+                        } else {
+                            flush();
+                            if (ws.readyState === 1) ws.send(value);
+                        }
+                    } else if (mode === 'adaptive') {
+                        if (value.length < 4096) {
+                            batch.push(value);
+                            batchSize += value.length;
+                            if (batchSize >= 32768) flush();
+                            else if (!batchTimer) batchTimer = setTimeout(flush, 15);
+                        } else {
+                            flush();
+                            if (ws.readyState === 1) ws.send(value);
+                        }
+                    } else {
+                        flush();
+                        if (ws.readyState === 1) ws.send(value);
+                    }
+                }
+
+                if (done) {
+                    flush();
+                    isReading = false;
+                    reconnect();
+                    break;
+                }
+            }
+        } catch (err) {
+            flush();
+            if (batchTimer) clearTimeout(batchTimer);
+            isReading = false;
+            failCount++;
+            reconnect();
+        }
+    }
+
+    async function reconnect() {
+        if (!info || ws.readyState !== 1) {
+            cleanup();
+            ws.close(1011, 'Invalid.');
+            return;
+        }
+        if (reconnectCount >= MAX_RECONNECT) {
+            cleanup();
+            ws.close(1011, 'Max reconnect.');
+            return;
+        }
+
+        // 基于网络质量评分的随机退出机制
+        if (score < 0.3 && reconnectCount > 5 && Math.random() > 0.6) {
+            cleanup();
+            ws.close(1011, 'Poor network.');
+            return;
+        }
+
+        if (isConnecting) return;
+        reconnectCount++;
+
+        // 动态计算重连延迟
+        let delay = Math.min(50 * Math.pow(1.5, reconnectCount - 1), 3000);
+        delay *= (1.5 - score * 0.5);
+        delay += (Math.random() - 0.5) * delay * 0.2;
+        delay = Math.max(50, Math.floor(delay));
+
+        console.log(`Reconnecting (attempt ${reconnectCount})...`);
+        try {
+            cleanupSocket();
+
+            // 背压控制: 清理过多缓冲数据
+            if (dataBufferBytes > MAX_PENDING * 2) {
+                while (dataBufferBytes > MAX_PENDING && dataBuffer.length > 5) {
+                    const drop = dataBuffer.shift();
+                    dataBufferBytes -= drop.length;
+                    pool.free(drop);
+                }
+            }
+
+            await new Promise(res => setTimeout(res, delay));
+            isConnecting = true;
+            socket = connect({ hostname: info.host, port: info.port });
+            await socket.opened;
+
+            writer = socket.writable.getWriter();
+            reader = socket.readable.getReader();
+
+            // 发送缓冲数据 (限制数量防止阻塞)
+            const buffersToSend = dataBuffer.splice(0, 10);
+            for (const buf of buffersToSend) {
+                await writer.write(buf);
+                dataBufferBytes -= buf.length;
+                pool.free(buf);
+            }
+
+            isConnecting = false;
+            reconnectCount = 0;
+            score = Math.min(1.0, score + 0.15);
+            successCount++;
+            stallCount = 0;
+            lastData = Date.now();
+            readLoop();
+        } catch (err) {
+            isConnecting = false;
+            failCount++;
+            score = Math.max(0.1, score - 0.2);
+
+            if (reconnectCount < MAX_RECONNECT && ws.readyState === 1) setTimeout(reconnect, 500);
+            else {
+                cleanup();
+                ws.close(1011, 'Exhausted.');
+            }
+        }
+    }
+
+    function startTimers() {
+        timers.keepalive = setInterval(async () => {
+            if (!isConnecting && writer && Date.now() - lastData > KEEPALIVE) {
+                try {
+                    await writer.write(new Uint8Array(0));
+                    lastData = Date.now();
+                } catch (e) {
+                    reconnect();
+                }
+            }
+        }, KEEPALIVE / 3);
+
+        timers.health = setInterval(() => {
+            if (!isConnecting && stats.total > 0 && Date.now() - lastData > STALL_TIMEOUT) {
+                stallCount++;
+                if (stallCount >= MAX_STALL) {
+                    if (reconnectCount < MAX_RECONNECT) {
+                        stallCount = 0;
+                        reconnect();
+                    } else {
+                        cleanup();
+                        ws.close(1011, 'Stall.');
+                    }
+                }
+            }
+        }, STALL_TIMEOUT / 2);
+    }
+
+    function cleanupSocket() {
+        isReading = false;
+        try {
+            writer?.releaseLock();
+            reader?.releaseLock();
+            socket?.close();
+        } catch { }
+    }
+
+    function cleanup() {
+        Object.values(timers).forEach(clearInterval);
+        cleanupSocket();
+        while (dataBuffer.length) pool.free(dataBuffer.shift());
+        dataBufferBytes = 0;
+        stats = { total: 0, count: 0, bigChunks: 0, window: 0, timestamp: Date.now() };
+        mode = 'direct';
+        avgSize = 0;
+        throughputs = [];
+        pool.reset();
+    }
+
+    // 处理 early data
+    function processEarlyData(earlyDataHeader) {
+        if (!earlyDataHeader) return null;
+        try {
+            const base64Str = earlyDataHeader.replace(/-/g, "+").replace(/_/g, "/");
+            const decode = atob(base64Str);
+            const arryBuffer = Uint8Array.from(decode, (c) => c.charCodeAt(0));
+            return arryBuffer;
+        } catch (error) {
+            return null;
+        }
+    }
+
+    ws.addEventListener('message', async evt => {
+        try {
+            if (isFirstMsg) {
+                isFirstMsg = false;
+                // 合并 early data 和第一条消息
+                let firstData = evt.data;
+                const earlyData = processEarlyData(earlyDataHeader);
+                if (earlyData) {
+                    const combined = new Uint8Array(earlyData.length + firstData.byteLength);
+                    combined.set(earlyData);
+                    combined.set(new Uint8Array(firstData), earlyData.length);
+                    firstData = combined.buffer;
+                }
+
+                const bytes = new Uint8Array(firstData);
+                let result;
+                if (bytes.byteLength >= 58 && bytes[56] === 0x0d && bytes[57] === 0x0a) {
+                    result = await 处理木马握手(firstData);
+                } else {
+                    result = await 处理魏烈思握手(firstData);
+                }
+
+                // 如果是 UDP DNS,result 为 null,不需要启动 TCP 相关逻辑
+                if (result) {
+                    ({ socket, writer, reader, info } = result);
+                    startTimers();
+                    readLoop();
+                }
+            } else {
+                lastData = Date.now();
+                if (isDns && udpStreamWrite) {
+                    udpStreamWrite(evt.data);
+                } else if (isConnecting || !writer) {
+                    // 使用内存池分配缓冲区
+                    const buf = pool.alloc(evt.data.byteLength);
+                    buf.set(new Uint8Array(evt.data));
+                    dataBuffer.push(buf);
+                    dataBufferBytes += buf.length;
+                } else {
+                    await writer.write(evt.data);
+                }
+            }
+        } catch (err) {
+            cleanup();
+            ws.close(1006, 'Error.');
+        }
+    });
+
+    ws.addEventListener('close', cleanup);
+    ws.addEventListener('error', cleanup);
+}
+
+function parseAddress(bytes, offset, addrType) {
+    let host, length, endOffset;
+    switch (addrType) {
+        case 1: // IPv4
+            length = 4;
+            host = Array.from(bytes.slice(offset, offset + length)).join('.');
+            endOffset = offset + length;
+            break;
+        case 3: // Domain name
+            length = bytes[offset];
+            host = new TextDecoder().decode(bytes.slice(offset + 1, offset + 1 + length));
+            endOffset = offset + 1 + length;
+            break;
+        case 4: // IPv6
+            length = 16;
+            const ipv6 = [];
+            for (let i = 0; i < 8; i++) {
+                ipv6.push(((bytes[offset + i * 2] << 8) | bytes[offset + i * 2 + 1]).toString(16));
+            }
+            host = ipv6.join(':');
+            endOffset = offset + length;
+            break;
+        default:
+            throw new Error(`Invalid address type: ${addrType}`);
+    }
+    return { host, length: endOffset };
+}
+
+async function handleUDPOutBound(webSocket, 魏烈思响应头) {
+    let 是否已发送魏烈思响应头 = false;
+    const transformStream = new TransformStream({
+        start(controller) { },
+        transform(chunk, controller) {
+            // 确保 chunk 是 Uint8Array
+            if (!(chunk instanceof Uint8Array)) {
+                chunk = new Uint8Array(chunk);
+            }
+
+            // UDP 消息前 2 字节是 UDP 数据长度
+            for (let index = 0; index < chunk.byteLength;) {
+                // 直接从字节中读取长度，避免使用 DataView
+                const udpPacketLength = (chunk[index] << 8) | chunk[index + 1];
+                const udpData = new Uint8Array(
+                    chunk.slice(index + 2, index + 2 + udpPacketLength)
+                );
+                index = index + 2 + udpPacketLength;
+                controller.enqueue(udpData);
+            }
+        },
+        flush(controller) { }
+    });
+
+    // 只处理 DNS UDP 请求
+    transformStream.readable.pipeTo(new WritableStream({
+        async write(chunk) {
+            try {
+                const startTime = performance.now();
+                // 解析 DNS 查询域名
+                const dnsQuery = parseDNSQuery(chunk);
+                console.log(`[UDP DNS] 查询域名: ${dnsQuery.domain || '未知'}, 类型: ${dnsQuery.type}, 处理时间: ${(performance.now() - startTime).toFixed(2)}ms`);
+                const resp = await fetch('https://1.1.1.1/dns-query', {
+                    method: 'POST',
+                    headers: {
+                        'content-type': 'application/dns-message',
+                    },
+                    body: chunk,
+                });
+                const dnsQueryResult = await resp.arrayBuffer();
+                const udpSize = dnsQueryResult.byteLength;
+                const udpSizeBuffer = new Uint8Array([(udpSize >> 8) & 0xff, udpSize & 0xff]);
+
+                // 解析 DNS 响应内容
+                const dnsResponse = parseDNSResponse(new Uint8Array(dnsQueryResult));
+                const answers = dnsResponse.answers.length > 0 ? dnsResponse.answers.join(', ') : '无记录';
+                console.log(`[UDP DNS] 响应域名: ${dnsQuery.domain || '未知'}, 答案: ${answers}, 响应时间: ${(performance.now() - startTime).toFixed(2)}ms`);
+
+                if (webSocket.readyState === 1) { // WebSocket.OPEN
+                    if (是否已发送魏烈思响应头) {
+                        webSocket.send(await new Blob([udpSizeBuffer, dnsQueryResult]).arrayBuffer());
+                    } else {
+                        webSocket.send(await new Blob([魏烈思响应头, udpSizeBuffer, dnsQueryResult]).arrayBuffer());
+                        是否已发送魏烈思响应头 = true;
+                    }
+                    // DNS 查询完成后关闭 WebSocket 连接
+                    setTimeout(() => {
+                        if (webSocket.readyState === 1) {
+                            webSocket.close(1000, 'DNS query completed');
+                            console.log(`[UDP DNS] 连接已关闭: ${dnsQuery.domain || '未知'}`);
+                        }
+                    }, 10); // 给一点时间让数据发送完成
+                }
+            } catch (error) {
+                console.error('DoH request failed:', error);
+                // 出错时也关闭连接
+                if (webSocket.readyState === 1) {
+                    webSocket.close(1000, 'DNS query failed');
+                }
+            }
+        }
+    })).catch((error) => {
+        console.error('DNS UDP error:', error);
+    });
+
+    const writer = transformStream.writable.getWriter();
+
+    return {
+        write(chunk) {
+            writer.write(chunk);
+        }
+    };
+}
+
+function parseDNSQuery(dnsPacket) {
+    try {
+        // 确保 dnsPacket 有 byteLength 属性
+        if (!dnsPacket || !dnsPacket.byteLength) {
+            return { domain: null, type: 'Invalid' };
+        }
+
+        // DNS 头部是 12 字节
+        if (dnsPacket.byteLength < 12) return { domain: null, type: 'Invalid' };
+
+        // 从第 12 字节开始是查询部分
+        let offset = 12;
+        const labels = [];
+
+        // 解析域名标签
+        while (offset < dnsPacket.byteLength) {
+            const length = dnsPacket[offset];
+            if (length === 0) {
+                offset++;
+                break;
+            }
+            // 检查是否是指针 (压缩格式)
+            if ((length & 0xC0) === 0xC0) {
+                offset += 2;
+                break;
+            }
+            offset++;
+            if (offset + length > dnsPacket.byteLength) break;
+
+            const label = new TextDecoder().decode(dnsPacket.slice(offset, offset + length));
+            labels.push(label);
+            offset += length;
+        }
+
+        const domain = labels.join('.');
+
+        // 查询类型在域名之后的 2 字节 (TYPE)
+        let queryType = 'Unknown';
+        if (offset + 2 <= dnsPacket.byteLength) {
+            const type = (dnsPacket[offset] << 8) | dnsPacket[offset + 1];
+            const types = { 1: 'A', 2: 'NS', 5: 'CNAME', 6: 'SOA', 12: 'PTR', 15: 'MX', 16: 'TXT', 28: 'AAAA', 33: 'SRV', 65: 'HTTPS' };
+            queryType = types[type] || `TYPE${type}`;
+        }
+
+        return { domain: domain || null, type: queryType };
+    } catch (error) {
+        console.error('[UDP DNS] 解析 DNS 查询失败:', error);
+        return { domain: null, type: 'Error' };
+    }
+}
+
+function parseDNSResponse(dnsPacket) {
+    try {
+        if (!dnsPacket || dnsPacket.byteLength < 12) return { answers: [] };
+        const answerCount = (dnsPacket[6] << 8) | dnsPacket[7];
+        if (answerCount === 0) return { answers: [] };
+
+        let offset = 12;
+        // 跳过查询部分
+        while (offset < dnsPacket.byteLength) {
+            const length = dnsPacket[offset];
+            if (length === 0) { offset += 5; break; }
+            if ((length & 0xC0) === 0xC0) { offset += 6; break; }
+            offset += 1 + length;
+        }
+
+        const answers = [];
+        for (let i = 0; i < answerCount && offset < dnsPacket.byteLength; i++) {
+            try {
+                // 跳过 NAME
+                if ((dnsPacket[offset] & 0xC0) === 0xC0) offset += 2;
+                else { while (offset < dnsPacket.byteLength && dnsPacket[offset] !== 0) offset += 1 + dnsPacket[offset]; offset += 1; }
+
+                if (offset + 10 > dnsPacket.byteLength) break;
+                const type = (dnsPacket[offset] << 8) | dnsPacket[offset + 1];
+                const dataLength = (dnsPacket[offset + 8] << 8) | dnsPacket[offset + 9];
+                offset += 10;
+                if (offset + dataLength > dnsPacket.byteLength) break;
+
+                let answer = '';
+                if (type === 1 && dataLength === 4) answer = `${dnsPacket[offset]}.${dnsPacket[offset + 1]}.${dnsPacket[offset + 2]}.${dnsPacket[offset + 3]}`;
+                else if (type === 28 && dataLength === 16) answer = Array.from({ length: 8 }, (_, j) => ((dnsPacket[offset + j * 2] << 8) | dnsPacket[offset + j * 2 + 1]).toString(16)).join(':');
+                else if (type === 5 || type === 2 || type === 12) answer = parseDNSName(dnsPacket, offset);
+                else if (type === 16) answer = new TextDecoder().decode(dnsPacket.slice(offset + 1, offset + 1 + dnsPacket[offset]));
+                else answer = `TYPE${type}`;
+
+                if (answer) answers.push(answer);
+                offset += dataLength;
+            } catch (e) { break; }
+        }
+        return { answers };
+    } catch (error) {
+        console.error('[UDP DNS] 解析 DNS 响应失败:', error);
+        return { answers: [] };
+    }
+}
+
+function parseDNSName(packet, offset) {
+    const labels = [];
+    let maxJumps = 5;
+    while (offset < packet.byteLength && maxJumps > 0) {
+        const length = packet[offset];
+        if (length === 0) break;
+        if ((length & 0xC0) === 0xC0) { offset = ((length & 0x3F) << 8) | packet[offset + 1]; maxJumps--; continue; }
+        offset++;
+        if (offset + length > packet.byteLength) break;
+        labels.push(new TextDecoder().decode(packet.slice(offset, offset + length)));
+        offset += length;
+    }
+    return labels.join('.');
+}
+
+////////////////////////////////SOCKS5/HTTP函数///////////////////////////////////////////////
+async function httpConnect(addressRemote, portRemote) {
+    const { username, password, hostname, port } = parsedSocks5Address;
+    const sock = await connect({ hostname, port });
+    const authHeader = username && password ? `Proxy-Authorization: Basic ${btoa(`${username}:${password}`)}\r\n` : '';
+    const connectRequest = `CONNECT ${addressRemote}:${portRemote} HTTP/1.1\r\n` +
+        `Host: ${addressRemote}:${portRemote}\r\n` +
+        authHeader +
+        `User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36\r\n` +
+        `Proxy-Connection: Keep-Alive\r\n` +
+        `Connection: Keep-Alive\r\n\r\n`;
+    const writer = sock.writable.getWriter();
+    try {
+        await writer.write(new TextEncoder().encode(connectRequest));
+    } catch (err) {
+        throw new Error(`发送HTTP CONNECT请求失败: ${err.message}`);
+    } finally {
+        writer.releaseLock();
+    }
+    const reader = sock.readable.getReader();
+    let responseBuffer = new Uint8Array(0);
+    try {
+        while (true) {
+            const { value, done } = await reader.read();
+            if (done) throw new Error('HTTP代理连接中断');
+            const newBuffer = new Uint8Array(responseBuffer.length + value.length);
+            newBuffer.set(responseBuffer);
+            newBuffer.set(value, responseBuffer.length);
+            responseBuffer = newBuffer;
+            const respText = new TextDecoder().decode(responseBuffer);
+            if (respText.includes('\r\n\r\n')) {
+                const headersEndPos = respText.indexOf('\r\n\r\n') + 4;
+                const headers = respText.substring(0, headersEndPos);
+
+                if (!headers.startsWith('HTTP/1.1 200') && !headers.startsWith('HTTP/1.0 200')) {
+                    throw new Error(`HTTP代理连接失败: ${headers.split('\r\n')[0]}`);
+                }
+                if (headersEndPos < responseBuffer.length) {
+                    const remainingData = responseBuffer.slice(headersEndPos);
+                    const { readable, writable } = new TransformStream();
+                    new ReadableStream({
+                        start(controller) {
+                            controller.enqueue(remainingData);
+                        }
+                    }).pipeTo(writable).catch(() => { });
+                    // @ts-ignore
+                    sock.readable = readable;
+                }
+                break;
+            }
+        }
+    } catch (err) {
+        throw new Error(`处理HTTP代理响应失败: ${err.message}`);
+    } finally {
+        reader.releaseLock();
+    }
+    return sock;
+}
+
+async function socks5Connect(addressRemote, portRemote, addressType = 3) {
+    const { username, password, hostname, port } = parsedSocks5Address;
+    const socket = connect({ hostname, port });
+    const writer = socket.writable.getWriter();
+    const reader = socket.readable.getReader();
+    const encoder = new TextEncoder();
+
+    // SOCKS5 握手: VER(5) + NMETHODS(2) + METHODS(0x00,0x02)
+    await writer.write(new Uint8Array([5, 2, 0, 2]));
+    let res = (await reader.read()).value;
+    if (res[0] !== 0x05 || res[1] === 0xff) return;
+
+    // 如果需要用户名密码认证
+    if (res[1] === 0x02) {
+        if (!username || !password) return;
+        await writer.write(new Uint8Array([1, username.length, ...encoder.encode(username), password.length, ...encoder.encode(password)]));
+        res = (await reader.read()).value;
+        if (res[0] !== 0x01 || res[1] !== 0x00) return;
+    }
+
+    // 构建目标地址 (ATYP + DST.ADDR)
+    const DSTADDR = addressType === 1 ? new Uint8Array([1, ...addressRemote.split('.').map(Number)])
+        : addressType === 3 ? new Uint8Array([3, addressRemote.length, ...encoder.encode(addressRemote)])
+            : new Uint8Array([4, ...addressRemote.split(':').flatMap(x => [parseInt(x.slice(0, 2), 16), parseInt(x.slice(2), 16)])]);
+
+    // 发送连接请求: VER(5) + CMD(1=CONNECT) + RSV(0) + DSTADDR + DST.PORT
+    await writer.write(new Uint8Array([5, 1, 0, ...DSTADDR, portRemote >> 8, portRemote & 0xff]));
+    res = (await reader.read()).value;
+    if (res[1] !== 0x00) return;
+
+    writer.releaseLock();
+    reader.releaseLock();
+    return socket;
+}
+
+//////////////////////////////////////////////////功能性函数///////////////////////////////////////////////
+function surge(content, url, config_JSON) {
+    let 每行内容;
+    if (content.includes('\r\n')) {
+        每行内容 = content.split('\r\n');
+    } else {
+        每行内容 = content.split('\n');
+    }
+
+    let 输出内容 = "";
+    for (let x of 每行内容) {
+        if (x.includes('= tro' + 'jan,')) {
+            console.log(x);
+            const host = x.split("sni=")[1].split(",")[0];
+            const 备改内容 = `sni=${host}, skip-cert-verify=${config_JSON.跳过证书验证}`;
+            const 正确内容 = `sni=${host}, skip-cert-verify=${config_JSON.跳过证书验证}, ws=true, ws-path=${config_JSON.PATH}, ws-headers=Host:"${host}"`;
+            输出内容 += x.replace(new RegExp(备改内容, 'g'), 正确内容).replace("[", "").replace("]", "") + '\n';
+        } else {
+            输出内容 += x + '\n';
+        }
+    }
+
+    输出内容 = `#!MANAGED-CONFIG ${url} interval=${config_JSON.优选订阅生成.SUBUpdateTime * 60 * 60} strict=false` + 输出内容.substring(输出内容.indexOf('\n'));
+    return 输出内容;
+}
+async function 请求日志记录(env, request, 访问IP, 请求类型 = "Get_SUB", config_JSON) {
+    const KV容量限制 = 4;//MB
+    try {
+        const 当前时间 = new Date();
+        const 日志内容 = { TYPE: 请求类型, IP: 访问IP, ASN: `AS${request.cf.asn || '0'} ${request.cf.asOrganization || 'Unknown'}`, CC: `${request.cf.country || 'N/A'} ${request.cf.city || 'N/A'}`, URL: request.url, UA: request.headers.get('User-Agent') || 'Unknown', TIME: 当前时间.getTime() };
+        let 日志数组 = [];
+        const 现有日志 = await env.KV.get('log.json');
+        if (现有日志) {
+            try {
+                日志数组 = JSON.parse(现有日志);
+                if (!Array.isArray(日志数组)) { 日志数组 = [日志内容]; }
+                else if (请求类型 !== "Get_SUB") {
+                    const 三十分钟前时间戳 = 当前时间.getTime() - 30 * 60 * 1000;
+                    if (日志数组.some(log => log.TYPE !== "Get_SUB" && log.IP === 访问IP && log.URL === request.url && log.UA === (request.headers.get('User-Agent') || 'Unknown') && log.TIME >= 三十分钟前时间戳)) return;
+                    日志数组.push(日志内容);
+                    while (JSON.stringify(日志数组, null, 2).length > KV容量限制 * 1024 * 1024 && 日志数组.length > 0) 日志数组.shift();
+                } else {
+                    日志数组.push(日志内容);
+                    while (JSON.stringify(日志数组, null, 2).length > KV容量限制 * 1024 * 1024 && 日志数组.length > 0) 日志数组.shift();
+                }
+                if (config_JSON.TG.启用) {
+                    try {
+                        const TG_TXT = await env.KV.get('tg.json');
+                        const TG_JSON = JSON.parse(TG_TXT);
+                        await sendMessage(TG_JSON.BotToken, TG_JSON.ChatID, 日志内容, config_JSON);
+                    } catch (error) { console.error(`读取tg.json出错: ${error.message}`) }
+                }
+            } catch (e) { 日志数组 = [日志内容]; }
+        } else { 日志数组 = [日志内容]; }
+        await env.KV.put('log.json', JSON.stringify(日志数组, null, 2));
+    } catch (error) { console.error(`日志记录失败: ${error.message}`); }
+}
+
+async function sendMessage(BotToken, ChatID, 日志内容, config_JSON) {
+    if (!BotToken || !ChatID) return;
+
+    try {
+        const 请求时间 = new Date(日志内容.TIME).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' });
+        const 请求URL = new URL(日志内容.URL);
+        const msg = `<b>#${config_JSON.优选订阅生成.SUBNAME} 日志通知</b>\n\n` +
+            `📌 <b>类型：</b>#${日志内容.TYPE}\n` +
+            `🌐 <b>IP：</b><code>${日志内容.IP}</code>\n` +
+            `📍 <b>位置：</b>${日志内容.CC}\n` +
+            `🏢 <b>ASN：</b>${日志内容.ASN}\n` +
+            `🔗 <b>域名：</b><code>${请求URL.host}</code>\n` +
+            `🔍 <b>路径：</b><code>${请求URL.pathname + 请求URL.search}</code>\n` +
+            `🤖 <b>UA：</b><code>${日志内容.UA}</code>\n` +
+            `📅 <b>时间：</b>${请求时间}\n` +
+            `${config_JSON.CF.Usage.success ? `📊 <b>请求用量：</b>${config_JSON.CF.Usage.total}/100000 <b>${((config_JSON.CF.Usage.total / 100000) * 100).toFixed(2)}%</b>\n` : ''}`;
+
+        const url = `https://api.telegram.org/bot${BotToken}/sendMessage?chat_id=${ChatID}&parse_mode=HTML&text=${encodeURIComponent(msg)}`;
+        return fetch(url, {
+            method: 'GET',
+            headers: {
+                'Accept': 'text/html,application/xhtml+xml,application/xml;',
+                'Accept-Encoding': 'gzip, deflate, br',
+                'User-Agent': 日志内容.UA || 'Unknown',
+            }
+        });
+    } catch (error) { console.error('Error sending message:', error) }
+}
+
+function 掩码敏感信息(文本, 前缀长度 = 3, 后缀长度 = 2) {
+    if (!文本 || typeof 文本 !== 'string') return 文本;
+    if (文本.length <= 前缀长度 + 后缀长度) return 文本; // 如果长度太短，直接返回
+
+    const 前缀 = 文本.slice(0, 前缀长度);
+    const 后缀 = 文本.slice(-后缀长度);
+    const 星号数量 = 文本.length - 前缀长度 - 后缀长度;
+
+    return `${前缀}${'*'.repeat(星号数量)}${后缀}`;
+}
+
+async function MD5MD5(文本) {
+    const 编码器 = new TextEncoder();
+
+    const 第一次哈希 = await crypto.subtle.digest('MD5', 编码器.encode(文本));
+    const 第一次哈希数组 = Array.from(new Uint8Array(第一次哈希));
+    const 第一次十六进制 = 第一次哈希数组.map(字节 => 字节.toString(16).padStart(2, '0')).join('');
+
+    const 第二次哈希 = await crypto.subtle.digest('MD5', 编码器.encode(第一次十六进制.slice(7, 27)));
+    const 第二次哈希数组 = Array.from(new Uint8Array(第二次哈希));
+    const 第二次十六进制 = 第二次哈希数组.map(字节 => 字节.toString(16).padStart(2, '0')).join('');
+
+    return 第二次十六进制.toLowerCase();
+}
+
+async function 读取config_JSON(env, host, userID, 重置配置 = false) {
+    const 初始化开始时间 = performance.now();
+    const 默认配置JSON = {
+        TIME: new Date().toISOString(),
+        HOST: host,
+        UUID: userID,
+        协议类型: "v" + "le" + "ss",
+        传输协议: "ws",
+        跳过证书验证: true,
+        优选订阅生成: {
+            local: true, // true: 基于本地的优选地址  false: 优选订阅生成器
+            本地IP库: {
+                随机IP: true, // 当 随机IP 为true时生效，启用随机IP的数量，否则使用KV内的ADD.txt
+                随机数量: 16, // 当local为true时生效，随机IP的数量
+            },
+            SUB: null,
+            SUBNAME: "edge" + "tunnel",
+            SUBUpdateTime: 6, // 订阅更新时间（小时）
+            TOKEN: await MD5MD5(host + userID),
+        },
+        订阅转换配置: {
+            SUBAPI: "https://SUBAPI.cmliussss.net",
+            SUBCONFIG: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini",
+            SUBEMOJI: false,
+        },
+        反代: {
+            PROXYIP: "auto",
+            SOCKS5: {
+                启用: 启用SOCKS5反代,
+                全局: 启用SOCKS5全局反代,
+                账号: 我的SOCKS5账号,
+                白名单: SOCKS5白名单,
+            },
+        },
+        TG: {
+            启用: false,
+            BotToken: null,
+            ChatID: null,
+        },
+        CF: {
+            Email: null,
+            GlobalAPIKey: null,
+            AccountID: null,
+            APIToken: null,
+            Usage: {
+                success: false,
+                pages: 0,
+                workers: 0,
+                total: 0,
+            },
+        }
+    };
+
+    try {
+        let configJSON = await env.KV.get('config.json');
+        if (!configJSON || 重置配置 == true) {
+            await env.KV.put('config.json', JSON.stringify(默认配置JSON, null, 2));
+            config_JSON = 默认配置JSON;
+        } else {
+            config_JSON = JSON.parse(configJSON);
+        }
+    } catch (error) {
+        console.error(`读取config_JSON出错: ${error.message}`);
+        config_JSON = 默认配置JSON;
+    }
+
+    config_JSON.HOST = host;
+    config_JSON.UUID = userID;
+    config_JSON.PATH = config_JSON.反代.SOCKS5.启用 ? ('/' + config_JSON.反代.SOCKS5.启用 + (config_JSON.反代.SOCKS5.全局 ? '://' : '=') + config_JSON.反代.SOCKS5.账号) : (config_JSON.反代.PROXYIP === 'auto' ? '/' : `/proxyip=${config_JSON.反代.PROXYIP}`);
+    config_JSON.LINK = `${config_JSON.协议类型}://${userID}@${host}:443?security=tls&type=${config_JSON.传输协议}&host=${host}&sni=${host}&path=${encodeURIComponent(config_JSON.PATH)}&fragment=${encodeURIComponent('1,40-60,30-50,tlshello')}&encryption=none${config_JSON.跳过证书验证 ? '&allowInsecure=1' : ''}#${encodeURIComponent(config_JSON.优选订阅生成.SUBNAME)}`;
+    config_JSON.优选订阅生成.TOKEN = await MD5MD5(host + userID);
+
+    const 初始化TG_JSON = { BotToken: null, ChatID: null };
+    config_JSON.TG = { 启用: config_JSON.TG.启用 ? config_JSON.TG.启用 : false, ...初始化TG_JSON };
+    try {
+        const TG_TXT = await env.KV.get('tg.json');
+        if (!TG_TXT) {
+            await env.KV.put('tg.json', JSON.stringify(初始化TG_JSON, null, 2));
+        } else {
+            const TG_JSON = JSON.parse(TG_TXT);
+            config_JSON.TG.ChatID = TG_JSON.ChatID ? TG_JSON.ChatID : null;
+            config_JSON.TG.BotToken = TG_JSON.BotToken ? 掩码敏感信息(TG_JSON.BotToken) : null;
+        }
+    } catch (error) {
+        console.error(`读取tg.json出错: ${error.message}`);
+    }
+
+    const 初始化CF_JSON = { Email: null, GlobalAPIKey: null, AccountID: null, APIToken: null };
+    config_JSON.CF = { ...初始化CF_JSON, Usage: { success: false, pages: 0, workers: 0, total: 0 } };
+    try {
+        const CF_TXT = await env.KV.get('cf.json');
+        if (!CF_TXT) {
+            await env.KV.put('cf.json', JSON.stringify(初始化CF_JSON, null, 2));
+        } else {
+            const CF_JSON = JSON.parse(CF_TXT);
+            config_JSON.CF.Email = CF_JSON.Email ? CF_JSON.Email : null;
+            config_JSON.CF.GlobalAPIKey = CF_JSON.GlobalAPIKey ? 掩码敏感信息(CF_JSON.GlobalAPIKey) : null;
+            config_JSON.CF.AccountID = CF_JSON.AccountID ? 掩码敏感信息(CF_JSON.AccountID) : null;
+            config_JSON.CF.APIToken = CF_JSON.APIToken ? 掩码敏感信息(CF_JSON.APIToken) : null;
+            const Usage = await getCloudflareUsage(CF_JSON.Email, CF_JSON.GlobalAPIKey, CF_JSON.AccountID, CF_JSON.APIToken);
+            config_JSON.CF.Usage = Usage;
+        }
+    } catch (error) {
+        console.error(`读取cf.json出错: ${error.message}`);
+    }
+
+    config_JSON.加载时间 = (performance.now() - 初始化开始时间).toFixed(2) + 'ms';
+    return config_JSON;
+}
+
+async function 生成随机IP(request, count = 16) {
+    const asnMap = { '9808': 'cmcc', '4837': 'cu', '4134': 'ct' }, asn = request.cf.asn;
+    const cidr_url = asnMap[asn] ? `https://raw.githubusercontent.com/cmliu/cmliu/main/CF-CIDR/${asnMap[asn]}.txt` : 'https://raw.githubusercontent.com/cmliu/cmliu/main/CF-CIDR.txt';
+    const cfname = { '9808': 'CF移动优选', '4837': 'CF联通优选', '4134': 'CF电信优选' }[asn] || 'CF官方优选';
+    let cidrList = [];
+    try { const res = await fetch(cidr_url); cidrList = res.ok ? await 整理成数组(await res.text()) : ['104.16.0.0/13']; } catch { cidrList = ['104.16.0.0/13']; }
+
+    const generateRandomIPFromCIDR = (cidr) => {
+        const [baseIP, prefixLength] = cidr.split('/'), prefix = parseInt(prefixLength), hostBits = 32 - prefix;
+        const ipInt = baseIP.split('.').reduce((a, p, i) => a | (parseInt(p) << (24 - i * 8)), 0);
+        const randomOffset = Math.floor(Math.random() * Math.pow(2, hostBits));
+        const mask = (0xFFFFFFFF << hostBits) >>> 0, randomIP = (((ipInt & mask) >>> 0) + randomOffset) >>> 0;
+        return [(randomIP >>> 24) & 0xFF, (randomIP >>> 16) & 0xFF, (randomIP >>> 8) & 0xFF, randomIP & 0xFF].join('.');
+    };
+
+    const randomIPs = Array.from({ length: count }, () => {
+        const ip = generateRandomIPFromCIDR(cidrList[Math.floor(Math.random() * cidrList.length)]);
+        return `${ip}#${cfname}`;
+    });
+    return [randomIPs, randomIPs.join('\n')];
+}
+async function 整理成数组(内容) {
+    var 替换后的内容 = 内容.replace(/[	"'\r\n]+/g, ',').replace(/,+/g, ',');
+    if (替换后的内容.charAt(0) == ',') 替换后的内容 = 替换后的内容.slice(1);
+    if (替换后的内容.charAt(替换后的内容.length - 1) == ',') 替换后的内容 = 替换后的内容.slice(0, 替换后的内容.length - 1);
+    const 地址数组 = 替换后的内容.split(',');
+    return 地址数组;
+}
+
+async function 请求优选API(urls, 默认端口 = '443', 超时时间 = 3000) {
+    if (!urls?.length) return [];
+    const results = new Set();
+    await Promise.allSettled(urls.map(async (url) => {
+        try {
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 超时时间);
+            const response = await fetch(url, { signal: controller.signal });
+            clearTimeout(timeoutId);
+            let text = '';
+            try {
+                const buffer = await response.arrayBuffer();
+                const contentType = (response.headers.get('content-type') || '').toLowerCase();
+                const charset = contentType.match(/charset=([^\s;]+)/i)?.[1]?.toLowerCase() || '';
+
+                // 根据 Content-Type 响应头判断编码优先级
+                let decoders = ['utf-8', 'gb2312']; // 默认优先 UTF-8
+                if (charset.includes('gb') || charset.includes('gbk') || charset.includes('gb2312')) {
+                    decoders = ['gb2312', 'utf-8']; // 如果明确指定 GB 系编码，优先尝试 GB2312
+                }
+
+                // 尝试多种编码解码
+                let decodeSuccess = false;
+                for (const decoder of decoders) {
+                    try {
+                        const decoded = new TextDecoder(decoder).decode(buffer);
+                        // 验证解码结果的有效性
+                        if (decoded && decoded.length > 0 && !decoded.includes('\ufffd')) {
+                            text = decoded;
+                            decodeSuccess = true;
+                            break;
+                        } else if (decoded && decoded.length > 0) {
+                            // 如果有替换字符 (U+FFFD)，说明编码不匹配，继续尝试下一个编码
+                            continue;
+                        }
+                    } catch (e) {
+                        // 该编码解码失败，尝试下一个
+                        continue;
+                    }
+                }
+
+                // 如果所有编码都失败或无效，尝试 response.text()
+                if (!decodeSuccess) {
+                    text = await response.text();
+                }
+
+                // 如果返回的是空或无效数据，返回
+                if (!text || text.trim().length === 0) {
+                    return;
+                }
+            } catch (e) {
+                console.error('Failed to decode response:', e);
+                return;
+            }
+            const lines = text.trim().split('\n').map(l => l.trim()).filter(l => l);
+            const isCSV = lines.length > 1 && lines[0].includes(',');
+            const IPV6_PATTERN = /^[^\[\]]*:[^\[\]]*:[^\[\]]/;
+            if (!isCSV) {
+                lines.forEach(line => {
+                    const hashIndex = line.indexOf('#');
+                    const [hostPart, remark] = hashIndex > -1 ? [line.substring(0, hashIndex), line.substring(hashIndex)] : [line, ''];
+                    let hasPort = false;
+                    if (hostPart.startsWith('[')) {
+                        hasPort = /\]:(\d+)$/.test(hostPart);
+                    } else {
+                        const colonIndex = hostPart.lastIndexOf(':');
+                        hasPort = colonIndex > -1 && /^\d+$/.test(hostPart.substring(colonIndex + 1));
+                    }
+                    const port = new URL(url).searchParams.get('port') || 默认端口;
+                    results.add(hasPort ? line : `${hostPart}:${port}${remark}`);
+                });
+            } else {
+                const headers = lines[0].split(',').map(h => h.trim());
+                const dataLines = lines.slice(1);
+                if (headers.includes('IP地址') && headers.includes('端口') && headers.includes('数据中心')) {
+                    const ipIdx = headers.indexOf('IP地址'), portIdx = headers.indexOf('端口');
+                    const remarkIdx = headers.indexOf('国家') > -1 ? headers.indexOf('国家') :
+                        headers.indexOf('城市') > -1 ? headers.indexOf('城市') : headers.indexOf('数据中心');
+                    dataLines.forEach(line => {
+                        const cols = line.split(',').map(c => c.trim());
+                        const wrappedIP = IPV6_PATTERN.test(cols[ipIdx]) ? `[${cols[ipIdx]}]` : cols[ipIdx];
+                        results.add(`${wrappedIP}:${cols[portIdx]}#${cols[remarkIdx]}`);
+                    });
+                } else if (headers.some(h => h.includes('IP')) && headers.some(h => h.includes('延迟')) && headers.some(h => h.includes('下载速度'))) {
+                    const ipIdx = headers.findIndex(h => h.includes('IP'));
+                    const delayIdx = headers.findIndex(h => h.includes('延迟'));
+                    const speedIdx = headers.findIndex(h => h.includes('下载速度'));
+                    const port = new URL(url).searchParams.get('port') || 默认端口;
+                    dataLines.forEach(line => {
+                        const cols = line.split(',').map(c => c.trim());
+                        const wrappedIP = IPV6_PATTERN.test(cols[ipIdx]) ? `[${cols[ipIdx]}]` : cols[ipIdx];
+                        results.add(`${wrappedIP}:${port}#CF优选 ${cols[delayIdx]}ms ${cols[speedIdx]}MB/s`);
+                    });
+                }
+            }
+        } catch (e) { }
+    }));
+    return Array.from(results);
+}
+
+async function 反代参数获取(request) {
+    const url = new URL(request.url);
+    const { pathname, searchParams } = url;
+    const pathLower = pathname.toLowerCase();
+
+    // 初始化
+    我的SOCKS5账号 = searchParams.get('socks5') || searchParams.get('http') || 我的SOCKS5账号;
+    启用SOCKS5全局反代 = searchParams.has('globalproxy') || 启用SOCKS5全局反代;
+
+    // 统一处理反代IP参数 (优先级最高,使用正则一次匹配)
+    const proxyMatch = pathLower.match(/\/(proxyip[.=]|pyip=|ip=)(.+)/);
+    if (searchParams.has('proxyip')) {
+        反代IP = searchParams.get('proxyip');
+        return;
+    } else if (proxyMatch) {
+        反代IP = proxyMatch[1] === 'proxyip.' ? `proxyip.${proxyMatch[2]}` : proxyMatch[2];
+        return;
+    }
+
+    // 处理SOCKS5/HTTP代理参数
+    let socksMatch;
+    if ((socksMatch = pathname.match(/\/(socks5?|http):\/?\/?(.+)/i))) {
+        // 格式: /socks5://... 或 /http://...
+        启用SOCKS5反代 = socksMatch[1].toLowerCase() === 'http' ? 'http' : 'socks5';
+        我的SOCKS5账号 = socksMatch[2].split('#')[0];
+        启用SOCKS5全局反代 = true;
+
+        // 处理Base64编码的用户名密码
+        if (我的SOCKS5账号.includes('@')) {
+            const atIndex = 我的SOCKS5账号.lastIndexOf('@');
+            let userPassword = 我的SOCKS5账号.substring(0, atIndex).replaceAll('%3D', '=');
+            if (/^(?:[A-Z0-9+/]{4})*(?:[A-Z0-9+/]{2}==|[A-Z0-9+/]{3}=)?$/i.test(userPassword) && !userPassword.includes(':')) {
+                userPassword = atob(userPassword);
+            }
+            我的SOCKS5账号 = `${userPassword}@${我的SOCKS5账号.substring(atIndex + 1)}`;
+        }
+    } else if ((socksMatch = pathname.match(/\/(g?s5|socks5|g?http)=(.+)/i))) {
+        // 格式: /socks5=... 或 /s5=... 或 /gs5=... 或 /http=... 或 /ghttp=...
+        const type = socksMatch[1].toLowerCase();
+        我的SOCKS5账号 = socksMatch[2];
+        启用SOCKS5反代 = type.includes('http') ? 'http' : 'socks5';
+        启用SOCKS5全局反代 = type.startsWith('g') || 启用SOCKS5全局反代; // gs5 或 ghttp 开头启用全局
+    }
+
+    // 解析SOCKS5地址
+    if (我的SOCKS5账号) {
+        try {
+            parsedSocks5Address = await 获取SOCKS5账号(我的SOCKS5账号);
+            启用SOCKS5反代 = searchParams.get('http') ? 'http' : 启用SOCKS5反代;
+        } catch (err) {
+            console.error('解析SOCKS5地址失败:', err.message);
+            启用SOCKS5反代 = null;
+        }
+    }
+}
+
+async function 获取SOCKS5账号(address) {
+    if (address.includes('@')) {
+        const lastAtIndex = address.lastIndexOf('@');
+        let userPassword = address.substring(0, lastAtIndex).replaceAll('%3D', '=');
+        const base64Regex = /^(?:[A-Z0-9+/]{4})*(?:[A-Z0-9+/]{2}==|[A-Z0-9+/]{3}=)?$/i;
+        if (base64Regex.test(userPassword) && !userPassword.includes(':')) userPassword = atob(userPassword);
+        address = `${userPassword}@${address.substring(lastAtIndex + 1)}`;
+    }
+    const atIndex = address.lastIndexOf("@");
+    const [hostPart, authPart] = atIndex === -1 ? [address, undefined] : [address.substring(atIndex + 1), address.substring(0, atIndex)];
+
+    // 解析认证
+    let username, password;
+    if (authPart) {
+        [username, password] = authPart.split(":");
+        if (!password) throw new Error('无效的 SOCKS 地址格式：认证部分必须是 "username:password" 的形式');
+    }
+
+    // 解析主机端口
+    let hostname, port;
+    if (hostPart.includes("]:")) { // IPv6带端口
+        [hostname, port] = [hostPart.split("]:")[0] + "]", Number(hostPart.split("]:")[1].replace(/[^\d]/g, ''))];
+    } else if (hostPart.startsWith("[")) { // IPv6无端口
+        [hostname, port] = [hostPart, 80];
+    } else { // IPv4/域名
+        const parts = hostPart.split(":");
+        [hostname, port] = parts.length === 2 ? [parts[0], Number(parts[1].replace(/[^\d]/g, ''))] : [hostPart, 80];
+    }
+
+    if (isNaN(port)) throw new Error('无效的 SOCKS 地址格式：端口号必须是数字');
+    if (hostname.includes(":") && !/^\[.*\]$/.test(hostname)) throw new Error('无效的 SOCKS 地址格式：IPv6 地址必须用方括号括起来，如 [2001:db8::1]');
+
+    return { username, password, hostname, port };
+}
+
+async function getCloudflareUsage(Email, GlobalAPIKey, AccountID, APIToken) {
+    const API = "https://api.cloudflare.com/client/v4";
+    const sum = (a) => a?.reduce((t, i) => t + (i?.sum?.requests || 0), 0) || 0;
+    const cfg = { "Content-Type": "application/json" };
+
+    try {
+        if (!AccountID && (!Email || !GlobalAPIKey)) return { success: false, pages: 0, workers: 0, total: 0 };
+
+        if (!AccountID) {
+            const r = await fetch(`${API}/accounts`, {
+                method: "GET",
+                headers: { ...cfg, "X-AUTH-EMAIL": Email, "X-AUTH-KEY": GlobalAPIKey }
+            });
+            if (!r.ok) throw new Error(`账户获取失败: ${r.status}`);
+            const d = await r.json();
+            if (!d?.result?.length) throw new Error("未找到账户");
+            const idx = d.result.findIndex(a => a.name?.toLowerCase().startsWith(Email.toLowerCase()));
+            AccountID = d.result[idx >= 0 ? idx : 0]?.id;
+        }
+
+        const now = new Date();
+        now.setUTCHours(0, 0, 0, 0);
+        const hdr = APIToken ? { ...cfg, "Authorization": `Bearer ${APIToken}` } : { ...cfg, "X-AUTH-EMAIL": Email, "X-AUTH-KEY": GlobalAPIKey };
+
+        const res = await fetch(`${API}/graphql`, {
+            method: "POST",
+            headers: hdr,
+            body: JSON.stringify({
+                query: `query getBillingMetrics($AccountID: String!, $filter: AccountWorkersInvocationsAdaptiveFilter_InputObject) {
                     viewer { accounts(filter: {accountTag: $AccountID}) {
                         pagesFunctionsInvocationsAdaptiveGroups(limit: 1000, filter: $filter) { sum { requests } }
                         workersInvocationsAdaptive(limit: 10000, filter: $filter) { sum { requests } }
                     } }
-                }`,'\u0076\u0061\u0072\u0069\u0061\u0062\u006C\u0065\u0073':{"AccountID":AccountID,"filter":{'\u0064\u0061\u0074\u0065\u0074\u0069\u006D\u0065\u005F\u0067\u0065\u0071':_0xg2bgfe['\u0074\u006F\u0049\u0053\u004F\u0053\u0074\u0072\u0069\u006E\u0067'](),'\u0064\u0061\u0074\u0065\u0074\u0069\u006D\u0065\u005F\u006C\u0065\u0071':new Date()['\u0074\u006F\u0049\u0053\u004F\u0053\u0074\u0072\u0069\u006E\u0067']()}}})});_0x089eb=(521646^521643)+(896008^896009);if(!_0x557gff['\u006F\u006B'])throw new Error(`查询失败: ${_0x557gff['\u0073\u0074\u0061\u0074\u0075\u0073']}`);var _0xd8d3a=(779159^779152)+(583778^583782);const _0x5fbe=await _0x557gff['\u006A\u0073\u006F\u006E']();_0xd8d3a=946275^946283;if(_0x5fbe['\u0065\u0072\u0072\u006F\u0072\u0073']?.length)throw new Error(_0x5fbe['\u0065\u0072\u0072\u006F\u0072\u0073'][406959^406959]['\u006D\u0065\u0073\u0073\u0061\u0067\u0065']);var _0xgb87a=(653495^653494)+(121199^121197);const _0x363c6a=_0x5fbe?.data?.viewer?.accounts?.[495717^495717];_0xgb87a=659849^659848;if(!_0x363c6a)throw new Error("\u636E\u6570\u6237\u8D26\u5230\u627E\u672A".split("").reverse().join(""));const _0xa3aaa=_0xcga(_0x363c6a['\u0070\u0061\u0067\u0065\u0073\u0046\u0075\u006E\u0063\u0074\u0069\u006F\u006E\u0073\u0049\u006E\u0076\u006F\u0063\u0061\u0074\u0069\u006F\u006E\u0073\u0041\u0064\u0061\u0070\u0074\u0069\u0076\u0065\u0047\u0072\u006F\u0075\u0070\u0073']);var _0x7c9fgb=(867352^867345)+(748016^748018);const _0x55g4c=_0xcga(_0x363c6a['\u0077\u006F\u0072\u006B\u0065\u0072\u0073\u0049\u006E\u0076\u006F\u0063\u0061\u0074\u0069\u006F\u006E\u0073\u0041\u0064\u0061\u0070\u0074\u0069\u0076\u0065']);_0x7c9fgb=(939443^939451)+(840925^840917);var _0xd56d9a=(333011^333012)+(355449^355448);const _0x7c20ga=_0xa3aaa+_0x55g4c;_0xd56d9a=(303296^303305)+(746396^746394);console['\u006C\u006F\u0067'](`统计结果 - Pages: ${_0xa3aaa}, Workers: ${_0x55g4c}, 总计: ${_0x7c20ga}`);return{'\u0073\u0075\u0063\u0063\u0065\u0073\u0073':!![],'\u0070\u0061\u0067\u0065\u0073':_0xa3aaa,'\u0077\u006F\u0072\u006B\u0065\u0072\u0073':_0x55g4c,"total":_0x7c20ga};}catch(error){console['\u0065\u0072\u0072\u006F\u0072']("\u83B7\u53D6\u4F7F\u7528\u91CF\u9519\u8BEF\u003A",error['\u006D\u0065\u0073\u0073\u0061\u0067\u0065']);return{"success":false,'\u0070\u0061\u0067\u0065\u0073':0,"workers":0,'\u0074\u006F\u0074\u0061\u006C':0};}}function sha224(s,_0x1a6g4c){const K=[0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2];var _0xb_0x34a;const r=(n,b)=>(n>>>b|n<<(847528^847496)-b)>>>(526431^526431);_0xb_0x34a=(249739^249731)+(651684^651685);s=unescape(encodeURIComponent(s));var _0x3cc85g;const l=s['\u006C\u0065\u006E\u0067\u0074\u0068']*(496864^496872);_0x3cc85g=929345^929346;s+=String['\u0066\u0072\u006F\u006D\u0043\u0068\u0061\u0072\u0043\u006F\u0064\u0065'](567316^567444);while(s['\u006C\u0065\u006E\u0067\u0074\u0068']*(173154^173162)%(181450^181962)!==(409735^409927))s+=String['\u0066\u0072\u006F\u006D\u0043\u0068\u0061\u0072\u0043\u006F\u0064\u0065'](286454^286454);const h=[0xc1059ed8,0x367cd507,0x3070dd17,0xf70e5939,0xffc00b31,0x68581511,0x64f98fa7,0xbefa4fa4];const _0xdf55da=Math['\u0066\u006C\u006F\u006F\u0072'](l/0x100000000),_0xf8fag=l&0xFFFFFFFF;s+=String['\u0066\u0072\u006F\u006D\u0043\u0068\u0061\u0072\u0043\u006F\u0064\u0065'](_0xdf55da>>>(387169^387193)&(887557^887802),_0xdf55da>>>(952922^952906)&(911039^910912),_0xdf55da>>>(914904^914896)&(142359^142568),_0xdf55da&(745292^745395),_0xf8fag>>>(456204^456212)&(769841^769998),_0xf8fag>>>(711447^711431)&(326607^326448),_0xf8fag>>>(242566^242574)&(182881^182942),_0xf8fag&(624606^624417));var _0x4_0xe2g;const w=[];_0x4_0xe2g=406158^406150;for(let i=716753^716753;i<s['\u006C\u0065\u006E\u0067\u0074\u0068'];i+=183885^183881)w['\u0070\u0075\u0073\u0068'](s['\u0063\u0068\u0061\u0072\u0043\u006F\u0064\u0065\u0041\u0074'](i)<<(715934^715910)|s['\u0063\u0068\u0061\u0072\u0043\u006F\u0064\u0065\u0041\u0074'](i+(478438^478439))<<(328247^328231)|s['\u0063\u0068\u0061\u0072\u0043\u006F\u0064\u0065\u0041\u0074'](i+(402119^402117))<<(677679^677671)|s['\u0063\u0068\u0061\u0072\u0043\u006F\u0064\u0065\u0041\u0074'](i+(258973^258974)));for(let i=318259^318259;i<w['\u006C\u0065\u006E\u0067\u0074\u0068'];i+=162670^162686){const x=new Array(205544^205480)['\u0066\u0069\u006C\u006C'](689600^689600);for(let j=649885^649885;j<(951715^951731);j++)x[j]=w[i+j];for(let j=580245^580229;j<(311665^311601);j++){const _0xafe4b=r(x[j-(783865^783862)],162901^162898)^r(x[j-(881947^881940)],455348^455334)^x[j-(956304^956319)]>>>(733018^733017);const _0x7973dc=r(x[j-(754147^754145)],264100^264117)^r(x[j-(594391^594389)],484320^484339)^x[j-(898476^898478)]>>>(459516^459510);x[j]=x[j-(505626^505610)]+_0xafe4b+x[j-(662424^662431)]+_0x7973dc>>>(137438^137438);}let[a,b,c,d,e,f,g,h0]=h;for(let j=621859^621859;j<(100174^100110);j++){const _0xb77b2f=r(e,832368^832374)^r(e,732090^732081)^r(e,247679^247654),_0x75c=e&f^~e&g,_0x4ea=h0+_0xb77b2f+_0x75c+K[j]+x[j]>>>(208993^208993);const _0xe3afcc=r(a,851013^851015)^r(a,752622^752611)^r(a,444670^444648),_0xd9147c=a&b^a&c^b&c,_0x875d=_0xe3afcc+_0xd9147c>>>(378815^378815);h0=g;g=f;f=e;e=d+_0x4ea>>>(661560^661560);d=c;c=b;b=a;a=_0x4ea+_0x875d>>>(979930^979930);}for(let j=974899^974899;j<(845501^845493);j++)h[j]=h[j]+(j===(800120^800120)?a:j===(814409^814408)?b:j===(874875^874873)?c:j===(742631^742628)?d:j===(112698^112702)?e:j===(578718^578715)?f:j===(809461^809459)?g:h0)>>>(736074^736074);}_0x1a6g4c='';for(let i=543777^543777;i<(897249^897254);i++){for(let j=340743^340767;j>=(531540^531540);j-=713350^713358)_0x1a6g4c+=(h[i]>>>j&(546002^545837))['\u0074\u006F\u0053\u0074\u0072\u0069\u006E\u0067'](160407^160391)['\u0070\u0061\u0064\u0053\u0074\u0061\u0072\u0074'](676833^676835,"\u0030");}return _0x1a6g4c;}async function 解析地址端口(proxyIP){proxyIP=proxyIP['\u0074\u006F\u004C\u006F\u0077\u0065\u0072\u0043\u0061\u0073\u0065']();if(proxyIP['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u002E\u0077\u0069\u006C\u006C\u0069\u0061\u006D")){const _0x00c43g=await async function 解析William域名(william){try{const _0x9fa=await fetch(`https://1.1.1.1/dns-query?name=${william}&type=TXT`,{"headers":{'Accept':'application/dns-json'}});if(!_0x9fa['\u006F\u006B'])return null;const _0x3e_0x985=await _0x9fa['\u006A\u0073\u006F\u006E']();const _0x66e1cd=(_0x3e_0x985['\u0041\u006E\u0073\u0077\u0065\u0072']||[])['\u0066\u0069\u006C\u0074\u0065\u0072'](record=>record['\u0074\u0079\u0070\u0065']===(463930^463914))['\u006D\u0061\u0070'](record=>record['\u0064\u0061\u0074\u0061']);if(_0x66e1cd['\u006C\u0065\u006E\u0067\u0074\u0068']===(836461^836461))return null;let _0x9eg=_0x66e1cd[339194^339194];if(_0x9eg['\u0073\u0074\u0061\u0072\u0074\u0073\u0057\u0069\u0074\u0068']("\u0022")&&_0x9eg['\u0065\u006E\u0064\u0073\u0057\u0069\u0074\u0068']("\u0022"))_0x9eg=_0x9eg['\u0073\u006C\u0069\u0063\u0065'](810146^810147,-(692514^692515));const _0x07cb=_0x9eg['\u0072\u0065\u0070\u006C\u0061\u0063\u0065'](new RegExp("010\\\\".split("").reverse().join(""),'\u0067'),"\u002C")['\u0072\u0065\u0070\u006C\u0061\u0063\u0065'](new RegExp("n\\".split("").reverse().join(""),'\u0067'),"\u002C")['\u0073\u0070\u006C\u0069\u0074']("\u002C")['\u006D\u0061\u0070'](s=>s['\u0074\u0072\u0069\u006D']())['\u0066\u0069\u006C\u0074\u0065\u0072'](Boolean);if(_0x07cb['\u006C\u0065\u006E\u0067\u0074\u0068']===(115699^115699))return null;return _0x07cb[Math['\u0066\u006C\u006F\u006F\u0072'](Math['\u0072\u0061\u006E\u0064\u006F\u006D']()*_0x07cb['\u006C\u0065\u006E\u0067\u0074\u0068'])];}catch(error){console['\u0065\u0072\u0072\u006F\u0072'](":\u8D25\u5931PIyxorP\u6790\u89E3".split("").reverse().join(""),error);return null;}}(proxyIP);proxyIP=_0x00c43g||proxyIP;}let _0xa92f=proxyIP,_0x1f_0x59d=396564^396463;if(proxyIP['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u002E\u0074\u0070")){const _0x63e2af=proxyIP['\u006D\u0061\u0074\u0063\u0068'](new RegExp('\u005C\u002E\u0074\u0070\u0028\u005C\u0064\u002B\u0029',""));if(_0x63e2af)_0x1f_0x59d=parseInt(_0x63e2af[685122^685123],719977^719971);return[_0xa92f,_0x1f_0x59d];}if(proxyIP['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u005D\u003A")){var _0xf0908c;const _0x6f249b=proxyIP['\u0073\u0070\u006C\u0069\u0074']("\u005D\u003A");_0xf0908c=329658^329657;_0xa92f=_0x6f249b[678955^678955]+"\u005D";_0x1f_0x59d=parseInt(_0x6f249b[725135^725134],684725^684735)||_0x1f_0x59d;}else if(proxyIP['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073']("\u003A")&&!proxyIP['\u0073\u0074\u0061\u0072\u0074\u0073\u0057\u0069\u0074\u0068']("\u005B")){var _0x7585be=(647373^647372)+(542754^542763);const _0xc28d4b=proxyIP['\u006C\u0061\u0073\u0074\u0049\u006E\u0064\u0065\u0078\u004F\u0066']("\u003A");_0x7585be="olngqm".split("").reverse().join("");_0xa92f=proxyIP['\u0073\u006C\u0069\u0063\u0065'](266128^266128,_0xc28d4b);_0x1f_0x59d=parseInt(proxyIP['\u0073\u006C\u0069\u0063\u0065'](_0xc28d4b+(752749^752748)),632225^632235)||_0x1f_0x59d;}return[_0xa92f,_0x1f_0x59d];}async function SOCKS5可用性验证(代理协议="5skcos".split("").reverse().join(""),代理参数){var _0xbc464b=(213505^213513)+(237573^237568);const _0x34a7f=Date['\u006E\u006F\u0077']();_0xbc464b="qekkoc".split("").reverse().join("");try{parsedSocks5Address=await 获取SOCKS5账号(代理参数);}catch(err){return{"success":false,'\u0065\u0072\u0072\u006F\u0072':err['\u006D\u0065\u0073\u0073\u0061\u0067\u0065'],'\u0070\u0072\u006F\u0078\u0079':代理协议+"//:".split("").reverse().join("")+代理参数,'\u0072\u0065\u0073\u0070\u006F\u006E\u0073\u0065\u0054\u0069\u006D\u0065':Date['\u006E\u006F\u0077']()-_0x34a7f};}const{"username":username,'\u0070\u0061\u0073\u0073\u0077\u006F\u0072\u0064':password,'\u0068\u006F\u0073\u0074\u006E\u0061\u006D\u0065':hostname,"port":port}=parsedSocks5Address;const _0xg45b8c=username&&password?`${username}:${password}@${hostname}:${port}`:`${hostname}:${port}`;try{const _0x27589b=代理协议=="\u0073\u006F\u0063\u006B\u0073\u0035"?await socks5Connect("\u0063\u0068\u0065\u0063\u006B\u002E\u0073\u006F\u0063\u006B\u0073\u0035\u002E\u0030\u0039\u0030\u0032\u0032\u0037\u002E\u0078\u0079\u007A",269539^269491,832282^832281):await httpConnect("\u0063\u0068\u0065\u0063\u006B\u002E\u0073\u006F\u0063\u006B\u0073\u0035\u002E\u0030\u0039\u0030\u0032\u0032\u0037\u002E\u0078\u0079\u007A",152221^152269);if(!_0x27589b)return{'\u0073\u0075\u0063\u0063\u0065\u0073\u0073':false,"error":'无法连接到代理服务器',"proxy":代理协议+"//:".split("").reverse().join("")+_0xg45b8c,'\u0072\u0065\u0073\u0070\u006F\u006E\u0073\u0065\u0054\u0069\u006D\u0065':Date['\u006E\u006F\u0077']()-_0x34a7f};try{const _0xb7ba6g=_0x27589b['\u0077\u0072\u0069\u0074\u0061\u0062\u006C\u0065']['\u0067\u0065\u0074\u0057\u0072\u0069\u0074\u0065\u0072'](),_0xfeb67f=new TextEncoder();await _0xb7ba6g['\u0077\u0072\u0069\u0074\u0065'](_0xfeb67f['\u0065\u006E\u0063\u006F\u0064\u0065'](`GET /cdn-cgi/trace HTTP/1.1\r\nHost: check.socks5.090227.xyz\r\nConnection: close\r\n\r\n`));_0xb7ba6g['\u0072\u0065\u006C\u0065\u0061\u0073\u0065\u004C\u006F\u0063\u006B']();const _0xda8eg=_0x27589b['\u0072\u0065\u0061\u0064\u0061\u0062\u006C\u0065']['\u0067\u0065\u0074\u0052\u0065\u0061\u0064\u0065\u0072'](),_0xbfcc=new TextDecoder();let _0x98b='';try{while(!![]){const{"done":done,"value":value}=await _0xda8eg['\u0072\u0065\u0061\u0064']();if(done)break;_0x98b+=_0xbfcc['\u0064\u0065\u0063\u006F\u0064\u0065'](value,{'\u0073\u0074\u0072\u0065\u0061\u006D':!![]});}}finally{_0xda8eg['\u0072\u0065\u006C\u0065\u0061\u0073\u0065\u004C\u006F\u0063\u006B']();}await _0x27589b['\u0063\u006C\u006F\u0073\u0065']();return{'\u0073\u0075\u0063\u0063\u0065\u0073\u0073':!![],'\u0070\u0072\u006F\u0078\u0079':代理协议+"\u003A\u002F\u002F"+_0xg45b8c,'\u0069\u0070':_0x98b['\u006D\u0061\u0074\u0063\u0068'](new RegExp(")*.(=pi".split("").reverse().join(""),""))[919558^919559],'\u006C\u006F\u0063':_0x98b['\u006D\u0061\u0074\u0063\u0068'](new RegExp('\u006C\u006F\u0063\u003D\u0028\u002E\u002A\u0029',""))[983120^983121],"responseTime":Date['\u006E\u006F\u0077']()-_0x34a7f};}catch(error){try{await _0x27589b['\u0063\u006C\u006F\u0073\u0065']();}catch(e){console['\u006C\u006F\u0067']("\u5173\u95ED\u8FDE\u63A5\u65F6\u51FA\u9519\u003A",e);}return{"success":false,'\u0065\u0072\u0072\u006F\u0072':error['\u006D\u0065\u0073\u0073\u0061\u0067\u0065'],"proxy":代理协议+"\u003A\u002F\u002F"+_0xg45b8c,'\u0072\u0065\u0073\u0070\u006F\u006E\u0073\u0065\u0054\u0069\u006D\u0065':Date['\u006E\u006F\u0077']()-_0x34a7f};}}catch(error){return{'\u0073\u0075\u0063\u0063\u0065\u0073\u0073':false,'\u0065\u0072\u0072\u006F\u0072':error['\u006D\u0065\u0073\u0073\u0061\u0067\u0065'],'\u0070\u0072\u006F\u0078\u0079':代理协议+"\u003A\u002F\u002F"+_0xg45b8c,'\u0072\u0065\u0073\u0070\u006F\u006E\u0073\u0065\u0054\u0069\u006D\u0065':Date['\u006E\u006F\u0077']()-_0x34a7f};}}async function nginx(){return`
+                }`,
+                variables: { AccountID, filter: { datetime_geq: now.toISOString(), datetime_leq: new Date().toISOString() } }
+            })
+        });
+
+        if (!res.ok) throw new Error(`查询失败: ${res.status}`);
+        const result = await res.json();
+        if (result.errors?.length) throw new Error(result.errors[0].message);
+
+        const acc = result?.data?.viewer?.accounts?.[0];
+        if (!acc) throw new Error("未找到账户数据");
+
+        const pages = sum(acc.pagesFunctionsInvocationsAdaptiveGroups);
+        const workers = sum(acc.workersInvocationsAdaptive);
+        const total = pages + workers;
+        console.log(`统计结果 - Pages: ${pages}, Workers: ${workers}, 总计: ${total}`);
+        return { success: true, pages, workers, total };
+
+    } catch (error) {
+        console.error('获取使用量错误:', error.message);
+        return { success: false, pages: 0, workers: 0, total: 0 };
+    }
+}
+
+function sha224(s) {
+    const K = [0x428a2f98, 0x71374491, 0xb5c0fbcf, 0xe9b5dba5, 0x3956c25b, 0x59f111f1, 0x923f82a4, 0xab1c5ed5, 0xd807aa98, 0x12835b01, 0x243185be, 0x550c7dc3, 0x72be5d74, 0x80deb1fe, 0x9bdc06a7, 0xc19bf174, 0xe49b69c1, 0xefbe4786, 0x0fc19dc6, 0x240ca1cc, 0x2de92c6f, 0x4a7484aa, 0x5cb0a9dc, 0x76f988da, 0x983e5152, 0xa831c66d, 0xb00327c8, 0xbf597fc7, 0xc6e00bf3, 0xd5a79147, 0x06ca6351, 0x14292967, 0x27b70a85, 0x2e1b2138, 0x4d2c6dfc, 0x53380d13, 0x650a7354, 0x766a0abb, 0x81c2c92e, 0x92722c85, 0xa2bfe8a1, 0xa81a664b, 0xc24b8b70, 0xc76c51a3, 0xd192e819, 0xd6990624, 0xf40e3585, 0x106aa070, 0x19a4c116, 0x1e376c08, 0x2748774c, 0x34b0bcb5, 0x391c0cb3, 0x4ed8aa4a, 0x5b9cca4f, 0x682e6ff3, 0x748f82ee, 0x78a5636f, 0x84c87814, 0x8cc70208, 0x90befffa, 0xa4506ceb, 0xbef9a3f7, 0xc67178f2];
+    const r = (n, b) => ((n >>> b) | (n << (32 - b))) >>> 0;
+    s = unescape(encodeURIComponent(s));
+    const l = s.length * 8; s += String.fromCharCode(0x80);
+    while ((s.length * 8) % 512 !== 448) s += String.fromCharCode(0);
+    const h = [0xc1059ed8, 0x367cd507, 0x3070dd17, 0xf70e5939, 0xffc00b31, 0x68581511, 0x64f98fa7, 0xbefa4fa4];
+    const hi = Math.floor(l / 0x100000000), lo = l & 0xFFFFFFFF;
+    s += String.fromCharCode((hi >>> 24) & 0xFF, (hi >>> 16) & 0xFF, (hi >>> 8) & 0xFF, hi & 0xFF, (lo >>> 24) & 0xFF, (lo >>> 16) & 0xFF, (lo >>> 8) & 0xFF, lo & 0xFF);
+    const w = []; for (let i = 0; i < s.length; i += 4)w.push((s.charCodeAt(i) << 24) | (s.charCodeAt(i + 1) << 16) | (s.charCodeAt(i + 2) << 8) | s.charCodeAt(i + 3));
+    for (let i = 0; i < w.length; i += 16) {
+        const x = new Array(64).fill(0);
+        for (let j = 0; j < 16; j++)x[j] = w[i + j];
+        for (let j = 16; j < 64; j++) {
+            const s0 = r(x[j - 15], 7) ^ r(x[j - 15], 18) ^ (x[j - 15] >>> 3);
+            const s1 = r(x[j - 2], 17) ^ r(x[j - 2], 19) ^ (x[j - 2] >>> 10);
+            x[j] = (x[j - 16] + s0 + x[j - 7] + s1) >>> 0;
+        }
+        let [a, b, c, d, e, f, g, h0] = h;
+        for (let j = 0; j < 64; j++) {
+            const S1 = r(e, 6) ^ r(e, 11) ^ r(e, 25), ch = (e & f) ^ (~e & g), t1 = (h0 + S1 + ch + K[j] + x[j]) >>> 0;
+            const S0 = r(a, 2) ^ r(a, 13) ^ r(a, 22), maj = (a & b) ^ (a & c) ^ (b & c), t2 = (S0 + maj) >>> 0;
+            h0 = g; g = f; f = e; e = (d + t1) >>> 0; d = c; c = b; b = a; a = (t1 + t2) >>> 0;
+        }
+        for (let j = 0; j < 8; j++)h[j] = (h[j] + (j === 0 ? a : j === 1 ? b : j === 2 ? c : j === 3 ? d : j === 4 ? e : j === 5 ? f : j === 6 ? g : h0)) >>> 0;
+    }
+    let hex = '';
+    for (let i = 0; i < 7; i++) {
+        for (let j = 24; j >= 0; j -= 8)hex += ((h[i] >>> j) & 0xFF).toString(16).padStart(2, '0');
+    }
+    return hex;
+}
+
+async function 解析地址端口(proxyIP) {
+    proxyIP = proxyIP.toLowerCase();
+    if (proxyIP.includes('.william')) {
+        const williamResult = await (async function 解析William域名(william) {
+            try {
+                const response = await fetch(`https://1.1.1.1/dns-query?name=${william}&type=TXT`, { headers: { 'Accept': 'application/dns-json' } });
+                if (!response.ok) return null;
+                const data = await response.json();
+                const txtRecords = (data.Answer || []).filter(record => record.type === 16).map(record => record.data);
+                if (txtRecords.length === 0) return null;
+                let txtData = txtRecords[0];
+                if (txtData.startsWith('"') && txtData.endsWith('"')) txtData = txtData.slice(1, -1);
+                const prefixes = txtData.replace(/\\010/g, ',').replace(/\n/g, ',').split(',').map(s => s.trim()).filter(Boolean);
+                if (prefixes.length === 0) return null;
+                return prefixes[Math.floor(Math.random() * prefixes.length)];
+            } catch (error) {
+                console.error('解析ProxyIP失败:', error);
+                return null;
+            }
+        })(proxyIP);
+        proxyIP = williamResult || proxyIP;
+    }
+    let 地址 = proxyIP, 端口 = 443;
+    if (proxyIP.includes('.tp')) {
+        const tpMatch = proxyIP.match(/\.tp(\d+)/);
+        if (tpMatch) 端口 = parseInt(tpMatch[1], 10);
+        return [地址, 端口];
+    }
+    if (proxyIP.includes(']:')) {
+        const parts = proxyIP.split(']:');
+        地址 = parts[0] + ']';
+        端口 = parseInt(parts[1], 10) || 端口;
+    } else if (proxyIP.includes(':') && !proxyIP.startsWith('[')) {
+        const colonIndex = proxyIP.lastIndexOf(':');
+        地址 = proxyIP.slice(0, colonIndex);
+        端口 = parseInt(proxyIP.slice(colonIndex + 1), 10) || 端口;
+    }
+    return [地址, 端口];
+}
+
+async function SOCKS5可用性验证(代理协议 = 'socks5', 代理参数) {
+    const startTime = Date.now();
+    try { parsedSocks5Address = await 获取SOCKS5账号(代理参数); } catch (err) { return { success: false, error: err.message, proxy: 代理协议 + "://" + 代理参数, responseTime: Date.now() - startTime }; }
+    const { username, password, hostname, port } = parsedSocks5Address;
+    const 完整代理参数 = username && password ? `${username}:${password}@${hostname}:${port}` : `${hostname}:${port}`;
+    try {
+        const tcpSocket = 代理协议 == 'socks5' ? await socks5Connect('check.socks5.090227.xyz', 80, 3) : await httpConnect('check.socks5.090227.xyz', 80);
+        if (!tcpSocket) return { success: false, error: '无法连接到代理服务器', proxy: 代理协议 + "://" + 完整代理参数, responseTime: Date.now() - startTime };
+        try {
+            const writer = tcpSocket.writable.getWriter(), encoder = new TextEncoder();
+            await writer.write(encoder.encode(`GET /cdn-cgi/trace HTTP/1.1\r\nHost: check.socks5.090227.xyz\r\nConnection: close\r\n\r\n`));
+            writer.releaseLock();
+            const reader = tcpSocket.readable.getReader(), decoder = new TextDecoder();
+            let response = '';
+            try { while (true) { const { done, value } = await reader.read(); if (done) break; response += decoder.decode(value, { stream: true }); } } finally { reader.releaseLock(); }
+            await tcpSocket.close();
+            return { success: true, proxy: 代理协议 + "://" + 完整代理参数, ip: response.match(/ip=(.*)/)[1], loc: response.match(/loc=(.*)/)[1], responseTime: Date.now() - startTime };
+        } catch (error) {
+            try { await tcpSocket.close(); } catch (e) { console.log('关闭连接时出错:', e); }
+            return { success: false, error: error.message, proxy: 代理协议 + "://" + 完整代理参数, responseTime: Date.now() - startTime };
+        }
+    } catch (error) { return { success: false, error: error.message, proxy: 代理协议 + "://" + 完整代理参数, responseTime: Date.now() - startTime }; }
+}
+//////////////////////////////////////////////////////HTML伪装页面///////////////////////////////////////////////
+async function nginx() {
+    return `
 	<!DOCTYPE html>
 	<html>
 	<head>
@@ -29,7 +1728,15 @@ import{connect}from"\u0063\u006C\u006F\u0075\u0064\u0066\u006C\u0061\u0072\u0065
 	<p><em>Thank you for using nginx.</em></p>
 	</body>
 	</html>
-	`;}async function html1101(host,访问IP){const _0x9ea=new Date();const _0x16_0x51d=_0x9ea['\u0067\u0065\u0074\u0046\u0075\u006C\u006C\u0059\u0065\u0061\u0072']()+"\u002D"+String(_0x9ea['\u0067\u0065\u0074\u004D\u006F\u006E\u0074\u0068']()+(451448^451449))['\u0070\u0061\u0064\u0053\u0074\u0061\u0072\u0074'](654852^654854,"\u0030")+"\u002D"+String(_0x9ea['\u0067\u0065\u0074\u0044\u0061\u0074\u0065']())['\u0070\u0061\u0064\u0053\u0074\u0061\u0072\u0074'](750568^750570,"\u0030")+"\u0020"+String(_0x9ea['\u0067\u0065\u0074\u0048\u006F\u0075\u0072\u0073']())['\u0070\u0061\u0064\u0053\u0074\u0061\u0072\u0074'](503356^503358,"\u0030")+"\u003A"+String(_0x9ea['\u0067\u0065\u0074\u004D\u0069\u006E\u0075\u0074\u0065\u0073']())['\u0070\u0061\u0064\u0053\u0074\u0061\u0072\u0074'](465186^465184,"\u0030")+"\u003A"+String(_0x9ea['\u0067\u0065\u0074\u0053\u0065\u0063\u006F\u006E\u0064\u0073']())['\u0070\u0061\u0064\u0053\u0074\u0061\u0072\u0074'](654130^654128,"\u0030");const _0xc2a=Array['\u0066\u0072\u006F\u006D'](crypto['\u0067\u0065\u0074\u0052\u0061\u006E\u0064\u006F\u006D\u0056\u0061\u006C\u0075\u0065\u0073'](new Uint8Array(332816^332824)))['\u006D\u0061\u0070'](b=>b['\u0074\u006F\u0053\u0074\u0072\u0069\u006E\u0067'](482227^482211)['\u0070\u0061\u0064\u0053\u0074\u0061\u0072\u0074'](996715^996713,"\u0030"))['\u006A\u006F\u0069\u006E']('');return`<!DOCTYPE html>
+	`
+}
+
+async function html1101(host, 访问IP) {
+    const now = new Date();
+    const 格式化时间戳 = now.getFullYear() + '-' + String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0') + ' ' + String(now.getHours()).padStart(2, '0') + ':' + String(now.getMinutes()).padStart(2, '0') + ':' + String(now.getSeconds()).padStart(2, '0');
+    const 随机字符串 = Array.from(crypto.getRandomValues(new Uint8Array(8))).map(b => b.toString(16).padStart(2, '0')).join('');
+
+    return `<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
@@ -66,7 +1773,7 @@ import{connect}from"\u0063\u006C\u006F\u0075\u0064\u0066\u006C\u0061\u0072\u0065
                 <h1>
                     <span class="cf-error-type" data-translate="error">Error</span>
                     <span class="cf-error-code">1101</span>
-                    <small class="heading-ray-id">Ray ID: ${_0xc2a} &bull; ${_0x16_0x51d} UTC</small>
+                    <small class="heading-ray-id">Ray ID: ${随机字符串} &bull; ${格式化时间戳} UTC</small>
                 </h1>
                 <h2 class="cf-subheadline" data-translate="error_desc">Worker threw exception</h2>
             </div><!-- /.header -->
@@ -90,7 +1797,7 @@ import{connect}from"\u0063\u006C\u006F\u0075\u0064\u0066\u006C\u0061\u0072\u0065
     
             <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
     <p class="text-13">
-      <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold"> ${_0xc2a}</strong></span>
+      <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold"> ${随机字符串}</strong></span>
       <span class="cf-footer-separator sm:hidden">&bull;</span>
       <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
         Your IP:
@@ -113,4 +1820,5 @@ import{connect}from"\u0063\u006C\u006F\u0075\u0064\u0066\u006C\u0061\u0072\u0065
     
   </script> 
 </body>
-</html>`;}
+</html>`;
+}
